@@ -1,0 +1,8 @@
+es:
+  admin:
+    teams:
+      index: 
+        title: "Teams"
+  teams:
+    index: 
+      title: "Equipos ACB"

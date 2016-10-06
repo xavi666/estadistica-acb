@@ -1,0 +1,17 @@
+es:  
+  activerecord:
+    models:
+      player: "Jugador"
+  admin:
+    players:
+      index: 
+        title: "Jugadores"
+  enumerize:
+    player:
+      position:
+          base: "Base"
+          alero: "Alero"
+          pivot: "Pívot"
+  players:
+    index:
+      title: "Jugadores ACB"
