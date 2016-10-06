@@ -1,0 +1,8 @@
+es:
+  admin:
+    games:
+      index: 
+        title: "Partidos"
+  games:
+    index: 
+      title: "Calendario ACB"
