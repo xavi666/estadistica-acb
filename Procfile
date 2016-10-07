@@ -1,2 +1,2 @@
-web: bundle exec passenger start -p $PORT --max-pool-size 3
-worker:  bundle exec rake jobs:work
+web: bundle exec unicorn -p $PORT
+worker: bundle exec rake jobs:work
