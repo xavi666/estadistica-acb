@@ -41,7 +41,7 @@ class Admin::GamesController < ApplicationController
     num_game = 0
     current_season = CURRENT_SEASON
 
-    games_html.css("table.menuclubs > tr").first(2).each do |game_row|
+    games_html.css("table.menuclubs > tr").each do |game_row|
       teams = game_row.css('td[2]//text()').to_s
       date_score = game_row.css('td[3]//text()').to_s
       array_teams = teams.split(" - ")
