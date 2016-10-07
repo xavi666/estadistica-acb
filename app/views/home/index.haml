@@ -10,8 +10,14 @@
           %div.col-xs-6.col-md-6.box.white
             = team_image game.away_team
             = game.away_team.short_code
-          %div.col-xs12.col-md-12.box.white
-            = short_date game.game_date
+          - if game.local_score.blank? and game.away_score.blank?
+            %div.col-xs12.col-md-12.box.white
+              = short_date game.game_date
+          - else
+            %div.col-xs-6.col-md-6.box.white
+              =link_to game.local_score, game, :"title" => "#{t('estadisticas')} #{game.local_team.name} - #{game.away_team.name}"
+            %div.col-xs-6.col-md-6.box.white
+              =link_to game.away_score, game, :"title" => "#{t('estadisticas')} #{game.local_team.name} - #{game.away_team.name}"
 .row
   .col-md-12
     %h3="OPTIMIZA TU EQUIPO"
