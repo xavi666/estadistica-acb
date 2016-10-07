@@ -61,6 +61,7 @@ class Admin::PlayersController < ApplicationController
     players_url = Setting.find_by_key("players_url").value
     players_html = Nokogiri::HTML(open(players_url))
 
+
     players_html.css("table.listaJugadores > tr").each do |player_row|
       name = player_row.css('td[1]//text()').to_s
       team_name = player_row.css('td[2]/text()').to_s
@@ -99,8 +100,8 @@ class Admin::PlayersController < ApplicationController
       player.place_of_birth = place_of_birth
     end
     player_html.css("td.fichaJugadorimg").each do |player_image|
-      #image = Array.wrap(player_image.css("img").map { |link| link['src'] })[0].to_s
-      #player.image = image
+      image = Array.wrap(player_image.css("img").map { |link| link['src'] })[0].to_s
+      player.image = image
     end
     player_html.css("table.fichaJugadorSM").each do |player_sm|
       price = player_sm.css('tr[3]/td[2]/text()')
