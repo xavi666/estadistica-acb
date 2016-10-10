@@ -1,22 +1,24 @@
 .table-responsive
-  %table.table.table-striped.table-condensed
+  %table.table.table-striped.table-condensed.statistic
     %thead
       %th
       - Statistic.fields.each do |field|
         %th= t("#{field}")
     
       %tbody
-        - (1..Statistic.num_games).each do |week|
+        - (1..CURRENT_ROUND.to_i-1).each do |week|
           %tr
             %td= week
             - week = statistic.send("week_"+week.to_s)
             - Statistic.fields.each do |field|
-              %td= week[field]
+              %td{class: field}= week[field]
         %tr
           %th{colspan: 2}= "Promedio"
           - Statistic.fields.each do |field|
-            %th= statistic.promedio[field]
+            - unless field == 'game'
+              %th{class: field}= statistic.promedio[field]
         %tr
           %th{colspan: 2}= "Total"
           - Statistic.fields.each do |field|
-            %th= statistic.total[field]
+            - unless field == 'game'
+              %th{class: field}= statistic.total[field]

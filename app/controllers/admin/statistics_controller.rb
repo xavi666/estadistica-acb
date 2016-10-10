@@ -64,10 +64,12 @@ class Admin::StatisticsController < ApplicationController
       statistic.save!
     end
 
+    session_rounds = Setting.find_by_key("session_rounds").value
+
     player_html.css("table.fichaJugadorStats > tr").each do |row_statistic|
       partido = row_statistic.css("th[1]/text()").to_s.downcase
-      if partido == 'promedio' || partido == 'total' || partido == '1'
-        partido = "week_1" if partido == '1'
+      if partido == 'promedio' || partido == 'total' || (1..session_rounds.to_i).include?(partido.to_i)
+        partido = "week_"+partido if (1..session_rounds.to_i).include?(partido.to_i)
         game = row_statistic.css("td[2]/text()")
         minutos = row_statistic.css("td[3]/text()")
         puntos = row_statistic.css("td[4]/text()")

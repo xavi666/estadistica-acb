@@ -6,17 +6,17 @@
         %th= t("#{field}")
     
       %tbody
-        - (1..Statistic.num_games).each do |week|
+        - (1..CURRENT_ROUND.to_i-1).each do |week|
           %tr
             %td= week
             - week = statistic.send("week_"+week.to_s)
             - Statistic.fields.each do |field|
               %td= week[field]
         %tr
-          %th= "Promedio"
+          %th{colspan: 2}= "Promedio"
           - Statistic.fields.each do |field|
             %th= statistic.promedio[field]
         %tr
-          %th= "Total"
+          %th{colspan: 2}= "Total"
           - Statistic.fields.each do |field|
             %th= statistic.total[field]
