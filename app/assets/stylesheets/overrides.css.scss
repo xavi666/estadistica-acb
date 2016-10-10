@@ -1,3 +1,6 @@
+/*
+ * FRONT
+ */
 body.front{
   padding-top: 50px;
   font-family: 'Roboto', sans-serif;
@@ -72,6 +75,34 @@ body.front{
   }
   // HOME
 }
+/*
+ * FRONT
+*/
+
+/*
+ * TABLE
+ */
+table.statistic{
+  text-align: center;
+  th{
+    background-color: #272a2f;
+    color: #fff;
+    text-align: center;
+  }
+  td:nth-child(2n+2) {background: #fff }
+  td:nth-child(2n+3) {background: #f1f1f1; }
+  td.player{ text-align: left; }
+  td.image{ 
+    padding: 2px; 
+    img{
+      width: 20px !important;
+    }
+  }
+  .sm{ background-color: #66b4e8 !important; }
+}
+/*
+ * TABLE
+ */
 
 .ico_base{
   background-color: #66B4E8;  
@@ -103,4 +134,7 @@ body.back{
     }
   }
 }
+/*
+ * BACK
+ */
 

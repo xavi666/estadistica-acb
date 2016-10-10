@@ -7,7 +7,8 @@
           %th=team_image @game.local_team
           %th=@game.local_team.name
           - Statistic.fields.each do |field|
-            %th= t("#{field}") if field != 'game'
+            - unless field == 'game'
+              %th= t("#{field}")
       %tbody
         = render partial: "game_statistic", locals: {team: @game.local_team, game: @game}
         
@@ -16,6 +17,7 @@
           %th=team_image @game.away_team
           %th=@game.away_team.name
           - Statistic.fields.each do |field|
-            %th= t("#{field}") if field != 'game'
+            - unless field == 'game'
+              %th= t("#{field}")
       %tbody
         = render partial: "game_statistic", locals: {team: @game.away_team, game: @game}

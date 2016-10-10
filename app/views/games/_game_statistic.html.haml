@@ -2,7 +2,8 @@
   - statistic = player.statistics.by_season(game.season).first.send("week_#{game.round}")
   - if statistic["game"]
     %tr
-      %td= player_image player
-      %td= link_to player.name, player
+      %td{class: "image"}= player_image player
+      %td{class: "player"}= link_to player.name, player
       - Statistic.fields.each do |field|
-        %td= statistic[field] if field != 'game'
+        - unless field == 'game'
+          %td{class: field}= statistic[field]

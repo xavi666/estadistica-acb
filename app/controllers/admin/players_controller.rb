@@ -38,13 +38,26 @@ class Admin::PlayersController < ApplicationController
   def calculate_prices
     players_url = "http://www.rincondelmanager.com/smgr/stats.php?nombre="
     not_found_players = []
+    current_round = Setting.find_by_key("current_round").value.to_i
+    
 
     Player.all.each do |player|
+      row = 1
+      escape_rows = 4
       player_url = WEBrick::HTTPUtils.escape(players_url + player.name)
       if player_html = Nokogiri::HTML(open(player_url))
-
-        price_up_down = player_html.css("table.sm_jug > tr[3] > td[13] > b > text()").first.to_s.gsub(',', '.').to_f
-        player.price["1"] = (player.price["2"] + price_up_down * -1.to_f).round(3) if player.price["2"]
+        prices = {}
+        player_html.css("table.sm_jug > tr").each do |game_row|
+          if row > escape_rows && row < current_round + escape_rows
+            price_up_down = game_row.css("td[13] > b > text()").first.to_s.gsub(',', '.').to_f
+            round = row - escape_rows
+            prices[round] = price_up_down
+          end
+          row = row + 1
+        end
+        (current_round).downto(1) do |i|
+          player.price[(i - 1).to_s] = (player.price[i.to_s] + prices[i-1] * -1.to_f).round(3) if player.price[i.to_s] and prices[i-1]
+        end
         player.save!
       else
         not_found_players << player
