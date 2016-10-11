@@ -69,25 +69,30 @@ class Admin::StatisticsController < ApplicationController
     player_html.css("table.fichaJugadorStats > tr").each do |row_statistic|
       partido = row_statistic.css("th[1]/text()").to_s.downcase
       if partido == 'promedio' || partido == 'total' || (1..session_rounds.to_i).include?(partido.to_i)
-        partido = "week_"+partido if (1..session_rounds.to_i).include?(partido.to_i)
-        game = row_statistic.css("td[2]/text()")
-        minutos = row_statistic.css("td[3]/text()")
-        puntos = row_statistic.css("td[4]/text()")
-        t2 = row_statistic.css("td[5]/text()")
-        t3 = row_statistic.css("td[7]/text()")
-        t1 = row_statistic.css("td[9]/text()")
-        reb = row_statistic.css("td[11]/text()")
-        a = row_statistic.css("td[12]/text()")
-        br = row_statistic.css("td[13]/text()")
-        bp = row_statistic.css("td[14]/text()")
-        c = row_statistic.css("td[15]/text()")
-        tap = row_statistic.css("td[16]/text()")
-        m = row_statistic.css("td[17]/text()")
-        fp = row_statistic.css("td[18]/text()")
-        fr = row_statistic.css("td[19]/text()")
-        mas_menos = row_statistic.css("td[20]/text()")
-        v = row_statistic.css("td[21]/text()")
-        sm = row_statistic.css("td[22]/text()")
+        if (1..session_rounds.to_i).include?(partido.to_i)
+          partido = "week_"+partido 
+          plus = 0
+        else
+          plus = 1
+        end
+        game = row_statistic.css("td["+(2-plus).to_s+"]/text()")
+        minutos = row_statistic.css("td["+(3-plus).to_s+"]/text()")
+        puntos = row_statistic.css("td["+(4-plus).to_s+"]/text()")
+        t2 = row_statistic.css("td["+(5-plus).to_s+"]/text()")
+        t3 = row_statistic.css("td["+(7-plus).to_s+"]/text()")
+        t1 = row_statistic.css("td["+(9-plus).to_s+"]/text()")
+        reb = row_statistic.css("td["+(11-plus).to_s+"]/text()")
+        a = row_statistic.css("td["+(12-plus).to_s+"]/text()")
+        br = row_statistic.css("td["+(13-plus).to_s+"]/text()")
+        bp = row_statistic.css("td["+(14-plus).to_s+"]/text()")
+        c = row_statistic.css("td["+(15-plus).to_s+"]/text()")
+        tap = row_statistic.css("td["+(16-plus).to_s+"]/text()")
+        m = row_statistic.css("td["+(17-plus).to_s+"]/text()")
+        fp = row_statistic.css("td["+(18-plus).to_s+"]/text()")
+        fr = row_statistic.css("td["+(19-plus).to_s+"]/text()")
+        mas_menos = row_statistic.css("td["+(20-plus).to_s+"]/text()")
+        v = row_statistic.css("td["+(21-plus).to_s+"]/text()")
+        sm = row_statistic.css("td["+(22-plus).to_s+"]/text()")
 
         values = {
           game: game.to_s,

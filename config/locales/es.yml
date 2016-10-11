@@ -31,3 +31,4 @@ es:
   estadisticas: "Estadísticas del #{local} - #{away}"
   jornada_acb: "Jornada %{round} ACB"
   resultados_jornada_acb: "Resultados Jornada %{round} ACB"
+  round: "Jornada"

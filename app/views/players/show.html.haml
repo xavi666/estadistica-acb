@@ -23,3 +23,6 @@
             %td= @player.place_of_birth
   .col-xs-12
     = render partial: "statistics/statistics_player", locals: {statistic: @player.statistics.last}
+
+  .col-xs-12
+    = line_chart @data, @options

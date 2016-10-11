@@ -16,4 +16,5 @@
 //= require bootstrap-sprockets
 //= require smart_listing
 //= require select2
+//= require Chart.min
 //= require_tree .

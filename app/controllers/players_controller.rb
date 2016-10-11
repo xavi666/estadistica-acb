@@ -13,6 +13,20 @@ class PlayersController < ApplicationController
     smart_listing_create :players, players_scope, partial: "players/listing"
   end
 
+  def show
+    @data = { 
+      labels: @player.price.keys.map{|key| [t("round"), key.to_s].join(" ")}, 
+        datasets: [
+        { label: "Brokerbasket", 
+          backgroundColor: "rgb(226, 106, 124)", 
+          borderColor: "rgb(214, 12, 43)", 
+          data: @player.price.values
+        }
+        ]
+    }
+    @options = {}  
+  end
+
   private
     def find_player
       @player = Player.find(params[:id])
