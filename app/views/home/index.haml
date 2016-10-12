@@ -1,23 +1,6 @@
 .row
   .col-md-12
-    %h3= t('jornada_acb', round: CURRENT_ROUND)
-    - @games.each do |game|
-      .games.col-xs-12.col-sm-3.col-md-3
-        %a{:href => game_path(game)}
-          %div.col-xs-6.col-md-6.box.white
-            = team_image game.local_team 
-            = game.local_team.short_code
-          %div.col-xs-6.col-md-6.box.white
-            = team_image game.away_team
-            = game.away_team.short_code
-          - if game.local_score.blank? and game.away_score.blank?
-            %div.col-xs12.col-md-12.box.white
-              = short_date game.game_date
-          - else
-            %div.col-xs-6.col-md-6.box.yellow
-              =link_to game.local_score, game, :"title" => "#{t('estadisticas')} #{game.local_team.name} - #{game.away_team.name}"
-            %div.col-xs-6.col-md-6.box.yellow
-              =link_to game.away_score, game, :"title" => "#{t('estadisticas')} #{game.local_team.name} - #{game.away_team.name}"
+    = render partial: "games/current_round"
 .row
   .col-md-12
-    %h3="OPTIMIZA TU EQUIPO"
+    = render partial: "players/best_round"

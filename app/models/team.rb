@@ -30,4 +30,8 @@ class Team < ActiveRecord::Base
   def self.active
     where(active: true)
   end
+
+  def to_param
+    [id.to_s, name.parameterize].join("-")
+  end
 end

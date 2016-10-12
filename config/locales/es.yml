@@ -21,6 +21,7 @@
 
 es:
   acb: "ACB"
+  asistencias: "Asistencias"
   front:
     navbar:
       games: "Calendario ACB"
@@ -30,5 +31,9 @@ es:
   estadistica: "Estadística"
   estadisticas: "Estadísticas del #{local} - #{away}"
   jornada_acb: "Jornada %{round} ACB"
+  puntos: "Puntos"
+  rebotes: "Rebotes"
   resultados_jornada_acb: "Resultados Jornada %{round} ACB"
   round: "Jornada"
+  triples: "Triples"
+  valoracion: "Valoracion"

@@ -13,5 +13,7 @@ es:
           alero: "Alero"
           pivot: "Pívot"
   players:
+    best_round:
+      best_players_round: "Los mejores de la jornada %{round}"
     index:
       title: "Jugadores ACB"
