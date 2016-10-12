@@ -1,19 +1,18 @@
-.row
-  %h5.text-center
-    - if round > 1
-      = link_to games_round_url(round_id: round-1), remote: true do
-        %span.glyphicon.glyphicon-triangle-left
-    = t('resultados_jornada_acb', round: round)
-    = link_to games_round_url(round_id: round+1), remote: true do
-      %span.glyphicon.glyphicon-triangle-right
+%h5.text-center
+  - if round > 1
+    = link_to games_round_url(round_id: round-1), remote: true do
+      %span.glyphicon.glyphicon-triangle-left
+  = t('resultados_jornada_acb', round: round)
+  = link_to games_round_url(round_id: round+1), remote: true do
+    %span.glyphicon.glyphicon-triangle-right
 
-  %table.table.table-striped
-    - games.each do |game|
-      %tr
-        %td=link_to game.local_team.short_code, game.local_team, :"title" => game.local_team.name
-        - unless game.local_score.blank? and game.away_score.blank?
-          %td=link_to game.local_score, game, :"title" => "#{t('estadisticas')} #{game.local_team.name} - #{game.away_team.name}"
-          %td=link_to game.away_score, game, :"title" => "#{t('estadisticas')} #{game.local_team.name} - #{game.away_team.name}"
-        - else
-          %td{colspan: 2}= short_date game.game_date
-        %td=link_to game.away_team.short_code, game.away_team, :"title" => game.away_team.name
+%table.table.table-striped
+  - games.each do |game|
+    %tr
+      %td=link_to game.local_team.short_code, game.local_team, :"title" => game.local_team.name
+      - unless game.local_score.blank? and game.away_score.blank?
+        %td=link_to game.local_score, game, :"title" => "#{t('estadisticas')} #{game.local_team.name} - #{game.away_team.name}"
+        %td=link_to game.away_score, game, :"title" => "#{t('estadisticas')} #{game.local_team.name} - #{game.away_team.name}"
+      - else
+        %td{colspan: 2}= short_date game.game_date
+      %td=link_to game.away_team.short_code, game.away_team, :"title" => game.away_team.name
