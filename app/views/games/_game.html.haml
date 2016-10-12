@@ -1,4 +1,8 @@
 %td= object.round
 %td= link_to object.local_team.name, object.local_team
 %td= link_to object.away_team.name, object.away_team
-%td= short_date object.game_date
+%td
+  - if game.local_score.blank? and game.away_score.blank?
+
+  - else
+    = short_date object.game_date
