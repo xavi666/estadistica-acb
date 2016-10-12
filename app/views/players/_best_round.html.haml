@@ -1,12 +1,12 @@
 %h3= t('.best_players_round', round: @round)
 %ul.nav.nav-tabs{:role => "tablist"}
-  - @statistics.each do |key, statistic|
-    %li{:class => ("active" if key == "bases")}
-      %a{"data-toggle" => "tab", :href => "#tabs-"+key}= key.humanize
+  - @statistics.each do |position, statistic|
+    %li{:class => ("active" if position == @position)}
+      %a{"data-toggle" => "tab", :href => "#tabs-"+position}= position.humanize
   
 .tab-content
-  - @statistics.each do |key, statistics|
-    .tab-pane{:id => "tabs-#{key}", :class => ("active" if key == "bases")}
+  - @statistics.each do |position, statistics|
+    .tab-pane{:id => "tabs-#{position}", :class => ("active" if position == @position)}
       .table-responsive
         %table.table.table-striped.table-condensed.statistic
           %thead
@@ -14,12 +14,12 @@
               %th
               %th= t('jugador')
               %th= t('equipo')
-              %th= link_to t("valoracion"), {:controller => "home", :action => "index", :data => "sm"}, class: 'btn btn-info optimizar'
-              %th= link_to t("puntos"), {:controller => "home", :action => "index", :data => "pt"}, class: 'btn btn-info optimizar'
-              %th= link_to t("rebotes"), {:controller => "home", :action => "index", :data => "reb"}, class: 'btn btn-info optimizar'
-              %th= link_to t("asistencias"), {:controller => "home", :action => "index", :data => "a"}, class: 'btn btn-info optimizar'
-              %th= link_to  t("triples"), {:controller => "home", :action => "index", :data => "3p"}, class: 'btn btn-info optimizar'
+              %th= link_to t("valoracion"), {:controller => "home", :action => "index", :field => "sm", :position => position}, class: 'btn btn-info optimizar'
+              %th= link_to t("puntos"), {:controller => "home", :action => "index", :field => "pt", :position => position}, class: 'btn btn-info optimizar'
+              %th= link_to t("rebotes"), {:controller => "home", :action => "index", :field => "reb", :position => position}, class: 'btn btn-info optimizar'
+              %th= link_to t("asistencias"), {:controller => "home", :action => "index", :field => "a", :position => position}, class: 'btn btn-info optimizar'
+              %th= link_to  t("triples"), {:controller => "home", :action => "index", :field => "3p", :position => position}, class: 'btn btn-info optimizar'
 
           %tbody
-          - statistics.select([:player_id, "week_"+@round]).map {|s| {player_id: s.player_id, "week_"+@round => s.send("week_"+@round)} }.sort_by { |record| -record["week_"+@round][@data].to_f }.first(10).each do |statistic|
+          - statistics.select([:player_id, "week_"+@round]).map {|s| {player_id: s.player_id, "week_"+@round => s.send("week_"+@round)} }.sort_by { |record| -record["week_"+@round][@field].to_f }.first(10).each do |statistic|
             = render partial: "players/best_round_player", locals: {player: @players[statistic[:player_id]], statistic: statistic, round: @round }
