@@ -38,8 +38,17 @@ body.front{
     top: -31px;
     left: 6px;
   }
+  .round{
+    border-radius: 10px;
+  }
+  .center{
+    text-align: center;
+  }
   .white{
     background-color: white;    
+  }
+  .black{
+    background-color: #272a2f;
   }
   .yellow{
     background-color: rgb(250, 255, 189);
@@ -70,6 +79,17 @@ body.front{
     }
   }
 
+  img.player, img.team {
+    width: 22px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+  img {
+      vertical-align: middle;
+  }
+
   .statistic{
     font-size: 11px;
   }
@@ -98,7 +118,10 @@ table.statistic{
       width: 20px !important;
     }
   }
-  .sm{ background-color: #66b4e8 !important; }
+  .sm{ 
+    background-color: #66b4e8 !important; 
+    font-weight: bold;
+  }
 }
 /*
  * TABLE

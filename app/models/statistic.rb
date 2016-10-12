@@ -28,6 +28,7 @@ class Statistic < ActiveRecord::Base
   # !**************************************************
   # !                  Other
   # !**************************************************  
+  include StatisticAllowed
   scope :by_season, -> (season) { where(:season => season) }
   scope :by_round,  -> (round)  { where(:round  => round) }
   
