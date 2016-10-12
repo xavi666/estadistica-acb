@@ -90,7 +90,15 @@ body.front{
       vertical-align: middle;
   }
 
-  .statistic{
+  table.detail{
+    td.player_image{
+      min-width: 115px;
+    }
+    img.player{
+      width: 90%;
+    }
+  }
+  table.statistic{
     font-size: 11px;
   }
   // HOME
