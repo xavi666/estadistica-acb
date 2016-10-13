@@ -57,7 +57,7 @@ gem 'nokogiri'
 gem "select2-rails"
 
 # Assets loading
-gem 'rails_12factor'
+gem 'rails_12factor', group: :production
 
 # Chartjs
 gem 'chartjs-ror'
