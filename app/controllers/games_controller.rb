@@ -4,11 +4,7 @@ class GamesController < ApplicationController
   helper  SmartListing::Helper
 
   def index
-    games_scope = Game.active
-    games_scope = games_scope.where("local_team_id = ?", params[:local_team_id]) unless params[:local_team_id].blank?
-    games_scope = games_scope.where("away_team_id = ?", params[:away_team_id]) unless params[:away_team_id].blank?
-
-    smart_listing_create :games, games_scope, partial: "games/listing"
+    @games = Game.active.by_season(CURRENT_SEASON).group_by(&:round)
   end
 
   def show
