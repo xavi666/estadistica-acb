@@ -1,30 +1,23 @@
-<nav class="navbar" role="navigation">
-  <div class="col-xs-12 col-sm-3 col-md-2">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">
-        <%= image_tag "logo/logo.png", class: "logo" %>
-      </a>
+      <a class="navbar-brand" href="/"><%= image_tag "logo/logo.png", class: "logo" %></a>
     </div>
-  </div>
-  <div class="col-xs-0 col-sm-9 col-md-10">
-    <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li>
-          <%= link_to t(".players"), players_path %>
-        </li>
-        <li>
-          <%= link_to t(".teams"), teams_path %>
-        </li>
-        <li>
-          <%= link_to t(".games"), games_path %>
-        </li>
+    <div id="navbar" class="navbar-collapse collapse col-xs-0 col-sm-9 col-md-10">
+      <ul class="nav navbar-nav navbar-left">
+        <li><%= link_to t(".players"), players_path %></li>
+        <li><%= link_to t(".teams"), teams_path %></li>
+        <li><%= link_to t(".games"), games_path %></li>
       </ul>
+      <!--<form class="navbar-form navbar-right">
+        <input type="text" class="form-control" placeholder="Search...">
+      </form>-->
     </div>
   </div>
 </nav>
