@@ -2,6 +2,9 @@
   .col-xs-9
     %h1= t(".title")
 .row
-  .col-xs-12
-    = smart_listing_render :games
-
+  - @games.each do |round, games|
+    .col-xs-12.col-sm-4.col-md-4
+      = t("jornada", round: round)
+      %table.table.table-striped
+        - games.each do |game|
+          = render game
