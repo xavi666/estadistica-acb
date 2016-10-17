@@ -1,7 +1,8 @@
-%tr
-  %td= player_image player
+%tr{:class => player.position}
+  %td
+    = player_image player
+    = team_image player.team  
   %td= link_to player.name, player_path(player)
-  %td= link_to player.team.name, team_path(player.team)
   %td{:class => ("selected" if field == "sm")}= statistic["week_"+round]["sm"]
   %td{:class => ("selected" if field == "pt")}= statistic["week_"+round]["pt"]
   %td{:class => ("selected" if field == "reb")}= statistic["week_"+round]["reb"]
