@@ -13,7 +13,6 @@
             %tr
               %th
               %th= t('jugador')
-              %th= t('equipo')
               %th= link_to t("valoracion"), {:controller => "home", :action => "index", :field => "sm", :position => position}, class: 'btn btn-info optimizar'
               %th= link_to t("puntos"), {:controller => "home", :action => "index", :field => "pt", :position => position}, class: 'btn btn-info optimizar'
               %th= link_to t("rebotes"), {:controller => "home", :action => "index", :field => "reb", :position => position}, class: 'btn btn-info optimizar'

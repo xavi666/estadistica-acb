@@ -141,6 +141,18 @@ table.statistic{
     background-color: rgb(250, 255, 189) !important;
   }
 }
+tr.base td:first-child{
+  border-left: 10px solid #66B4E8;
+
+}
+tr.alero td:first-child{
+  border-left: 10px solid #21C130;
+
+}
+tr.pivot td:first-child{
+  border-left: 10px solid #ED1C24;
+
+}
 /*
  * TABLE
  */

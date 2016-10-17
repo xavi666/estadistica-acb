@@ -1,7 +1,7 @@
 - team.players.each do |player|
   - statistic = player.statistics.by_season(game.season).first.send("week_#{game.round}")
   - if statistic["game"]
-    %tr
+    %tr{:class => player.position}
       %td{class: "image"}= player_image player
       %td{class: "player"}= link_to player.name, player
       - Statistic.fields.each do |field|

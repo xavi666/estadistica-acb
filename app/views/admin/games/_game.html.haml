@@ -5,7 +5,7 @@
 %td= object.local_score
 %td= object.away_score
 %td= link_to object.away_team.name, object.away_team
-%td= object.game_date
+%td= short_date object.game_date
 %td
   - if object.active
     %i.glyphicon.glyphicon-ok

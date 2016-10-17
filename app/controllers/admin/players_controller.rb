@@ -39,7 +39,7 @@ class Admin::PlayersController < ApplicationController
     players_url = "http://www.rincondelmanager.com/smgr/stats.php?nombre="
     not_found_players = []
     current_round = Setting.find_by_key("current_round").value.to_i
-    
+    session_rounds = Setting.find_by_key("session_rounds").value.to_i
 
     Player.all.each do |player|
       row = 1
@@ -48,7 +48,7 @@ class Admin::PlayersController < ApplicationController
       if player_html = Nokogiri::HTML(open(player_url))
         prices = {}
         player_html.css("table.sm_jug > tr").each do |game_row|
-          if row > escape_rows && row < current_round + escape_rows
+          if row > escape_rows && row < session_rounds + escape_rows
             price_up_down = game_row.css("td[13] > b > text()").first.to_s.gsub(',', '.').to_f
             round = row - escape_rows
             prices[round] = price_up_down
