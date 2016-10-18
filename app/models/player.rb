@@ -23,6 +23,14 @@ class Player < ActiveRecord::Base
   # !**************************************************
   # !                  Other
   # !**************************************************
+  default_scope { order(%q{
+                          case position
+                            when 'base' then 1
+                            when 'alero' then 2
+                            when 'pivot' then 3
+                          end
+                        }) 
+                }  
   include PlayerAllowed
   extend Enumerize
   enumerize :position, in: ["base", "alero", "pivot"], predicates: true
