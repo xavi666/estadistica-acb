@@ -1,0 +1,18 @@
+.table-responsive
+  %table.table.table-striped.table-condensed.statistic
+    %thead.sortable
+      %tr
+        %th
+        %th= t("player")
+        - Statistic.fields.each do |field|
+          - unless field == 'game'
+            %th= t("#{field}")
+    %tbody
+      - team.players.each do |player|
+        %tr{:class => player.position}
+          %td= player_image player
+          %td= player
+          - promedio = player.statistics.by_season(CURRENT_SEASON).first.send("promedio")
+          - Statistic.fields.each do |field|
+            - unless field == 'game'
+              %td{class: field}= promedio[field]
