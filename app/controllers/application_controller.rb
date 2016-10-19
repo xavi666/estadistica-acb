@@ -7,6 +7,9 @@ class ApplicationController < ActionController::Base
   # By default, throw an exception if we're not running cancancan against the controller
   #check_authorization :unless => :devise_controller?
 
+  # Before Action (https://www.cookieshq.co.uk/posts/easy-seo-metatags-with-rails-4/)
+  before_action :prepare_meta_tags, if: "request.get?"
+
   # By default, assume no-one can see anything
   before_filter :check_active_account, :set_current_user, :dirty_response_headers, :set_locale, :init_layout_data
 
@@ -59,6 +62,42 @@ class ApplicationController < ActionController::Base
 
   def init_layout_data
     @round_games = Game.by_season(CURRENT_SEASON).by_round(CURRENT_ROUND.to_i - 1) if CURRENT_ROUND.to_i > 1
+  end
+
+  def prepare_meta_tags(options={})
+    site_name   = "Estadísticas ACB"
+    title       = [controller_name, action_name].join(" ")
+    description = "Todas las estadísticas de la Liga Endesa ACB, por jugadores y equipos. Datos de cada jornada: valoración, puntos, rebotes, asistencias y triples; para poder fichar a los mejores jugadores de cada jornada en el Supermanager ACB."
+    image       = options[:image] || "your-default-image-url"
+    current_url = request.url
+
+    # Let's prepare a nice set of defaults
+    defaults = {
+      site:        site_name,
+      title:       title,
+      image:       image,
+      description: description,
+      keywords:    %w[estadisticas acb liga endesa valoraciónn supermanager puntos triples asistencias rebotes],
+      twitter: {
+        site_name: site_name,
+        site: '@estadisticasacb',
+        card: 'summary',
+        description: description,
+        image: image
+      },
+      og: {
+        url: current_url,
+        site_name: site_name,
+        title: title,
+        image: image,
+        description: description,
+        type: 'website'
+      }
+    }
+
+    options.reverse_merge!(defaults)
+
+    set_meta_tags options
   end
 
   private
