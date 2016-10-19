@@ -22,16 +22,8 @@
         </div>
         <div class="col-md-3">
           <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-12" id="calendario_home">
+            <div class="col-xs-12 col-sm-12 col-md-12" id="calendario_home">
               <%= render partial: 'games/round', locals: {round: CURRENT_ROUND.to_i-1, games: @round_games} if @round_games and @round_games.any? %>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-12">
-              <% if user_signed_in? %>
-                Welcome: <b><%= current_user.email %> </b>
-                <%= link_to "Logout", destroy_user_session_path, :method => 'delete' %>
-              <% else %>
-                <%= render file: 'devise/sessions/new' %>
-              <% end %>
             </div>
           </div>
         </div>
