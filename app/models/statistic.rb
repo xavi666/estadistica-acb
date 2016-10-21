@@ -29,8 +29,8 @@ class Statistic < ActiveRecord::Base
   # !                  Other
   # !**************************************************  
   include StatisticAllowed
-  scope :by_season, -> (season) { where(:season => season) }
-  scope :by_round,  -> (round)  { where(:round  => round) }
+  scope :by_season, -> (season) { where(:season => season).first }
+  scope :by_round,  -> (round)  { where(:round  => round).first }
   
   def to_s
     season + " - " + player.to_s

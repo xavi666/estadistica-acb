@@ -1,5 +1,6 @@
 class Admin::PlayersController < ApplicationController
 
+  include ActionView::Helpers::NumberHelper
   include SmartListing::Helper::ControllerExtensions
   helper  SmartListing::Helper
   load_and_authorize_resource
@@ -49,14 +50,14 @@ class Admin::PlayersController < ApplicationController
         prices = {}
         player_html.css("table.sm_jug > tr").each do |game_row|
           if row > escape_rows && row < session_rounds + escape_rows
-            price_up_down = game_row.css("td[13] > b > text()").first.to_s.gsub(',', '.').to_f
+            price_up_down = game_row.css("td[13] > b > text()").first.to_s.delete!(',').to_i
             round = row - escape_rows
             prices[round] = price_up_down
           end
           row = row + 1
         end
         (current_round).downto(1) do |i|
-          player.price[(i - 1).to_s] = (player.price[i.to_s] + prices[i-1] * -1.to_f).round(3) if player.price[i.to_s] and prices[i-1]
+          player.price[(i - 1).to_s] = (player.price[i.to_s] + prices[i-1] * -1.to_i) if player.price[i.to_s] and prices[i-1]
         end
         player.save!
       else
@@ -118,7 +119,7 @@ class Admin::PlayersController < ApplicationController
     end
     player_html.css("table.fichaJugadorSM").each do |player_sm|
       price = player_sm.css('tr[3]/td[2]/text()')
-      player.price["#{CURRENT_ROUND}"] = "#{price}".to_f
+      player.price["#{CURRENT_ROUND}"] = "#{price}".delete!('.').to_i
     end
     player.save!
   end

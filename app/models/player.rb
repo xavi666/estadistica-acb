@@ -52,6 +52,36 @@ class Player < ActiveRecord::Base
     end
   end
 
+  # Getting Data
+  def stat_field field
+    statistics.by_season([CURRENT_SEASON]).send(field)
+  end
+
+  def promedio_stat field
+    statistics.by_season([CURRENT_SEASON]).promedio[field]
+  end
+
+  def total_stat field
+    statistics.by_season([CURRENT_SEASON]).total[field]
+  end
+
+  def current_price
+    price[CURRENT_ROUND]
+  end
+
+  def sube_15
+    (( (( (current_price.to_i * 1.15) / 70000)) * (stat_field("played_games") + 1)) - total_stat("sm").to_f).round(2)
+  end
+
+  def baja_15
+    (( (( (current_price.to_i * 0.85) / 70000)) * (stat_field("played_games") + 1)) - total_stat("sm").to_f).round(2)
+  end
+
+  def se_mantiene
+    (( (( (current_price.to_i) / 70000)) * (stat_field("played_games") + 1)) - total_stat("sm").to_f).round(2)
+  end
+  # Getting Data
+
   def to_param
     [id.to_s, name.parameterize].join("-")
   end

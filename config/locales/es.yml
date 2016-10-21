@@ -24,9 +24,11 @@ es:
   asistencias: "Asistencias"
   front:
     navbar:
+      brokerbasket: "BrokerBasket"
       games: "Calendario ACB"
       players: "Jugadores"
       teams: "Equipos"
+  down: "Baja %{per_cent}%"
   estadistica: "Estadística"
   estadisticas: "Estadísticas del %{local} - %{away}"
   jornada: "Jornada %{round}"  
@@ -34,7 +36,9 @@ es:
   mas_menos:  "+/-"
   puntos: "Puntos"
   rebotes: "Rebotes"
+  remain: "Se Mantiene"
   resultados_jornada_acb: "Resultados Jornada %{round} ACB"
   round: "Jornada"
   triples: "Triples"
+  up: "Sube %{per_cent}%"
   valoracion: "Valoracion"
