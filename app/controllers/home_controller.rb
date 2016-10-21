@@ -5,9 +5,9 @@ class HomeController < ApplicationController
     @statistics_bases = Statistic.bases
     @statistics_aleros = Statistic.aleros
     @statistics_pivots = Statistic.pivots
-    @statistics = {"bases" => @statistics_bases, "aleros" => @statistics_aleros, "pivots" => @statistics_pivots }
+    @statistics = {"base" => @statistics_bases, "alero" => @statistics_aleros, "pivot" => @statistics_pivots }
     @field = params[:field] || "sm" 
-    @position = params[:position] || "bases" 
+    @position = params[:position] || "base"
 
     @players = Player.all.index_by(&:id)
     @round = (CURRENT_ROUND.to_i-1).to_s

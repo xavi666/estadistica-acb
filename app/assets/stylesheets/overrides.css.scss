@@ -70,7 +70,6 @@ body.front{
     background-color: rgb(250, 255, 189);
   }
   .content{
-    padding-top: 18px;
     background-color: white;
   }
 
@@ -122,6 +121,10 @@ body.front{
   }
   table.statistic{
     font-size: 11px;
+  }
+
+  #calendario_home{
+    margin-top: 49px;
   }
   // HOME
 }

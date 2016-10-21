@@ -66,6 +66,7 @@ class Admin::StatisticsController < ApplicationController
 
     session_rounds = Setting.find_by_key("session_rounds").value
 
+    statistic.played_games = 0
     player_html.css("table.fichaJugadorStats > tr").each do |row_statistic|
       partido = row_statistic.css("th[1]/text()").to_s.downcase
       if partido == 'promedio' || partido == 'total' || (1..session_rounds.to_i).include?(partido.to_i)
@@ -104,6 +105,7 @@ class Admin::StatisticsController < ApplicationController
           v: v.to_s,              sm: sm.to_s
         }
         statistic.send("#{partido}=", values)
+        statistic.played_games = statistic.played_games + 1 unless game.blank?
         statistic.save!
       end
     end

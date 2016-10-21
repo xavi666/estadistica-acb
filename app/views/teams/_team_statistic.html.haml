@@ -12,7 +12,7 @@
         %tr{:class => player.position}
           %td= player_image player
           %td= player
-          - promedio = player.statistics.by_season(CURRENT_SEASON).first.send("promedio")
+          - promedio = player.statistics.by_season(CURRENT_SEASON).send("promedio")
           - Statistic.fields.each do |field|
             - unless field == 'game'
               %td{class: field}= promedio[field]

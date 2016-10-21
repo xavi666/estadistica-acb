@@ -23,6 +23,6 @@
             %td= @player.place_of_birth 
           %tr 
             %th= "Price"
-            %td= @player.price[CURRENT_ROUND]
+            %td= player_price @player.price[CURRENT_ROUND]
   .col-xs-12
     = render partial: "statistics/statistics_player", locals: {statistic: @player.statistics.last}

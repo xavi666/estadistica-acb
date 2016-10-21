@@ -4,7 +4,9 @@ Rails.application.routes.draw do
   devise_for :users
 
   resources :teams
-  resources :players
+  resources :players do
+    get 'brokerbasket', on: :collection
+  end
   resources :games
   resources :statistics
   

@@ -1,8 +1,8 @@
 class PlayersController < ApplicationController
 
+  include ActionView::Helpers::NumberHelper
   include SmartListing::Helper::ControllerExtensions
   helper  SmartListing::Helper
-  load_and_authorize_resource
 
   def index
     players_scope = Player.active
@@ -14,17 +14,28 @@ class PlayersController < ApplicationController
   end
 
   def show
+    @player = Player.find(params[:id])
     @data = { 
       labels: @player.price.keys.map{|key| [t("round"), key.to_s].join(" ")}, 
-        datasets: [
+      datasets: [
         { label: "Brokerbasket", 
           backgroundColor: "rgb(226, 106, 124)", 
           borderColor: "rgb(214, 12, 43)", 
           data: @player.price.values
         }
-        ]
+      ]
     }
     @options = {}  
+  end
+
+  def brokerbasket
+    @players_bases = Player.bases
+    @players_aleros = Player.aleros
+    @players_pivots = Player.pivots
+    @players_group_by_position = {"base" => @players_bases, "alero" => @players_aleros, "pivot" => @players_pivots }
+
+    @position = params[:position] || "base" 
+    @players = Player.all.index_by(&:id)
   end
 
   private
