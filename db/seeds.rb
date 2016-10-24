@@ -34,3 +34,4 @@ Setting.create("id"=>3, "name"=>"Players URL", "key"=>"players_url", "value"=>"h
 Setting.create("id"=>4, "name"=>"Statistics URL", "key"=>"statistics_url", "value"=>"http://kiaenzona.com/jugadores-liga-endesa")
 Setting.create("id"=>5, "name"=>"Games URL", "key"=>"games_url", "value"=>"http://acb.com/calendario.php?cod_competicion=LACB&cod_edicion=61&vd=1&vh=34")
 Setting.create("id"=>6, "name"=>"Session Rounds", "key"=>"session_rounds", "value"=>"34")
+Setting.create("id"=>7, "name"=>"Clasificación URL", "key"=>"table_url", "value"=>"http://www.acb.com/resulcla.php")

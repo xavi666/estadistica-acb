@@ -5,4 +5,6 @@ es:
         title: "Partidos"
   games:
     index: 
+      actions:
+        import_table: "Import Table"
       title: "Calendario ACB"

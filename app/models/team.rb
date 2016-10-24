@@ -22,7 +22,6 @@ class Team < ActiveRecord::Base
   # !**************************************************
   # !                  Other
   # !**************************************************  
-  default_scope { order(name: :asc) }
 
   def to_s
     name
