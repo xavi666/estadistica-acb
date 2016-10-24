@@ -1,14 +1,7 @@
 class TeamsController < ApplicationController
 
-  include SmartListing::Helper::ControllerExtensions
-  helper  SmartListing::Helper
-  load_and_authorize_resource
-
   def index
-    teams_scope = Team.active
-    teams_scope = teams_scope.where("lower(name) ILIKE ?", "%#{params[:name].downcase}%") if params[:name]
-
-    smart_listing_create :teams, teams_scope, partial: "teams/listing"
+    @teams = Team.active
   end
 
   def show
