@@ -5,14 +5,10 @@ class TeamsController < ApplicationController
   end
 
   def show
-    
+    @team = Team.find(params[:id])
   end
 
   private
-    def find_team
-      @team = Team.find(params[:id])
-    end
-
     def team_params
       params.require(:team).permit([:name, :second_name, :short_code, :active])
     end
