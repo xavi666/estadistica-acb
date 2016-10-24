@@ -2,5 +2,12 @@
   .col-xs-12
     %h1= t(".title")
   .col-xs-12
-    = smart_listing_render :teams
+    %table.table.table-striped
+      %thead
+        %th.col-md-1
+        %th.col-md-3= "Name"
 
+      %tbody
+        - @teams.each do |team|
+          %tr.editable{data: {id: team.id}}
+            = render team
