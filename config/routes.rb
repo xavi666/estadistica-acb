@@ -21,6 +21,7 @@ Rails.application.routes.draw do
     end
     resources :games do
       get 'import', on: :collection
+      get 'import_table', on: :collection
     end
     resources :statistics do
       get  'import', on: :collection
