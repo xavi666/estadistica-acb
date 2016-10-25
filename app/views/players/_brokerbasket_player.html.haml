@@ -1,10 +1,21 @@
-%tr{:class => player.position}
-  %td
+- promedio = player.promedio_stat "sm"
+- current_price = player.current_price
+- sube_15 = player.sube_15
+- baja_15 = player.baja_15
+- se_mantiene = player.se_mantiene
+- classes = [("yellow" if sube_15.to_f < promedio.to_f)]
+
+%tr{:class => player.position.to_s }
+  %td{:class => classes }
     = player_image player
     = team_image player.team  
-  %td= link_to player.name, player_path(player)
-  %td= player_price player.current_price
-  %td= player.promedio_stat "sm"
-  %td= player.sube_15
-  %td= player.se_mantiene
-  %td= player.baja_15
+  %td{:class => classes }= link_to player.name, player_path(player)
+  %td{:class => classes }= player_price current_price
+  %td{:class => classes }= promedio
+  %td{:class => classes }
+    = sube_15 
+    %span.up= "(+#{player_price (current_price * 0.15).to_i})"
+  %td{:class => classes }= se_mantiene
+  %td{:class => classes }
+    = baja_15
+    %span.down= "(-#{player_price (current_price * 0.15).to_i})"

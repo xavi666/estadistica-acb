@@ -78,7 +78,7 @@ class Player < ActiveRecord::Base
   end
 
   def se_mantiene
-    (( (( (current_price.to_i) / 70000)) * (stat_field("played_games") + 1)) - total_stat("sm").to_f).round(2)
+    (( (( (current_price.to_i) * 1.to_f / 70000)) * (stat_field("played_games") + 1)) - total_stat("sm").to_f).round(2)
   end
   # Getting Data
 
