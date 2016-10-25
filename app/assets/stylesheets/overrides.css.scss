@@ -67,7 +67,13 @@ body.front{
     background-color: #272a2f;
   }
   .yellow{
-    background-color: rgb(250, 255, 189);
+    background-color: rgb(250, 255, 189) !important;
+  }
+  .up{
+    color: #14A805;
+  }
+  .down{
+    color: #F30F0F;
   }
   .content{
     background-color: white;
