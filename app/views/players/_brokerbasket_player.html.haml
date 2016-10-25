@@ -14,8 +14,8 @@
   %td{:class => classes }= promedio
   %td{:class => classes }
     = sube_15 
-    %span.up= "(+#{player_price (current_price * 0.15).to_i})"
+    %span.up= "(+#{player_price (current_price.to_i * 0.15).to_i})"
   %td{:class => classes }= se_mantiene
   %td{:class => classes }
     = baja_15
-    %span.down= "(-#{player_price (current_price * 0.15).to_i})"
+    %span.down= "(-#{player_price (current_price.to_i * 0.15).to_i})"
