@@ -11,8 +11,6 @@ class HomeController < ApplicationController
 
     @players = Player.all.index_by(&:id)
     @round = (CURRENT_ROUND.to_i-1).to_s
-
-    @teams = Team.active.order(position: :asc)
   end
 
   private

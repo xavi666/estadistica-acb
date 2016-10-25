@@ -18,12 +18,12 @@ Team.create("id"=>9, "name"=>"Baskonia", "active"=>true, "short_code"=>"LAB")
 Team.create("id"=>10, "name"=>"Montakit Fuenlabrada", "active"=>true, "short_code"=>"FUE")
 Team.create("id"=>11, "name"=>"MoraBanc Andorra", "active"=>true, "short_code"=>"AND")
 Team.create("id"=>12, "name"=>"Movistar Estudiantes", "active"=>true, "short_code"=>"EST")
-Team.create("id"=>13, "name"=>"UCAM Murcia CB", "active"=>true, "short_code"=>"MUR")
+Team.create("id"=>13, "name"=>"UCAM Murcia CB", "second_name" => "Universidad Católica de Murcia", "active"=>true, "short_code"=>"MUR")
 Team.create("id"=>14, "name"=>"Unicaja", "active"=>true, "short_code"=>"UNI")
 Team.create("id"=>15, "name"=>"Real Madrid", "active"=>true, "short_code"=>"RMA")
 Team.create("id"=>16, "name"=>"RETAbet.es GBC", "active"=>true, "short_code"=>"GBC")
 Team.create("id"=>17, "name"=>"Rio Natura Monbus Obradoiro", "second_name"=> "Rio Natura Monbus Obr.", "active"=>true, "short_code"=>"OBR")
-Team.create("id"=>18, "name"=>"Valencia Basket Club", "active"=>true, "short_code"=>"VBC")
+Team.create("id"=>18, "name"=>"Valencia Basket Club", "second_name" => "Valencia Basket", "active"=>true, "short_code"=>"VBC")
 
 
 User.create email: "xgarcesmarti@gmail.com", password: "11111111", password_confirmation: "11111111", active: true, super_admin: true

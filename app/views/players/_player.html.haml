@@ -1,5 +1,8 @@
 %tr
-  %td= player_image player
-  %td= link_to player.name, player_path(player)
-  %td= link_to player.team.name, team_path(player.team)
+  %td
+    = player_image player
+    = link_to player.name, player_path(player)
+  %td
+    = team_image player.team
+    = link_to player.team.name, team_path(player.team)
   %td= player.position.try(:text)
