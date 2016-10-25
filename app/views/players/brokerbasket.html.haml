@@ -16,7 +16,7 @@
               %th= t('price')
               %th= t('promedio')
               %th= t('up', per_cent: 15)
-              //%th= t('remain')
+              %th= t('remain')
               %th= t('down', per_cent: 15)
           %tbody
             - players.select([:id, :price]).map {|p| {id: p.id, :price => p.send(:price)[CURRENT_ROUND.to_s]} }.sort_by { |record| -record[:price].to_i || 0 }.each do |player|

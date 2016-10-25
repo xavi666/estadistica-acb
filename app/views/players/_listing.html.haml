@@ -1,10 +1,10 @@
 = smart_listing_controls_for(:players, {class: "form-inline text-right"}) do
   -# Add search box to form - it submits the form automatically on text change
   .form-group.filter.input-append
-    = text_field_tag :name, params["name"], class: "search form-control", placeholder: "Search by name...", autocomplete: :off
-    = select_tag :team_id, options_from_collection_for_select(Team.active, 'id', 'name', params["team_id"]), class: "search form-control", :prompt => "Search by Team"
+    = text_field_tag :name, params["name"], class: "search form-control", placeholder: t("search_by_name"), autocomplete: :off
+    = select_tag :team_id, options_from_collection_for_select(Team.active, 'id', 'name', params["team_id"]), class: "search form-control", :prompt => t("search_by_team")
 
-    = select_tag :position, options_for_select(Player.position.options, params["position"]), class: "search form-control", :prompt => "Search by Position"
+    = select_tag :position, options_for_select(Player.position.options, params["position"]), class: "search form-control", :prompt => t("search_by_position")
 
 
   %button.btn.btn-primary.disabled{type: :submit}
@@ -13,11 +13,9 @@
 - unless smart_listing.empty?
   %table.table.table-striped
     %thead
-      %th.col-md-1= smart_listing.sortable "ID", "id"
-      %th.col-md-1
-      %th.col-md-3= smart_listing.sortable "Name", "name"
-      %th.col-md-3= smart_listing.sortable "Team", "team"
-      %th.col-md-1= smart_listing.sortable "Position", "position"
+      %th.col-md-3= smart_listing.sortable t("name"), "name"
+      %th.col-md-3= smart_listing.sortable t("team"), "team"
+      %th.col-md-1= smart_listing.sortable t("position"), "position"
 
     %tbody
       - smart_listing.collection.each do |o|
