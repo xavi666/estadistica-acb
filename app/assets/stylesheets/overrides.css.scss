@@ -2,10 +2,9 @@
  * FRONT
  */
 body.front{
-  padding-top: 10px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  color: #272a2f;;
+  color: #272a2f;
   background-color: #272a2f;
   font-size: 12px;
 
@@ -17,16 +16,11 @@ body.front{
   }
 
   .logo{
-    background-color: #272a2f;
-    border-radius: 10px !important;
-    color: #fff;
+    color: rgb(183, 149, 11);
     font-size: 36px;
     //text-shadow: -1px 0 #66b4e8, 0 1px #66b4e8, 1px 0 #66b4e8, 0 -1px #66b4e8;
-    margin-left: 4px;
-    margin-top: 4px;
-    height: 42px;
+    background-color: rgb(31, 97, 141);
     font-family: 'Teko', cursive;
-    margin-left: 0px !important;
   }
 
   #navbar{
@@ -47,7 +41,7 @@ body.front{
     border: 0px;
   }
   .navbar{
-    background-color: #66b4e8;
+    background-color: rgb(31, 97, 141);
   }
   .navbar, .navbar-brand{
     margin-bottom: 0px;
@@ -149,6 +143,15 @@ body.front{
     }
   }
   // HOME
+
+  // FOOTER //
+
+  footer {
+   padding-top:20px;
+   padding-bottom:20px;
+   background-color: #272a2f;
+  }
+  // FOOTER //
 }
 /*
  * FRONT
