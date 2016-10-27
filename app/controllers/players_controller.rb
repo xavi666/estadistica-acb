@@ -16,7 +16,7 @@ class PlayersController < ApplicationController
   def show
     @player = Player.find(params[:id])
     #fields = ['week_1', 'week_2', 'week_3', 'week_4', 'week_5']
-    fields = (1..CURRENT_ROUND.to_i).map{ |i| 'week_'+i.to_s}
+    fields = (1...CURRENT_ROUND.to_i).map{ |i| 'week_'+i.to_s}
 
     @broker_data = { 
       labels: @player.price.keys.map{|key| [t("round"), key.to_s].join(" ")}, 
@@ -29,7 +29,7 @@ class PlayersController < ApplicationController
       ]
     }
     @stats_data = { 
-      labels: @player.price.keys.map{|key| [t("round"), key.to_s].join(" ")}, 
+      labels:(1...CURRENT_ROUND.to_i).map{|key| [t("round"), key.to_s].join(" ")}, 
       datasets: [
         { label: "SuperManager", 
           borderColor: "rgb(146, 43, 33)", 
