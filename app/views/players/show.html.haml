@@ -23,10 +23,24 @@
             %td= @player.place_of_birth
   .col-xs-12
     .table-responsive
-      %table.table.table-striped.table-condensed.detail
+      %table.table.table-striped.table-condensed.detail.statistic
+        %thead
+          %tr
+            %th{colspan: 5}= "Promedios"
+        %tr
+          %th= t("valoracion")
+          %th= t("puntos")
+          %th= t("rebotes")
+          %th= t("asistencias")
+          %th= t("triples")
         %tbody
           %tr
-            %td
+            %td= @player.promedio_stat "v"
+            %td= @player.promedio_stat "pt"
+            %td= @player.promedio_stat "reb"
+            %td= @player.promedio_stat "a"
+            %td= @player.promedio_stat "t3"
+
               
   .col-xs-12
     = render partial: "statistics/statistics_player", locals: {statistic: @player.statistics.last}

@@ -29,7 +29,8 @@ class Player < ActiveRecord::Base
                             when 'alero' then 2
                             when 'pivot' then 3
                           end
-                        }) 
+                        })
+                  .order(:name) 
                 }  
   include PlayerAllowed
   extend Enumerize

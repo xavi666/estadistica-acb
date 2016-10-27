@@ -11,7 +11,7 @@
       - team.players.each do |player|
         %tr{:class => player.position}
           %td= player_image player
-          %td= player
+          %td= link_to player, player
           - promedio = player.statistics.by_season(CURRENT_SEASON).send("promedio")
           - Statistic.fields.each do |field|
             - unless field == 'game'
