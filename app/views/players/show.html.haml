@@ -32,4 +32,5 @@
     = render partial: "statistics/statistics_player", locals: {statistic: @player.statistics.last}
 
   .col-xs-12
-    = line_chart @data, @options
+    = line_chart @broker_data, @options
+    = line_chart @stats_data, @options

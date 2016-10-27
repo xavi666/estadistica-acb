@@ -15,13 +15,45 @@ class PlayersController < ApplicationController
 
   def show
     @player = Player.find(params[:id])
-    @data = { 
+    #fields = ['week_1', 'week_2', 'week_3', 'week_4', 'week_5']
+    fields = (1..CURRENT_ROUND.to_i).map{ |i| 'week_'+i.to_s}
+
+    @broker_data = { 
       labels: @player.price.keys.map{|key| [t("round"), key.to_s].join(" ")}, 
       datasets: [
         { label: "Brokerbasket", 
           backgroundColor: "rgb(226, 106, 124)", 
           borderColor: "rgb(214, 12, 43)", 
           data: @player.price.values
+        }
+      ]
+    }
+    @stats_data = { 
+      labels: @player.price.keys.map{|key| [t("round"), key.to_s].join(" ")}, 
+      datasets: [
+        { label: "SuperManager", 
+          borderColor: "rgb(146, 43, 33)", 
+          data: @player.statistics.by_season(CURRENT_SEASON).attributes.slice(*fields).map{|k, values| values["sm"].to_f}
+        },
+        { label: "Valoración", 
+          borderColor: "rgb(118, 68, 138)", 
+          data: @player.statistics.by_season(CURRENT_SEASON).attributes.slice(*fields).map{|k, values| values["v"].to_f}
+        },
+        { label: "Puntos", 
+          borderColor: "rgb(31, 97, 141)", 
+          data: @player.statistics.by_season(CURRENT_SEASON).attributes.slice(*fields).map{|k, values| values["pt"].to_f}
+        },
+        { label: "Rebotes", 
+          borderColor: "rgb(20, 143, 119)", 
+          data: @player.statistics.by_season(CURRENT_SEASON).attributes.slice(*fields).map{|k, values| values["reb"].to_f}
+        },
+        { label: "Asistencias", 
+          borderColor: "rgb(30, 132, 73)", 
+          data: @player.statistics.by_season(CURRENT_SEASON).attributes.slice(*fields).map{|k, values| values["a"].to_f}
+        },
+        { label: "Triples", 
+          borderColor: "rgb(183, 149, 11)", 
+          data: @player.statistics.by_season(CURRENT_SEASON).attributes.slice(*fields).map{|k, values| values["t2"].to_f}
         }
       ]
     }
