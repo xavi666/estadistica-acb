@@ -1,0 +1,16 @@
+%h3= t('.trending_players')
+.tab-content
+  .table-responsive
+    %table.table.table-striped.table-condensed.statistic
+      %thead
+        %tr
+          %th{rowspan: 2}
+          %th{rowspan: 2}= t('player')
+          %th{:colspan =>  "#{@num_rounds}"}= t('rounds')
+        %tr
+          - (@round.to_i-@num_rounds+1..@round.to_i).each do |round|
+            %th= round
+
+      %tbody
+        - @trending_players.each do |player|
+          = render partial: "home/trending_player", locals: {player: @indexed_players[player[:player_id]], round: @round, statistic: player[:statistic], sum: player[:sum] }

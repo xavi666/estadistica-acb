@@ -1,0 +1,24 @@
+%h3= t('.best_players_round', round: @round)
+%ul.nav.nav-tabs{:role => "tablist"}
+  - @statistics.each do |position, statistic|
+    %li{:class => ("active" if position == @position)}
+      %a{"data-toggle" => "tab", :href => "#tabs-"+position.to_s}= position.pluralize.humanize
+  
+.tab-content
+  - @statistics.each do |position, statistics|
+    .tab-pane{:id => "tabs-#{position}", :class => ("active" if position == @position)}
+      .table-responsive
+        %table.table.table-striped.table-condensed.statistic
+          %thead
+            %tr
+              %th
+              %th= t('jugador')
+              %th= link_to t("valoracion"), {:controller => "home", :action => "index", :field => "sm", :position => position}, class: 'btn btn-info optimizar'
+              %th= link_to t("puntos"), {:controller => "home", :action => "index", :field => "pt", :position => position}, class: 'btn btn-info optimizar'
+              %th= link_to t("rebotes"), {:controller => "home", :action => "index", :field => "reb", :position => position}, class: 'btn btn-info optimizar'
+              %th= link_to t("asistencias"), {:controller => "home", :action => "index", :field => "a", :position => position}, class: 'btn btn-info optimizar'
+              %th= link_to  t("triples"), {:controller => "home", :action => "index", :field => "t3", :position => position}, class: 'btn btn-info optimizar'
+
+          %tbody
+            - statistics.select([:player_id, "week_"+@round]).map {|s| {player_id: s.player_id, "week_"+@round => s.send("week_"+@round)} }.sort_by { |record| -record["week_"+@round][@field].to_f }.first(10).each do |statistic|
+              = render partial: "home/best_round_player", locals: {player: @indexed_players[statistic[:player_id]], statistic: statistic, round: @round, field: @field, position: @position }
