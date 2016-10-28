@@ -68,7 +68,7 @@ class ApplicationController < ActionController::Base
   def prepare_meta_tags(options={})
     site_name   = "Estadísticas ACB"
     title       = [controller_name, action_name].join(" ")
-    description = "Todas las estadísticas de la Liga Endesa ACB, por jugadores y equipos. Datos de cada jornada: valoración, puntos, rebotes, asistencias y triples; para poder fichar a los mejores jugadores de cada jornada en el Supermanager ACB."
+    description = "Todas las estadísticas de la Liga Endesa ACB, para jugar a SuperManager. Datos de cada jornada: valoración, puntos, rebotes, asistencias, triples y brokerbasket."
     image       = options[:image] || "your-default-image-url"
     current_url = request.url
 
@@ -78,7 +78,7 @@ class ApplicationController < ActionController::Base
       title:       title,
       image:       image,
       description: description,
-      keywords:    %w[estadisticas acb liga endesa valoraciónn supermanager puntos triples asistencias rebotes],
+      keywords:    %w[estadísticas acb liga endesa valoración supermanager puntos triples asistencias rebotes, brokerbasket],
       twitter: {
         site_name: site_name,
         site: '@estadisticasacb',
