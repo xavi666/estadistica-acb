@@ -23,7 +23,7 @@ es:
   acb: "ACB"
   asistencias: "Asistencias"
   front:
-    navbar:
+    menu_options:
       brokerbasket: "BrokerBasket"
       games: "Calendario ACB"
       players: "Jugadores"
