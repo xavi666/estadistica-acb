@@ -1,0 +1,8 @@
+%tr{:class => player.position}
+  %td
+    = player_image player
+    = team_image player.team  
+  %td
+    = link_to player.name, player_path(player)
+  - sum.each do |round|
+    %td= round

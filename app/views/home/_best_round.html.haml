@@ -21,4 +21,4 @@
 
           %tbody
             - statistics.select([:player_id, "week_"+@round]).map {|s| {player_id: s.player_id, "week_"+@round => s.send("week_"+@round)} }.sort_by { |record| -record["week_"+@round][@field].to_f }.first(10).each do |statistic|
-              = render partial: "players/best_round_player", locals: {player: @players[statistic[:player_id]], statistic: statistic, round: @round, field: @field, position: @position }
+              = render partial: "home/best_round_player", locals: {player: @indexed_players[statistic[:player_id]], statistic: statistic, round: @round, field: @field, position: @position }
