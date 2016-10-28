@@ -1,24 +1,18 @@
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand logo" href="/">EstadísticasACB</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse col-xs-0 col-sm-9 col-md-10">
-      <ul class="nav navbar-nav navbar-left">
-        <li><%= link_to t(".players"), players_path %></li>
-        <li><%= link_to t(".teams"), teams_path %></li>
-        <li><%= link_to t(".games"), games_path %></li>
-        <li><%= link_to t(".brokerbasket"), brokerbasket_players_path %></li>
-      </ul>
-      <!--<form class="navbar-form navbar-right">
-        <input type="text" class="form-control" placeholder="Search...">
-      </form>-->
-    </div>
-  </div>
+<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role = "navigation">
+   <div class="container">
+     <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+        </button>
+         <a class="navbar-brand logo" href="/">EstadísticasACB</a>
+     </div>
+     <div class="collapse navbar-collapse" id="example-navbar-collapse">
+        <ul class="nav navbar-nav">
+          <%= render partial: "front/menu_options" %>
+        </ul>
+     </div>
+   </div>
 </nav>
