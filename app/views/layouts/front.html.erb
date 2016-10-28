@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
     <title>Estadísticas ACB</title>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -32,50 +32,59 @@
         </div>
       </div>
     </div>
-    <footer id="footer">
-<div class="container">
-  <div class="row content">    
-    <div class="col-xs-6 col-sm-6 col-md-3 column">          
-        <h4>Information</h4>
-        <ul class="nav">
-          <li><a href="about-us.html">About Us</a></li>
-          <li><a href="about-us.html">Delivery Information</a></li>
-          <li><a href="about-us.html">Privacy Policy</a></li>
-          <li><a href="elements.html">Elements</a></li>
-        </ul> 
-      </div>
-    <div class="col-xs-6 col-md-3 column">          
-        <h4>Follow Us</h4>
-        <ul class="nav">
-          
-           <li><a href="#">Twitter</a></li>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Google+</a></li>
-          <li><a href="#">Pinterest</a></li>
-        </ul> 
-      </div>
-    <div class="col-xs-6 col-md-3 column">          
-        <h4>Contact Us</h4>
-        <ul class="nav">
-          <li><a href="#">Email</a></li>
-          <li><a href="#">Headquarters</a></li>
-          <li><a href="#">Management</a></li>
-          <li><a href="#">Support</a></li>
-        </ul> 
-      </div>
-    <div class="col-xs-6 col-md-3 column">          
-        <h4>Customer Service</h4>
-        <ul class="nav">
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Delivery Information</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms &amp; Conditions</a></li>
-        </ul> 
-      </div>
-      
     
-  </div>
-</div>
-</footer>
+
+
+
+
+    <footer id="footer" class="clearfix">
+      <div id="footer-widgets">
+        <div class="container">
+          <div id="footer-wrapper">
+            <div class="row">
+              <div class="col-md-3 footer-brand animated fadeInLeft">
+                <h2>EstadisticasACB</h2>
+                <p>Todas las estadísticas de la Liga Endesa ACB 2016. Consulta datos por equipos y jugadores: valoración, puntos, rebotes, asistencias y triples, así como los precios de los jugadores (BrokerBasket) para poder ser el rey del Supermanager.</p>
+                <p>© 2016 EstadisticasACB.com, All rights reserved</p>
+              </div>
+              <div class="col-md-4 footer-nav animated fadeInUp">
+                <h4>Menu —</h4>
+                <div class="col-md-6">
+                  <ul class="pages">
+                    <%= render partial: "front/menu_options" %>
+                  </ul>
+                </div>
+              </div>
+              <!--<div class="col-md-2 footer-social animated fadeInDown">
+                <h4>Síguenos</h4>
+                <ul>
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Instagram</a></li>
+                  <li><a href="#">RSS</a></li>
+                </ul>
+              </div>-->
+              <!--<div class="col-md-3 footer-ns animated fadeInRight">
+                <h4>Newsletter</h4>
+                <p>A rover wearing a fuzzy suit doesn’t alarm the real penguins</p>
+                <p>
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-envelope"></span></button>
+                    </span>
+                  </div>
+                </p>
+              </div>-->
+            </div> <!-- end .row -->
+          </div> <!-- end #footer-wrapper -->
+        </div> <!-- end .container -->
+      </div> <!-- end #footer-widgets -->
+
+    </footer>
+
+
+
+
   </body>
 </html>
