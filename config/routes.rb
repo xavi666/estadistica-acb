@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   resources :teams
   resources :players do
     get 'brokerbasket', on: :collection
+    get 'historico', on: :collection
   end
   resources :games
   resources :statistics

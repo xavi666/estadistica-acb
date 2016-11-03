@@ -3,7 +3,7 @@
     %h1= t(".title")
 .row
   - @games.each do |round, games|
-    .col-xs-12.col-sm-4.col-md-4
+    .col-xs-12.col-sm-4.col-md-4{class:  ("yellow" if round == CURRENT_ROUND)}
       = t("jornada", round: round)
       %table.table.table-striped
         = render partial: "games/game", locals: {games: games}

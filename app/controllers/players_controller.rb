@@ -70,6 +70,29 @@ class PlayersController < ApplicationController
     @players = Player.all.index_by(&:id)
   end
 
+  def historico
+    #params
+    @num_rounds = params[:num_rounds] ? params[:num_rounds].to_i : 3
+    @position = params[:position] ? params[:position] : "all"
+    @field = params[:field] || "v"
+
+    @positions = Player.position.values
+    @positions.unshift("all") if @positions.exclude? "all"
+
+
+    @players = Player.all
+    @indexed_players = @players.index_by(&:id)
+
+    fields = (1..@num_rounds).map{ |i| 'week_'+i.to_s}
+    unless @position == "all"
+      @players = @players.where("players.position = ?", @position)
+    end
+    
+    @trending_players = @players.map{|p| {player_id: p.id, statistic: p.statistics.by_season(CURRENT_SEASON), sum: p.statistics.by_season(CURRENT_SEASON).attributes.slice(*fields).map{|k, values| values[@field].to_f}} }.sort_by { |record| -(record[:sum]).sum.to_f }
+
+    @round = (CURRENT_ROUND.to_i-1).to_s
+  end
+
   private
     def find_player
       @player = Player.find(params[:id])
