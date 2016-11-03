@@ -1,4 +1,6 @@
-%h3= t('.trending_players')
+%h3
+  = t('.trending_players')
+  = link_to t("ver_mas"), historico_players_path, class: 'btn btn-info optimizar'
 .tab-content
   .table-responsive
     %table.table.table-striped.table-condensed.statistic

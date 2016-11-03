@@ -21,7 +21,10 @@
 
 es:
   acb: "ACB"
+  alero: "Alero"
+  all: "Todos"
   asistencias: "Asistencias"
+  base: "Base"
   front:
     menu_options:
       brokerbasket: "BrokerBasket"
@@ -35,6 +38,7 @@ es:
   jornada_acb: "Jornada %{round} ACB"
   mas_menos:  "+/-"
   name: "Nombre"
+  pivot: "Pivot"
   player: "Jugador"
   position: "Posición"
   puntos: "Puntos"
@@ -50,3 +54,4 @@ es:
   triples: "Triples"
   up: "Sube %{per_cent}%"
   valoracion: "Valoración"
+  ver_mas: "Ver Más"
