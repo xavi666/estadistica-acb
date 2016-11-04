@@ -96,8 +96,6 @@ class PlayersController < ApplicationController
     @page_keywords    = t('.keywords')
     # SEO
 
-    @page_title = t(".trending_players")
-
     #params
     @num_rounds = params[:num_rounds] ? params[:num_rounds].to_i : 3
     @position = params[:position] ? params[:position] : "all"
