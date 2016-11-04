@@ -1,6 +1,6 @@
 .row
-  .col-xs-9
-    %h1= t(".title")
+  .col-xs-12
+    %h1= t(".title", season: CURRENT_SEASON)
 .row
   - @games.each do |round, games|
     .col-xs-12.col-sm-4.col-md-4{class:  ("yellow" if round == CURRENT_ROUND)}

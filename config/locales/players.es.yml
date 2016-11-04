@@ -13,5 +13,19 @@ es:
           alero: "Alero"
           pivot: "Pívot"
   players:
+    brokerbasket:
+      description: "Consulta las subidas de precios de los jugadores en el BrokerBasket de Supermanager."
+      keywords: "supermanager, brokerbasket, jugadores, precios, subidas, bajadas, comprar, vender"
+      title: "BrokerBasket para el supermanager"
+    historico:
+      description: "Consulta los jugadores en racha de las últimas jornadas, buscando por valoración, puntos, rebotes, asistencias, y clasificando en Bases, Aleros y Pívots."
+      keywords: "supermanager, fichajes, valoración, puntos, asistencias, rebotes, estadísticas, historial"
+      title: "Jugadores en Racha"
     index:
-      title: "Jugadores ACB"
+      description: "Todos los Jugadors de la liga Endesa ACB, clasificados por equipo y posición."
+      keywords: "jugadores, acb, equipos, alero, bases, pívots"
+      title: "Jugadores Liga Endesa ACB %{season}"
+    show:
+      description: "Estadísticas de %{player} de la liga Endesa ACB %{season}. Valoración, puntos, rebotes asistencias y triples por jornada, acumulados y promedio."
+      keywords: "%{player}, estadísticas, acumulados, histórico, temporada, acb"
+      title: "Estadísticas de %{player}"

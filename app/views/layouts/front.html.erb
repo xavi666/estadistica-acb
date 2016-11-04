@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <title>Estadísticas ACB</title>
+    <%= display_meta_tags site: 'Estadísticas ACB' %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
-    <%= display_meta_tags %>
     <%= render partial: "front/google_analytics" %>
     <link rel="apple-touch-icon" sizes="57x57" href="<%= image_path "icons/apple-icon-57x57.png"%>">
     <link rel="apple-touch-icon" sizes="60x60" href="<%= image_path "icons/apple-icon-60x60.png"%>">

@@ -5,6 +5,12 @@ class PlayersController < ApplicationController
   helper  SmartListing::Helper
 
   def index
+    # SEO
+    @page_title       = t('.title', season: CURRENT_SEASON)
+    @page_description = t('.description')
+    @page_keywords    = t('.keywords')
+    # SEO
+
     players_scope = Player.active
     players_scope = players_scope.where("lower(name) ILIKE ?", "%#{params[:name].downcase}%") unless params[:name].blank?
     players_scope = players_scope.where("team_id = ?", params[:team_id]) unless params[:team_id].blank?
@@ -15,6 +21,13 @@ class PlayersController < ApplicationController
 
   def show
     @player = Player.find(params[:id])
+
+    # SEO
+    @page_title       = t('.title', player: @player.name, season: CURRENT_SEASON)
+    @page_description = t('.description', player: @player.name, season: CURRENT_SEASON)
+    @page_keywords    = t('.keywords', player: @player.name,)
+    # SEO
+
     #fields = ['week_1', 'week_2', 'week_3', 'week_4', 'week_5']
     fields = (1...CURRENT_ROUND.to_i).map{ |i| 'week_'+i.to_s}
 
@@ -61,6 +74,12 @@ class PlayersController < ApplicationController
   end
 
   def brokerbasket
+    # SEO
+    @page_title       = t('.title')
+    @page_description = t('.description')
+    @page_keywords    = t('.keywords')
+    # SEO
+
     @players_bases = Player.bases
     @players_aleros = Player.aleros
     @players_pivots = Player.pivots
@@ -71,6 +90,14 @@ class PlayersController < ApplicationController
   end
 
   def historico
+    # SEO
+    @page_title       = t('.title')
+    @page_description = t('.description')
+    @page_keywords    = t('.keywords')
+    # SEO
+
+    @page_title = t(".trending_players")
+
     #params
     @num_rounds = params[:num_rounds] ? params[:num_rounds].to_i : 3
     @position = params[:position] ? params[:position] : "all"

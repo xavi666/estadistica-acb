@@ -2,7 +2,7 @@
   .col-xs-12
     %h1
       = team_image @team
-      = @team.name
+      = t('.title', team: @team.name)
     
   .col-xs-12
     = render partial: "teams/team_statistic", locals: {team: @team}
