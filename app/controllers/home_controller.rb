@@ -1,6 +1,12 @@
 class HomeController < ApplicationController
 
   def index
+    # SEO
+    @page_title       = t('.title')
+    @page_description = t('.description')
+    @page_keywords    = t('.keywords')
+    # SEO
+
     @games = Game.by_season(CURRENT_SEASON).by_round(CURRENT_ROUND)
     @statistics_bases = Statistic.bases
     @statistics_aleros = Statistic.aleros

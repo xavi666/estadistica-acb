@@ -1,4 +1,4 @@
-%h3= t('.trending_players')
+%h3= t('.title')
 %ul.nav.nav-tabs{:role => "tablist"}
   - @positions.each do |position|
     %li{:class => ("active" if position == @position)}

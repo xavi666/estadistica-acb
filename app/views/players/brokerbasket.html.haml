@@ -1,4 +1,4 @@
-%h3= t('.brokerbasket', round: CURRENT_ROUND)
+%h3= t('.title', round: CURRENT_ROUND)
 %ul.nav.nav-tabs{:role => "tablist"}
   - @players_group_by_position.each do |position, players|
     %li{:class => ("active" if position == @position)}

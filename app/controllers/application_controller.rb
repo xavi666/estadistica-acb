@@ -78,7 +78,7 @@ class ApplicationController < ActionController::Base
       title:       title,
       image:       image,
       description: description,
-      keywords:    %w[estadísticas acb liga endesa valoración supermanager puntos triples asistencias rebotes, brokerbasket],
+      keywords:    %w[estadísticas acb liga endesa valoración supermanager puntos triples asistencias rebotes brokerbasket],
       twitter: {
         site_name: site_name,
         site: '@estadisticasacb',
@@ -98,7 +98,7 @@ class ApplicationController < ActionController::Base
 
     options.reverse_merge!(defaults)
 
-    set_meta_tags options
+    #set_meta_tags options
   end
 
   private
