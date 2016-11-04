@@ -9,7 +9,6 @@ Rails.application.routes.draw do
     get 'historico', on: :collection
   end
   resources :games
-  resources :statistics
   
   get 'games/:round_id/round' => 'games#round', as: :games_round
 
