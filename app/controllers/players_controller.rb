@@ -104,11 +104,10 @@ class PlayersController < ApplicationController
     @positions = Player.position.values
     @positions.unshift("all") if @positions.exclude? "all"
 
-
     @players = Player.all
     @indexed_players = @players.index_by(&:id)
 
-    fields = (1..@num_rounds).map{ |i| 'week_'+i.to_s}
+    fields = (CURRENT_ROUND.to_i-@num_rounds..CURRENT_ROUND.to_i-1).map{ |i| 'week_'+i.to_s}
     unless @position == "all"
       @players = @players.where("players.position = ?", @position)
     end

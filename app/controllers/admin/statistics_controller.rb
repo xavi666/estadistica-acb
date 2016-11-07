@@ -4,6 +4,7 @@ class Admin::StatisticsController < ApplicationController
   helper  SmartListing::Helper
   load_and_authorize_resource
   require 'nokogiri'
+  require 'open-uri'
 
   def index
     statistics_scope = Statistic.all
@@ -32,7 +33,7 @@ class Admin::StatisticsController < ApplicationController
 
   def import
     players_url = Setting.find_by_key("statistics_url").value
-    players_html = Nokogiri::HTML(open(players_url))
+    players_html = Nokogiri::HTML(open(players_url.to_s))
 
     players_html.css("table.listaJugadores > tr").each do |player_row|
       name = player_row.css('td[1]//text()').to_s

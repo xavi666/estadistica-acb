@@ -3,7 +3,7 @@
   - @positions.each do |position|
     %li{:class => ("active" if position == @position)}
       //%a{"data-toggle" => "tab", :href => "#tabs-"+position.to_s}= t(position).pluralize.humanize
-      = link_to t(position).pluralize.humanize, {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => @round}
+      = link_to t(position).pluralize.humanize, {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => @num_rounds}
 
 .tab-content
   - @positions.each do |position|
@@ -15,10 +15,10 @@
               %tr
                 %th
                 %th
-                  = link_to "v", {:controller => "players", :action => "historico", :field => "v", :position => position, :num_rounds => @round}, class: 'btn btn-info'
-                  = link_to "pt", {:controller => "players", :action => "historico", :field => "pt", :position => position, :num_rounds => @round}, class: 'btn btn-info'
-                  = link_to "reb", {:controller => "players", :action => "historico", :field => "reb", :position => position, :num_rounds => @round}, class: 'btn btn-info'
-                  = link_to "a", {:controller => "players", :action => "historico", :field => "a", :position => position, :num_rounds => @round}, class: 'btn btn-info'
+                  = link_to "v", {:controller => "players", :action => "historico", :field => "v", :position => position, :num_rounds => @num_rounds}, class: 'btn btn-info'
+                  = link_to "pt", {:controller => "players", :action => "historico", :field => "pt", :position => position, :num_rounds => @num_rounds}, class: 'btn btn-info'
+                  = link_to "reb", {:controller => "players", :action => "historico", :field => "reb", :position => position, :num_rounds => @num_rounds}, class: 'btn btn-info'
+                  = link_to "a", {:controller => "players", :action => "historico", :field => "a", :position => position, :num_rounds => @num_rounds}, class: 'btn btn-info'
                 %th{:colspan =>  "#{@num_rounds}"}
                   = t('rounds')
                   - (1..CURRENT_ROUND.to_i-1).each do |round|

@@ -75,7 +75,6 @@ class Admin::PlayersController < ApplicationController
     players_url = Setting.find_by_key("players_url").value
     players_html = Nokogiri::HTML(open(players_url))
 
-
     players_html.css("table.listaJugadores > tr").each do |player_row|
       name = player_row.css('td[1]//text()').to_s
       team_name = player_row.css('td[2]/text()').to_s
