@@ -22,9 +22,13 @@ es:
       keywords: "supermanager, fichajes, valoración, puntos, asistencias, rebotes, estadísticas, historial"
       title: "Jugadores en Racha"
     index:
-      description: "Todos los Jugadors de la liga Endesa ACB, clasificados por equipo y posición."
+      description: "Todos los jugadores de la liga Endesa ACB, clasificados por equipo y posición."
       keywords: "jugadores, acb, equipos, alero, bases, pívots"
       title: "Jugadores Liga Endesa ACB %{season}"
+    mejores_jornada:
+      description: "Los mejores jugadores de cada jornada, permitiendo consultar por valoración, puntos, rebotes, asistencias y triples."
+      keywords: "estadísticas, acb, mejores, jornada, alero, bases, pívots"
+      title: "Los mejores de cada Jornada ACB"
     show:
       description: "Estadísticas de %{player} de la liga Endesa ACB %{season}. Valoración, puntos, rebotes asistencias y triples por jornada, acumulados y promedio."
       keywords: "%{player}, estadísticas, acumulados, histórico, temporada, acb"

@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   resources :players do
     get 'brokerbasket', on: :collection
     get 'historico', on: :collection
+    get 'mejores_jornada', on: :collection
   end
   resources :games
   
