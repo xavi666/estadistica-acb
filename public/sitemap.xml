@@ -32,42 +32,42 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/games/46-ucam-murcia-cb-herbalife-gran-canaria</loc>
+  <loc>http://www.estadisticasacb.com/games/63-rio-natura-monbus-obradoiro-herbalife-gran-canaria</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/games/41-dominion-bilbao-basket-iberostar-tenerife</loc>
+  <loc>http://www.estadisticasacb.com/games/60-ucam-murcia-cb-fc-barcelona-lassa</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/games/43-valencia-basket-club-morabanc-andorra</loc>
+  <loc>http://www.estadisticasacb.com/games/59-icl-manresa-morabanc-andorra</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/games/44-montakit-fuenlabrada-fc-barcelona-lassa</loc>
+  <loc>http://www.estadisticasacb.com/games/62-unicaja-retabet-bilbao-basket</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/games/45-unicaja-baskonia</loc>
+  <loc>http://www.estadisticasacb.com/games/61-valencia-basket-club-baskonia</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/games/47-icl-manresa-divina-seguros-joventut</loc>
+  <loc>http://www.estadisticasacb.com/games/57-movistar-estudiantes-divina-seguros-joventut</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/games/48-real-betis-energia-plus-rio-natura-monbus-obradoiro</loc>
+  <loc>http://www.estadisticasacb.com/games/64-tecnyconta-zaragoza-montakit-fuenlabrada</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/games/42-real-madrid-tecnyconta-zaragoza</loc>
+  <loc>http://www.estadisticasacb.com/games/58-real-madrid-iberostar-tenerife</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
@@ -97,27 +97,37 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/102-larkin-shane</loc>
+  <loc>http://www.estadisticasacb.com/players/163-sabat-albert</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/77-garcia-sergi</loc>
+  <loc>http://www.estadisticasacb.com/players/117-mcconnell-mickey</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/138-oliver-albert</loc>
+  <loc>http://www.estadisticasacb.com/players/5-albicy-andrew</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/159-rice-tyrese</loc>
+  <loc>http://www.estadisticasacb.com/players/51-cvetkovic-aleksandar</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/73-fogg-kyle</loc>
+  <loc>http://www.estadisticasacb.com/players/19-bassas-ferran</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/43-chery-kenny</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/151-pozas-pepe</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
@@ -127,22 +137,12 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/163-sabat-albert</loc>
+  <loc>http://www.estadisticasacb.com/players/64-draper-dontaye</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/116-mccalebb-bo</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/216-white-davin</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/61-doncic-luka</loc>
+  <loc>http://www.estadisticasacb.com/players/211-vives-guillem</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
@@ -172,52 +172,52 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/26-benzing-robin</loc>
+  <loc>http://www.estadisticasacb.com/players/223-dulkys-deividas</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/166-salin-sasu</loc>
+  <loc>http://www.estadisticasacb.com/players/183-smits-rolands</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/182-smith-jamar</loc>
+  <loc>http://www.estadisticasacb.com/players/28-blazic-jaka</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/90-jackson-edwin</loc>
+  <loc>http://www.estadisticasacb.com/players/92-jelinek-david</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/15-bamforth-scott</loc>
+  <loc>http://www.estadisticasacb.com/players/147-perperoglou-stratos</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/210-vidal-sergi</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/137-oleson-brad</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/84-hanga-adam</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/21-beiran-javier</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.estadisticasacb.com/players/207-ventura-albert</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/171-sastre-joan</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/67-eriksson-marcus</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/168-san-emeterio-f</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/41-carroll-jaycee</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
@@ -252,42 +252,12 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/212-voigtmann-johannes</loc>
+  <loc>http://www.estadisticasacb.com/players/179-shengelia-tornike</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/156-randolph-anthony</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/13-ayon-gustavo</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/35-burjanadze-beka</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/65-dubljevic-bojan</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/180-shermadini-giorgi</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/142-pasecniks-anzejs</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/187-stutz-garrett</loc>
+  <loc>http://www.estadisticasacb.com/players/123-musli-dejan</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
@@ -297,62 +267,67 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/teams/2-tecnyconta-zaragoza</loc>
+  <loc>http://www.estadisticasacb.com/players/189-suarez-carlos</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/games/39-tecnyconta-zaragoza-ucam-murcia-cb</loc>
+  <loc>http://www.estadisticasacb.com/players/180-shermadini-giorgi</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/teams/13-ucam-murcia-cb</loc>
+  <loc>http://www.estadisticasacb.com/players/181-sikma-luke</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/teams/11-morabanc-andorra</loc>
+  <loc>http://www.estadisticasacb.com/players/62-doornekamp-aaron</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/games/33-morabanc-andorra-dominion-bilbao-basket</loc>
+  <loc>http://www.estadisticasacb.com/players/14-baez-eulis</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/teams/3-dominion-bilbao-basket</loc>
+  <loc>http://www.estadisticasacb.com/players/133-norel-henk</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/teams/6-herbalife-gran-canaria</loc>
+  <loc>http://www.estadisticasacb.com/players/historico</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/games/35-herbalife-gran-canaria-montakit-fuenlabrada</loc>
+  <loc>http://www.estadisticasacb.com/players/15-bamforth-scott</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/teams/10-montakit-fuenlabrada</loc>
+  <loc>http://www.estadisticasacb.com/players/124-nachbar-bostjan</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/teams/12-movistar-estudiantes</loc>
+  <loc>http://www.estadisticasacb.com/players/217-whittington-shayne</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/games/36-movistar-estudiantes-real-madrid</loc>
+  <loc>http://www.estadisticasacb.com/players/216-white-davin</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/teams/15-real-madrid</loc>
+  <loc>http://www.estadisticasacb.com/players/74-fotu-isaac</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/102-larkin-shane</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
@@ -362,7 +337,22 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/games/37-rio-natura-monbus-obradoiro-valencia-basket-club</loc>
+  <loc>http://www.estadisticasacb.com/games/55-rio-natura-monbus-obradoiro-tecnyconta-zaragoza</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/teams/2-tecnyconta-zaragoza</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/teams/10-montakit-fuenlabrada</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/games/53-montakit-fuenlabrada-valencia-basket-club</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
@@ -372,12 +362,17 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/teams/4-divina-seguros-joventut</loc>
+  <loc>http://www.estadisticasacb.com/teams/8-iberostar-tenerife</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/games/38-divina-seguros-joventut-baskonia</loc>
+  <loc>http://www.estadisticasacb.com/games/56-iberostar-tenerife-movistar-estudiantes</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/teams/12-movistar-estudiantes</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
@@ -387,32 +382,7 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/teams/8-iberostar-tenerife</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/40-iberostar-tenerife-unicaja</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/teams/14-unicaja</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/teams/5-fc-barcelona-lassa</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/34-fc-barcelona-lassa-real-betis-energia-plus</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/teams/1-real-betis-energia-plus</loc>
+  <loc>http://www.estadisticasacb.com/games/51-baskonia-icl-manresa</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
@@ -422,82 +392,77 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=asc</loc>
+  <loc>http://www.estadisticasacb.com/teams/4-divina-seguros-joventut</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/games/54-divina-seguros-joventut-unicaja</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/teams/14-unicaja</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/teams/11-morabanc-andorra</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/games/49-morabanc-andorra-ucam-murcia-cb</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/teams/13-ucam-murcia-cb</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/teams/6-herbalife-gran-canaria</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/games/52-herbalife-gran-canaria-real-betis-energia-plus</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/teams/1-real-betis-energia-plus</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/teams/5-fc-barcelona-lassa</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/games/50-fc-barcelona-lassa-real-madrid</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/teams/15-real-madrid</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/teams/3-retabet-bilbao-basket</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/4-akognon-josh</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=asc</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/96-koponen-petteri</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/204-van-rossom-sam</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/103-llompart-pedro</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/107-llull-sergio</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/170-sans-agusti</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/211-vives-guillem</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/94-jofresa-david</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/70-fernandez-jaime</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/40-cardenas-fran</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/57-dimitrijevic-nenad</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/169-san-miguel-rodrigo</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/154-radicevic-nikola</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/218-wilson-jamar</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/23-bellas-tomas</loc>
+  <loc>http://www.estadisticasacb.com/players/229-alocen-carlos</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -507,22 +472,12 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/4-akognon-josh</loc>
+  <loc>http://www.estadisticasacb.com/players/23-bellas-tomas</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/83-hakanson-ludde</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/55-diaz-alberto</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/19-bassas-ferran</loc>
+  <loc>http://www.estadisticasacb.com/players/37-cabezas-carlos</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -532,77 +487,67 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>http://www.estadisticasacb.com/players/40-cardenas-fran</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/45-colom-guillem</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/49-costa-lluis</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/55-diaz-alberto</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/57-dimitrijevic-nenad</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/61-doncic-luka</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/70-fernandez-jaime</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>http://www.estadisticasacb.com/players/72-figueras-pol</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/192-tabu-jonathan</loc>
+  <loc>http://www.estadisticasacb.com/players/73-fogg-kyle</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=</loc>
+  <loc>http://www.estadisticasacb.com/players/77-garcia-sergi</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=2</loc>
+  <loc>http://www.estadisticasacb.com/players/83-hakanson-ludde</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=3</loc>
+  <loc>http://www.estadisticasacb.com/players/94-jofresa-david</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=4</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=5</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=10</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=50</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=75</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=100</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/6-montakit-fuenlabrada-dominion-bilbao-basket</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/1-herbalife-gran-canaria-iberostar-tenerife</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/3-real-madrid-unicaja</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/2-movistar-estudiantes-real-betis-energia-plus</loc>
+  <loc>http://www.estadisticasacb.com/players/96-koponen-petteri</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -617,17 +562,32 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>http://www.estadisticasacb.com/games/3-real-madrid-unicaja</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/games/1-herbalife-gran-canaria-iberostar-tenerife</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/games/2-movistar-estudiantes-real-betis-energia-plus</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/games/6-montakit-fuenlabrada-retabet-bilbao-basket</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>http://www.estadisticasacb.com/games/7-ucam-murcia-cb-divina-seguros-joventut</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.estadisticasacb.com/games/8-tecnyconta-zaragoza-valencia-basket-club</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/10-baskonia-ucam-murcia-cb</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -642,17 +602,17 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>http://www.estadisticasacb.com/games/11-retabet-bilbao-basket-movistar-estudiantes</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>http://www.estadisticasacb.com/games/12-unicaja-tecnyconta-zaragoza</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/games/11-dominion-bilbao-basket-movistar-estudiantes</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/15-real-betis-energia-plus-icl-manresa</loc>
+  <loc>http://www.estadisticasacb.com/games/10-baskonia-ucam-murcia-cb</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -667,22 +627,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/games/22-rio-natura-monbus-obradoiro-movistar-estudiantes</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/17-morabanc-andorra-divina-seguros-joventut</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/21-tecnyconta-zaragoza-dominion-bilbao-basket</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/19-herbalife-gran-canaria-valencia-basket-club</loc>
+  <loc>http://www.estadisticasacb.com/games/15-real-betis-energia-plus-icl-manresa</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -707,22 +652,32 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>http://www.estadisticasacb.com/games/17-morabanc-andorra-divina-seguros-joventut</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/games/21-tecnyconta-zaragoza-retabet-bilbao-basket</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/games/19-herbalife-gran-canaria-valencia-basket-club</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/games/22-rio-natura-monbus-obradoiro-movistar-estudiantes</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>http://www.estadisticasacb.com/games/32-unicaja-herbalife-gran-canaria</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/games/25-movistar-estudiantes-montakit-fuenlabrada</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/30-baskonia-morabanc-andorra</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/27-real-madrid-ucam-murcia-cb</loc>
+  <loc>http://www.estadisticasacb.com/games/31-retabet-bilbao-basket-fc-barcelona-lassa</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -732,12 +687,22 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>http://www.estadisticasacb.com/games/27-real-madrid-ucam-murcia-cb</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>http://www.estadisticasacb.com/games/26-divina-seguros-joventut-iberostar-tenerife</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/games/31-dominion-bilbao-basket-fc-barcelona-lassa</loc>
+  <loc>http://www.estadisticasacb.com/games/30-baskonia-morabanc-andorra</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/games/25-movistar-estudiantes-montakit-fuenlabrada</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -747,32 +712,127 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/5-albicy-andrew</loc>
+  <loc>http://www.estadisticasacb.com/games/33-morabanc-andorra-retabet-bilbao-basket</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/43-chery-kenny</loc>
+  <loc>http://www.estadisticasacb.com/games/39-tecnyconta-zaragoza-ucam-murcia-cb</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/51-cvetkovic-aleksandar</loc>
+  <loc>http://www.estadisticasacb.com/games/35-herbalife-gran-canaria-montakit-fuenlabrada</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/117-mcconnell-mickey</loc>
+  <loc>http://www.estadisticasacb.com/games/37-rio-natura-monbus-obradoiro-valencia-basket-club</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/37-cabezas-carlos</loc>
+  <loc>http://www.estadisticasacb.com/games/38-divina-seguros-joventut-baskonia</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/games/40-iberostar-tenerife-unicaja</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/games/34-fc-barcelona-lassa-real-betis-energia-plus</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/games/36-movistar-estudiantes-real-madrid</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/games/46-ucam-murcia-cb-herbalife-gran-canaria</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/games/41-retabet-bilbao-basket-iberostar-tenerife</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/games/44-montakit-fuenlabrada-fc-barcelona-lassa</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/games/48-real-betis-energia-plus-rio-natura-monbus-obradoiro</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/games/43-valencia-basket-club-morabanc-andorra</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/games/42-real-madrid-tecnyconta-zaragoza</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/games/45-unicaja-baskonia</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/games/47-icl-manresa-divina-seguros-joventut</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/107-llull-sergio</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/159-rice-tyrese</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/169-san-miguel-rodrigo</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/116-mccalebb-bo</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.estadisticasacb.com/players/99-lafayette-oliver</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/138-oliver-albert</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/192-tabu-jonathan</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/237-rupnik-luka</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/218-wilson-jamar</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -787,22 +847,17 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/151-pozas-pepe</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>http://www.estadisticasacb.com/players/110-luz-rafa</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/205-vasiliauskas-sarunas</loc>
+  <loc>http://www.estadisticasacb.com/players/103-llompart-pedro</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/64-draper-dontaye</loc>
+  <loc>http://www.estadisticasacb.com/players/154-radicevic-nikola</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -812,12 +867,17 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/45-colom-guillem</loc>
+  <loc>http://www.estadisticasacb.com/players/204-van-rossom-sam</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/49-costa-lluis</loc>
+  <loc>http://www.estadisticasacb.com/players/205-vasiliauskas-sarunas</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/170-sans-agusti</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -827,22 +887,27 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/84-hanga-adam</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>http://www.estadisticasacb.com/players/122-mumbru-alex</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/21-beiran-javier</loc>
+  <loc>http://www.estadisticasacb.com/players/90-jackson-edwin</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/128-nedovic-nemanja</loc>
+  <loc>http://www.estadisticasacb.com/players/168-san-emeterio-f</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/98-kuric-kyle</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/26-benzing-robin</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -852,7 +917,17 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/210-vidal-sergi</loc>
+  <loc>http://www.estadisticasacb.com/players/128-nedovic-nemanja</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/41-carroll-jaycee</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/108-lockett-trent</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -867,12 +942,22 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/98-kuric-kyle</loc>
+  <loc>http://www.estadisticasacb.com/players/112-martinez-rafa</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/214-walker-david</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.estadisticasacb.com/players/186-stojanovski-vojdan</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/171-sastre-joan</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -887,7 +972,17 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/137-oleson-brad</loc>
+  <loc>http://www.estadisticasacb.com/players/158-ribas-pau</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/25-benite-vitor</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/182-smith-jamar</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -897,22 +992,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/158-ribas-pau</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/108-lockett-trent</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/112-martinez-rafa</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/28-blazic-jaka</loc>
+  <loc>http://www.estadisticasacb.com/players/166-salin-sasu</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -927,27 +1007,12 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/214-walker-david</loc>
+  <loc>http://www.estadisticasacb.com/players/1-abalde-alberto</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/92-jelinek-david</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/150-popovic-marko</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/184-soko-ovie</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/111-maciulis-jonas</loc>
+  <loc>http://www.estadisticasacb.com/players/230-budinger-chase</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -957,7 +1022,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/223-dulkys-deividas</loc>
+  <loc>http://www.estadisticasacb.com/players/139-o-neale-royce</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -967,7 +1032,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/226-english-carl</loc>
+  <loc>http://www.estadisticasacb.com/players/153-rabaseda-xavi</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -977,7 +1042,12 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/25-benite-vitor</loc>
+  <loc>http://www.estadisticasacb.com/players/198-tomas-pere</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/111-maciulis-jonas</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -987,42 +1057,27 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/139-o-neale-royce</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/198-tomas-pere</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/1-abalde-alberto</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/219-yusta-santiago</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/88-holt-stephen</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/172-sato-romain</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/9-antetokounmpo-thanasis</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>http://www.estadisticasacb.com/players/17-baron-billy</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/184-soko-ovie</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/67-eriksson-marcus</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/104-llorca-alex</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/150-popovic-marko</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1032,17 +1087,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/153-rabaseda-xavi</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/24-bendzius-eimantas</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/176-sedekerskis-tadas</loc>
+  <loc>http://www.estadisticasacb.com/players/9-antetokounmpo-thanasis</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1052,7 +1097,32 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/104-llorca-alex</loc>
+  <loc>http://www.estadisticasacb.com/players/226-english-carl</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/234-rush-brion</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/172-sato-romain</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/176-sedekerskis-tadas</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/31-borg-tobias</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/219-yusta-santiago</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1067,12 +1137,17 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/31-borg-tobias</loc>
+  <loc>http://www.estadisticasacb.com/players/91-jankovic-vladimir</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/91-jankovic-vladimir</loc>
+  <loc>http://www.estadisticasacb.com/players/24-bendzius-eimantas</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/88-holt-stephen</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1087,47 +1162,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/193-taylor-jeffery</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/209-vicedo-edgar</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/149-pocius-martynas</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/147-perperoglou-stratos</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>http://www.estadisticasacb.com/players/100-lapornik-luka</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/10-aranitovic-petar</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/101-lapornik-miha</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/121-montanez-roman</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/32-brizuela-dario</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1137,7 +1172,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/183-smits-rolands</loc>
+  <loc>http://www.estadisticasacb.com/players/209-vicedo-edgar</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1147,32 +1182,47 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>http://www.estadisticasacb.com/players/101-lapornik-miha</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/193-taylor-jeffery</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>http://www.estadisticasacb.com/players/109-lorbek-domen</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/114-matulionis-osvaldas</loc>
+  <loc>http://www.estadisticasacb.com/players/121-montanez-roman</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/10-aranitovic-petar</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/32-brizuela-dario</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/149-pocius-martynas</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/232-lopez-arostegui-xabier</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.estadisticasacb.com/players/167-sanchez-alfonso</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/22-belemene-romaric</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/197-todorovic-dejan</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/18-barreiro-jonathan</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1187,17 +1237,37 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>http://www.estadisticasacb.com/players/114-matulionis-osvaldas</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/197-todorovic-dejan</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>http://www.estadisticasacb.com/players/68-esteban-maxim</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/161-rigo-tomeu</loc>
+  <loc>http://www.estadisticasacb.com/players/22-belemene-romaric</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.estadisticasacb.com/players/221-mendia-borja</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/18-barreiro-jonathan</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/161-rigo-tomeu</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1212,22 +1282,17 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/179-shengelia-tornike</loc>
+  <loc>http://www.estadisticasacb.com/players/13-ayon-gustavo</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/217-whittington-shayne</loc>
+  <loc>http://www.estadisticasacb.com/players/65-dubljevic-bojan</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/123-musli-dejan</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/124-nachbar-bostjan</loc>
+  <loc>http://www.estadisticasacb.com/players/156-randolph-anthony</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1237,42 +1302,12 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/220-zoric-luka</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>http://www.estadisticasacb.com/players/157-reyes-felipe</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/86-hendrix-richard</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/74-fotu-isaac</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/54-diagne-moussa</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/113-martin-nacho</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/66-eric-michael</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/69-faverani-vitor</loc>
+  <loc>http://www.estadisticasacb.com/players/220-zoric-luka</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1282,62 +1317,22 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/87-hervelle-axel</loc>
+  <loc>http://www.estadisticasacb.com/players/86-hendrix-richard</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/189-suarez-carlos</loc>
+  <loc>http://www.estadisticasacb.com/players/231-diagne-moussa</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/185-stevic-oliver</loc>
+  <loc>http://www.estadisticasacb.com/players/212-voigtmann-johannes</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/36-buva-ivan</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/141-page-dylan</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/16-bargnani-andrea</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/173-savane-sitapha</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/181-sikma-luke</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/14-baez-eulis</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/93-jelovac-stevan</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/133-norel-henk</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/62-doornekamp-aaron</loc>
+  <loc>http://www.estadisticasacb.com/players/35-burjanadze-beka</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1347,17 +1342,32 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/63-dorsey-joey</loc>
+  <loc>http://www.estadisticasacb.com/players/141-page-dylan</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/89-hunter-othello</loc>
+  <loc>http://www.estadisticasacb.com/players/36-buva-ivan</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/191-suton-goran</loc>
+  <loc>http://www.estadisticasacb.com/players/185-stevic-oliver</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/87-hervelle-axel</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/66-eric-michael</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/113-martin-nacho</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1367,12 +1377,22 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/7-andric-luksa</loc>
+  <loc>http://www.estadisticasacb.com/players/16-bargnani-andrea</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/148-planinic-darko</loc>
+  <loc>http://www.estadisticasacb.com/players/93-jelovac-stevan</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/89-hunter-othello</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/69-faverani-vitor</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1382,7 +1402,32 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/30-bogris-georgios</loc>
+  <loc>http://www.estadisticasacb.com/players/201-trapani-joe</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/173-savane-sitapha</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/142-pasecniks-anzejs</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/148-planinic-darko</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/191-suton-goran</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/38-cakarun-marjan</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1392,7 +1437,17 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/201-trapani-joe</loc>
+  <loc>http://www.estadisticasacb.com/players/63-dorsey-joey</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/7-andric-luksa</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/30-bogris-georgios</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1402,7 +1457,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/106-llovet-nacho</loc>
+  <loc>http://www.estadisticasacb.com/players/140-oriola-pierre</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1412,12 +1467,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/155-radovic-nemanja</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/33-brooks-jeff</loc>
+  <loc>http://www.estadisticasacb.com/players/236-jordan-jerome</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1432,12 +1482,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/120-miralles-albert</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/38-cakarun-marjan</loc>
+  <loc>http://www.estadisticasacb.com/players/3-aguilar-pablo</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1447,7 +1492,22 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/79-gielo-tomasz</loc>
+  <loc>http://www.estadisticasacb.com/players/120-miralles-albert</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/187-stutz-garrett</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/106-llovet-nacho</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/155-radovic-nemanja</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1457,32 +1517,12 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/140-oriola-pierre</loc>
+  <loc>http://www.estadisticasacb.com/players/233-rey-xavi</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/202-triguero-juan-jose</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/130-nikolic-danilo</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/200-traore-ali</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/3-aguilar-pablo</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/196-tillie-kim</loc>
+  <loc>http://www.estadisticasacb.com/players/33-brooks-jeff</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1492,12 +1532,52 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/44-claver-victor</loc>
+  <loc>http://www.estadisticasacb.com/players/208-vezenkov-aleksandar</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.estadisticasacb.com/players/8-antelo-jose-angel</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/202-triguero-juan-jose</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/196-tillie-kim</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/130-nikolic-danilo</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/85-hanley-will</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/79-gielo-tomasz</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/235-traore-ali</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/152-pustovyi-artem</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/44-claver-victor</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1512,42 +1592,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/58-diop-ilimane</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/208-vezenkov-aleksandar</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/85-hanley-will</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/152-pustovyi-artem</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/119-milosevic-strahinja</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>http://www.estadisticasacb.com/players/145-pechacek-adam</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/80-gonzalez-chema</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/135-olaizola-julen</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1557,17 +1602,27 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players/228-sena-wesley</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/11-arteaga-victor</loc>
+  <loc>http://www.estadisticasacb.com/players/58-diop-ilimane</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.estadisticasacb.com/players/129-niang-mamadou</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/135-olaizola-julen</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/228-sena-wesley</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/119-milosevic-strahinja</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1582,7 +1637,17 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>http://www.estadisticasacb.com/players/11-arteaga-victor</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>http://www.estadisticasacb.com/players/53-diagne-atoumane</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/80-gonzalez-chema</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -1617,448 +1682,583 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>http://www.estadisticasacb.com/players/54-diagne-moussa</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>http://www.estadisticasacb.com/players/127-n-diaye-hamady</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/200-traore-ali</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=50&amp;players_smart_listing%5Bsort%5D%5Bname%5D=asc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=3&amp;position=all</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=75&amp;players_smart_listing%5Bsort%5D%5Bname%5D=asc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=3&amp;position=base</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=100&amp;players_smart_listing%5Bsort%5D%5Bname%5D=asc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=3&amp;position=alero</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=3&amp;position=pivot</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=50&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=asc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=3&amp;position=all</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=75&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=asc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=3&amp;position=all</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=100&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=asc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=3&amp;position=all</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=2&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=asc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=1&amp;position=all</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=2&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=asc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=2&amp;position=all</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=6</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=4&amp;position=all</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=3&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=asc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=5&amp;position=all</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=3&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=asc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=6&amp;position=all</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=7</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=7&amp;position=all</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=4&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=asc</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=4&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=asc</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=8</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=5&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=asc</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=5&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=asc</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=9</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=10&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=asc</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=10&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=asc</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.estadisticasacb.com/players/136-o-leary-ian</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=25</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=3&amp;position=base</loc>
   <changefreq>weekly</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=3&amp;position=base</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=3&amp;position=base</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=1&amp;position=base</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=2&amp;position=base</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=4&amp;position=base</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=5&amp;position=base</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=6&amp;position=base</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=7&amp;position=base</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=3&amp;position=alero</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=3&amp;position=alero</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=3&amp;position=alero</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=1&amp;position=alero</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=2&amp;position=alero</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=4&amp;position=alero</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=5&amp;position=alero</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=6&amp;position=alero</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=7&amp;position=alero</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=3&amp;position=pivot</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=3&amp;position=pivot</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=3&amp;position=pivot</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=1&amp;position=pivot</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=2&amp;position=pivot</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=4&amp;position=pivot</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=5&amp;position=pivot</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=6&amp;position=pivot</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=7&amp;position=pivot</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=1&amp;position=all</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=2&amp;position=all</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=4&amp;position=all</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=5&amp;position=all</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=6&amp;position=all</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=7&amp;position=all</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=1&amp;position=all</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=2&amp;position=all</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=4&amp;position=all</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=5&amp;position=all</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=6&amp;position=all</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=7&amp;position=all</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=1&amp;position=all</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=2&amp;position=all</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=4&amp;position=all</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=5&amp;position=all</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=6&amp;position=all</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=7&amp;position=all</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=1&amp;position=base</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=50&amp;players_smart_listing%5Bsort%5D%5Bname%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=2&amp;position=base</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=75&amp;players_smart_listing%5Bsort%5D%5Bname%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=4&amp;position=base</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=100&amp;players_smart_listing%5Bsort%5D%5Bname%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=5&amp;position=base</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=asc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=6&amp;position=base</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=7&amp;position=base</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=50&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=1&amp;position=base</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=75&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=2&amp;position=base</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=100&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=4&amp;position=base</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=asc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=5&amp;position=base</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=2&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=6&amp;position=base</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=2&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=7&amp;position=base</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=6&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=asc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=1&amp;position=base</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=6&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=asc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=2&amp;position=base</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=3&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=4&amp;position=base</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=3&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=5&amp;position=base</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=7&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=asc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=6&amp;position=base</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=7&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=asc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=7&amp;position=base</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=4&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=1&amp;position=alero</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=4&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=2&amp;position=alero</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=8&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=asc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=4&amp;position=alero</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=8&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=asc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=5&amp;position=alero</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=5&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=6&amp;position=alero</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=5&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=7&amp;position=alero</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=9&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=asc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=1&amp;position=alero</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=9&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=asc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=2&amp;position=alero</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=10&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=4&amp;position=alero</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=10&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=5&amp;position=alero</loc>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=50&amp;players_smart_listing%5Bsort%5D%5Bname%5D=</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=6&amp;position=alero</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=75&amp;players_smart_listing%5Bsort%5D%5Bname%5D=</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=7&amp;position=alero</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=100&amp;players_smart_listing%5Bsort%5D%5Bname%5D=</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=1&amp;position=alero</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=2&amp;position=alero</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=50&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=4&amp;position=alero</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=75&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=5&amp;position=alero</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=100&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=6&amp;position=alero</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=7&amp;position=alero</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=2&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=1&amp;position=pivot</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=2&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=2&amp;position=pivot</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=6&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=4&amp;position=pivot</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=6&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=5&amp;position=pivot</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=3&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=6&amp;position=pivot</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=3&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=7&amp;position=pivot</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=7&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=1&amp;position=pivot</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=7&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=2&amp;position=pivot</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=4&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=4&amp;position=pivot</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=4&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=5&amp;position=pivot</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=8&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=6&amp;position=pivot</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=8&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=7&amp;position=pivot</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=5&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=1&amp;position=pivot</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=5&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=2&amp;position=pivot</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=9&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=4&amp;position=pivot</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=9&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=desc</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=5&amp;position=pivot</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=10&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=6&amp;position=pivot</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=10&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=</loc>
+  <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;num_rounds=7&amp;position=pivot</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.26</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.26</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=6&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.26</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=6&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.26</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=7&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.26</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=7&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.26</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=8&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.26</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=8&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.26</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=9&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bname%5D=</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.26</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=9&amp;players_smart_listing%5Bper_page%5D=25&amp;players_smart_listing%5Bsort%5D%5Bposition%5D=</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.26</priority>
+  <priority>0.41</priority>
 </url>
 </urlset>
