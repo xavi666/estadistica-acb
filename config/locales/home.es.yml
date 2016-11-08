@@ -5,6 +5,10 @@ es:
     index:
       description: "Todas las estadísticas de la Liga Endesa ACB, para jugar a SuperManager. Datos de cada jornada: valoración, puntos, rebotes, asistencias, triples y brokerbasket."
       keywords: "estadísticas, acb, liga endesa, valoración, supermanager, datos, brokerbasket"
+<<<<<<< HEAD
       title: "Liga Endesa"
+=======
+      title: "Liga ACB Endesa"
+>>>>>>> 2444d4077c937ea47e30ee15510ce273a14b8e7a
     trending:
       trending_players: "Jugadores en Racha"

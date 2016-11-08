@@ -82,4 +82,6 @@ pickle-email-*.html
 .env
 .powenv
 
-# Anything else we need to ignore?log
+
+# Anything else we need to ignore?
+log
