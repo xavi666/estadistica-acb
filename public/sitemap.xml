@@ -552,6 +552,51 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=2</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=3</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=4</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=5</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=10</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=50</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=75</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.estadisticasacb.com/players?players_smart_listing%5Bpage%5D=1&amp;players_smart_listing%5Bper_page%5D=100</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>http://www.estadisticasacb.com/games/5-rio-natura-monbus-obradoiro-baskonia</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
