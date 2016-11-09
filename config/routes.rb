@@ -8,6 +8,7 @@ Rails.application.routes.draw do
     get 'brokerbasket', on: :collection
     get 'historico', on: :collection
     get 'mejores_jornada', on: :collection
+    get 'comparar', on: :collection
   end
   resources :games
   
