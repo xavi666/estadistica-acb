@@ -5,5 +5,5 @@
 %td
   = team_image object.player.team
   = link_to object.player.team, object.player.team
-%td= object.player.position.text
+%td= object.player.position.text if object.player.position
 %td.actions= smart_listing_item_actions [{name: :custom, url: edit_admin_statistic_path(object), icon: "glyphicon glyphicon-active", remote: true, title:  "Activate statistic"}, {name: :edit, url: edit_admin_statistic_path(object)}, {name: :destroy, url: admin_statistic_path(object), confirmation: "Are you sure you want to delete this?"}]
