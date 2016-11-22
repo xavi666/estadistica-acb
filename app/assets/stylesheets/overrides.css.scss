@@ -203,7 +203,11 @@ body.front{
     #footer .footer-nav, #footer .footer-social, #footer .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
   }
 
-
+  .descansa, .descansa td{
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    background-color: #a8a8a8 !important;
+  }
   // FOOTER //
 }
 /*
