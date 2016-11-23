@@ -4,8 +4,7 @@
 %ul.nav.nav-tabs{:role => "tablist"}
   - @statistics.each do |position, statistic|
     %li{:class => ("active" if position == @position)}
-      %a{"data-toggle" => "tab", :href => "#tabs-"+position.to_s}= position.pluralize.humanize
-  
+      = link_to position.pluralize.humanize, {:controller => "players", :action => "mejores_jornada", :field => "sm", :position => position}
 .tab-content
   - @statistics.each do |position, statistics|
     .tab-pane{:id => "tabs-#{position}", :class => ("active" if position == @position)}
