@@ -30,8 +30,8 @@ Kernel configured for up to 4 processors.
 Processor type: i486 (Intel 80486)
 Processors active: 0 1 2 3
 Primary memory available: 8.00 gigabytes
-Default processor set: 300 tasks, 1687 threads, 4 processors
-Load average: 3.37, Mach factor: 1.10
+Default processor set: 341 tasks, 1967 threads, 4 processors
+Load average: 3.13, Mach factor: 1.05
 /bin/machine           = unknown
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
@@ -1553,7 +1553,7 @@ configure:14335: checking for isnand
 configure:14335: xcrun clang -o conftest -fPIC   -arch i386 -arch x86_64    -arch i386 -arch x86_64 conftest.c  >&5
 Undefined symbols for architecture i386:
   "_isnand", referenced from:
-      _main in conftest-4405a7.o
+      _main in conftest-040722.o
 ld: symbol(s) not found for architecture i386
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:14335: $? = 1
@@ -1662,7 +1662,7 @@ configure:14335: checking for fp_class
 configure:14335: xcrun clang -o conftest -fPIC   -arch i386 -arch x86_64    -arch i386 -arch x86_64 conftest.c  >&5
 Undefined symbols for architecture i386:
   "_fp_class", referenced from:
-      _main in conftest-a5ce7b.o
+      _main in conftest-e4ac18.o
 ld: symbol(s) not found for architecture i386
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:14335: $? = 1
@@ -1771,7 +1771,7 @@ configure:14335: checking for class
 configure:14335: xcrun clang -o conftest -fPIC   -arch i386 -arch x86_64    -arch i386 -arch x86_64 conftest.c  >&5
 Undefined symbols for architecture i386:
   "_class", referenced from:
-      _main in conftest-cef128.o
+      _main in conftest-8e2320.o
 ld: symbol(s) not found for architecture i386
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:14335: $? = 1
@@ -1880,7 +1880,7 @@ configure:14335: checking for fpclass
 configure:14335: xcrun clang -o conftest -fPIC   -arch i386 -arch x86_64    -arch i386 -arch x86_64 conftest.c  >&5
 Undefined symbols for architecture i386:
   "_fpclass", referenced from:
-      _main in conftest-17a449.o
+      _main in conftest-ea6822.o
 ld: symbol(s) not found for architecture i386
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:14335: $? = 1
@@ -2007,7 +2007,7 @@ configure:14359: checking for _stat
 configure:14359: xcrun clang -o conftest -fPIC   -arch i386 -arch x86_64    -arch i386 -arch x86_64 conftest.c  >&5
 Undefined symbols for architecture i386:
   "__stat", referenced from:
-      _main in conftest-70eae3.o
+      _main in conftest-02b019.o
 ld: symbol(s) not found for architecture i386
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:14359: $? = 1
@@ -2221,7 +2221,7 @@ configure:15353: checking for shl_load
 configure:15353: xcrun clang -o conftest -fPIC   -arch i386 -arch x86_64 -pedantic -W -Wformat -Wno-format-extra-args -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -Wno-long-long    -arch i386 -arch x86_64 conftest.c  >&5
 Undefined symbols for architecture i386:
   "_shl_load", referenced from:
-      _main in conftest-0bcdac.o
+      _main in conftest-4062dc.o
 ld: symbol(s) not found for architecture i386
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:15353: $? = 1
@@ -2487,9 +2487,9 @@ configure:16106: checking for iconv
 configure:16122: xcrun clang -o conftest -fPIC   -arch i386 -arch x86_64 -pedantic -W -Wformat -Wno-format-extra-args -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -Wno-long-long    -arch i386 -arch x86_64 conftest.c  >&5
 Undefined symbols for architecture i386:
   "_iconv", referenced from:
-      _main in conftest-9b41a8.o
+      _main in conftest-ee39a7.o
   "_iconv_open", referenced from:
-      _main in conftest-9b41a8.o
+      _main in conftest-ee39a7.o
 ld: symbol(s) not found for architecture i386
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:16122: $? = 1
@@ -3071,7 +3071,7 @@ RDL_LIBS=''
 READER_TEST='Readertests'
 REBUILD_DOCS_FALSE=''
 REBUILD_DOCS_TRUE='#'
-RELDATE='Wed Nov  2 2016'
+RELDATE='Thu Nov 24 2016'
 SED='/usr/bin/sed'
 SET_MAKE=''
 SHELL='/bin/sh'
