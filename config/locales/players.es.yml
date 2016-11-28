@@ -17,6 +17,8 @@ es:
       description: "Consulta las subidas de precios de los jugadores en el BrokerBasket de Supermanager."
       keywords: "supermanager, brokerbasket, jugadores, precios, subidas, bajadas, comprar, vender"
       title: "BrokerBasket para el supermanager"
+    comparar:
+      title: "Comparar jugadores ACB"
     historico:
       description: "Consulta los jugadores en racha de las últimas jornadas, buscando por valoración, puntos, rebotes, asistencias, y clasificando en Bases, Aleros y Pívots."
       keywords: "supermanager, fichajes, valoración, puntos, asistencias, rebotes, estadísticas, historial"

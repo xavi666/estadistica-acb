@@ -14,12 +14,12 @@
             %thead
               %tr
                 %th
-                %th
+                %th{:colspan => 2}
                   = link_to "v", {:controller => "players", :action => "historico", :field => "v", :position => position, :num_rounds => @num_rounds}, class: 'btn btn-info'
                   = link_to "pt", {:controller => "players", :action => "historico", :field => "pt", :position => position, :num_rounds => @num_rounds}, class: 'btn btn-info'
                   = link_to "reb", {:controller => "players", :action => "historico", :field => "reb", :position => position, :num_rounds => @num_rounds}, class: 'btn btn-info'
                   = link_to "a", {:controller => "players", :action => "historico", :field => "a", :position => position, :num_rounds => @num_rounds}, class: 'btn btn-info'
-                %th{:colspan =>  "#{@num_rounds}"}
+                %th{:colspan => "#{@num_rounds}"}
                   = t('rounds')
                   - (1..CURRENT_ROUND.to_i-1).each do |round|
                     = link_to t(round.to_s), {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => round}, class: 'btn btn-info'
@@ -27,6 +27,7 @@
               %tr
                 %th
                 %th= t('player')
+                %th= t('price')
                 - (@round.to_i-@num_rounds+1..@round.to_i).each do |round|
                   %th= round
 

@@ -19,7 +19,7 @@ class HomeController < ApplicationController
     @indexed_players = @players.index_by(&:id)
 
     @num_rounds = 3
-    fields = (1..@num_rounds).map{ |i| 'week_'+i.to_s}
+    fields = (CURRENT_ROUND.to_i-@num_rounds..CURRENT_ROUND.to_i-1).map{ |i| 'week_'+i.to_s}
     @trending_players = @players.map{|p| {player_id: p.id, statistic: p.statistics.by_season(CURRENT_SEASON), sum: p.statistics.by_season(CURRENT_SEASON).attributes.slice(*fields).map{|k, values| values["v"].to_f}} }.sort_by { |record| -(record[:sum]).sum.to_f }.first(10)
 
     @round = (CURRENT_ROUND.to_i-1).to_s

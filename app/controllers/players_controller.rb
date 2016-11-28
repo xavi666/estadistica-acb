@@ -73,6 +73,11 @@ class PlayersController < ApplicationController
     @options = {}  
   end
 
+  def live_search
+    @players = Player.where("players.name ILIKE ?", params[:q])
+    render :layout => false
+  end
+
   def brokerbasket
     # SEO
     @page_title       = t('.title')
@@ -140,6 +145,20 @@ class PlayersController < ApplicationController
     @trending_players = @players.map{|p| {player_id: p.id, statistic: p.statistics.by_season(CURRENT_SEASON), sum: p.statistics.by_season(CURRENT_SEASON).attributes.slice(*fields).map{|k, values| values["v"].to_f}} }.sort_by { |record| -(record[:sum]).sum.to_f }.first(10)
 
     @round = (CURRENT_ROUND.to_i-1).to_s
+  end
+
+  def comparar
+
+
+  end
+
+  def search
+    @players = Player.active.search(params[:q])
+    respond_to do |format|
+      format.json {
+        render json: @players
+      }
+    end
   end
 
   private

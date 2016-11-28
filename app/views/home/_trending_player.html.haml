@@ -4,5 +4,7 @@
     = team_image player.team  
   %td
     = link_to player.name, player_path(player)
+  %td
+    = player_price player.current_price
   - sum.each do |round|
     %td= round

@@ -40,6 +40,10 @@ class Player < ActiveRecord::Base
     name
   end
 
+  def self.search(q, options={})
+    results.where("name ILIKE ?", "%#{q}%").order( "name")
+  end
+
   def print_price
     ActiveSupport::NumberHelper.number_to_delimited(price.to_i, :delimiter => ".")
   end
