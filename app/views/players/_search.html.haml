@@ -1,0 +1,18 @@
+- players.each do |player| 
+  = form_for player, url: comparar_players_path, remote: true  do |f|
+    .col-xs-4.selectable-player{:data => {:player_id => "#{player.id}"}}
+      .row
+        .col-xs-6
+          = player_image player, "player_60"
+          = team_image player.team, "team_26 team_over_player"
+        .col-xs-6
+          .col-xs-12
+            = player.name
+
+:javascript
+  $(".dropdown .dropdown-content").show()
+
+  $(".selectable-player").click(function() {
+    console.log("--->");
+    console.log($(this).data("player-id"));
+  })

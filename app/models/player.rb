@@ -41,7 +41,7 @@ class Player < ActiveRecord::Base
   end
 
   def self.search(q, options={})
-    results.where("name ILIKE ?", "%#{q}%").order( "name")
+    where("name ILIKE ?", "%#{q}%").order( "name")
   end
 
   def print_price

@@ -155,8 +155,7 @@ class PlayersController < ApplicationController
   def search
     @players = Player.active.search(params[:q])
     respond_to do |format|
-      format.json {
-        render json: @players
+      format.js {
       }
     end
   end

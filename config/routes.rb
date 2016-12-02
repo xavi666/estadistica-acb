@@ -5,11 +5,13 @@ Rails.application.routes.draw do
 
   resources :teams
   resources :players do
-    get 'brokerbasket', on: :collection
-    get 'historico', on: :collection
-    get 'mejores_jornada', on: :collection
-    get 'comparar', on: :collection
-    post "search", on: :collection
+    collection do 
+      get :brokerbasket
+      get :historico
+      get :mejores_jornada
+      get :comparar
+      get :search
+    end
   end
   resources :games
   
@@ -19,16 +21,22 @@ Rails.application.routes.draw do
   namespace :admin do
     resources :teams
     resources :players do
-      get 'import', on: :collection
-      get 'calculate_prices', on: :collection
-      get 'comparar', on: :collection
+      collection do 
+        get :import
+        get :calculate_prices
+        get :comparar
+      end
     end
     resources :games do
-      get 'import', on: :collection
-      get 'import_table', on: :collection
+      collection do 
+        get :import
+        get :import_table
+      end
     end
     resources :statistics do
-      get  'import', on: :collection
+      collection do 
+        get :import
+      end
     end
     resources :settings
   end

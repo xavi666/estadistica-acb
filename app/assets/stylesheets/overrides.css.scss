@@ -102,6 +102,17 @@ body.front{
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
   }
+  img.player_60{
+    width: 60px;
+    margin: 22px;
+  }
+  img.team_26{
+    width: 26px;
+  }
+  img.team_over_player{
+    margin-top: -30px;
+    position: absolute;
+  }
   img {
       vertical-align: middle;
   }
@@ -209,6 +220,32 @@ body.front{
     background-color: #a8a8a8 !important;
   }
   // FOOTER //
+
+  // COMPARADOR //
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+  }
+  #search_result .selectable-player:hover{
+    background-color: grey;
+  }
+  // COMPARADOR //
+  
 }
 /*
  * FRONT
