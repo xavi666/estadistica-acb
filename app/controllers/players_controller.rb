@@ -148,7 +148,10 @@ class PlayersController < ApplicationController
   end
 
   def comparar
+    
+    @player1 = Player.find params[:player_1_id] if params[:player_1_id]
 
+    @player2 = Player.find params[:player_1_id] if params[:player_2_id]
 
   end
 

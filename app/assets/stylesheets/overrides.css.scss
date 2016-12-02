@@ -113,14 +113,12 @@ body.front{
   }
   img.player_60{
     width: 60px;
-    margin: 22px;
   }
   img.team_26{
     width: 26px;
   }
   img.team_over_player{
-    margin-top: -30px;
-    position: absolute;
+
   }
   img {
       vertical-align: middle;
@@ -273,6 +271,12 @@ body.front{
     display: block;
     cursor: pointer;
   }
+  
+  #search_result .selectable-player{
+    padding: 10px 10px;
+    margin: 10px 0px;
+  }
+
   #search_result .selectable-player:hover{
     background-color: grey;
   }
