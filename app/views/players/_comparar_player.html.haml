@@ -1,1 +1,20 @@
-asdfsdf
+.col-xs-6
+  .col-xs-12.center
+    .col-xs-6
+      = player_image player, "player_100"
+    .col-xs-6
+      = team_image player.team, "team_80"
+  .col-xs-12.name
+    %h3= player.name
+    %h6= [player.position.text, player.team.name].join(" - ")
+  .col-xs-12
+    - statistic = player.statistics.by_season(CURRENT_SEASON).total
+    .col-xs-12.center
+      %h4=statistic["sm"]
+      %h4=statistic["v"]
+      %h4=statistic["pt"]
+      %h4=statistic["reb"]
+      %h4=statistic["a"]
+      %h4=statistic["t3"]
+      %h4=statistic["br"]
+      %h4=statistic["bp"]

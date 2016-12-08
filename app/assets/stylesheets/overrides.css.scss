@@ -17,11 +17,10 @@ body.front{
 
   .logo{
     color: white;
-    font-size: 36px;
+    font-size: 26px;
     //text-shadow: -1px 0 #66b4e8, 0 1px #66b4e8, 1px 0 #66b4e8, 0 -1px #66b4e8;
     background-color: #B91329;
     font-family: 'Hind', sans-serif;
-    letter-spacing: -2px;
   }
   .logo:hover{
     color: #000;
@@ -117,8 +116,11 @@ body.front{
   img.team_26{
     width: 26px;
   }
-  img.team_over_player{
-
+  img.team_80{
+    width: 80px;
+  }
+  img.player_100{
+    width: 100px;
   }
   img {
       vertical-align: middle;
@@ -183,6 +185,15 @@ body.front{
     }
   }
   // GENERAL //
+
+  // COMPARADOR //
+  #comparador{
+    .name{
+      background-color: #B91329;
+      color: #fff;
+    }
+  }
+  // COMPARADOR //
 
   // HOME //
 

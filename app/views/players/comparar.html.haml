@@ -4,11 +4,12 @@
 .dropdown#search_result.col-xs-12
   .dropdown-content.col-xs-12.row
 
-- if @player1
-  = render partial: "/players/comparar_player", locals: {player: @player1, pos: 1}
+#comparador.col-xs-12
+  - if @player1
+    = render partial: "/players/comparar_player", locals: {player: @player1, pos: 1}
 
-- if @player2
-  = render partial: "/players/comparar_player", locals: {player: @player2, pos: 2}
+  - if @player2
+    = render partial: "/players/comparar_player", locals: {player: @player2, pos: 2}
 
 :javascript
   $("#search_player").keyup(function() {
