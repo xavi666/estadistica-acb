@@ -7,14 +7,20 @@
   .col-xs-12.name
     %h3= player.name
     %h6= [player.position.text, player.team.name].join(" - ")
-  .col-xs-12
+  .col-xs-12.row
     - statistic = player.statistics.by_season(CURRENT_SEASON).total
-    .col-xs-12.center
-      %h4=statistic["sm"]
-      %h4=statistic["v"]
-      %h4=statistic["pt"]
-      %h4=statistic["reb"]
-      %h4=statistic["a"]
-      %h4=statistic["t3"]
-      %h4=statistic["br"]
-      %h4=statistic["bp"]
+    %dd{class: "percentage percentage-#{statistic["sm"].to_f.round}"}
+      %h3.text=statistic["sm"]
+    %dd{class: "percentage percentage-#{statistic["v"].to_f.round}"}
+      %h3.text=statistic["v"]
+    %dd{class: "percentage percentage-#{statistic["pt"].to_f.round}"}
+      %h3.text=statistic["pt"]
+    %dd{class: "percentage percentage-#{statistic["reb"].to_f.round}"}
+      %h3.text=statistic["reb"]
+    %dd{class: "percentage percentage-#{statistic["3"].to_f.round}"}
+      %h3.text=statistic["t3"]
+    %dd{class: "percentage percentage-#{statistic["br"].to_f.round}"}
+      %h3.text=statistic["br"]
+    %dd{class: "percentage percentage-#{statistic["bp"].to_f.round}"}
+      %h3.text=statistic["bp"]
+      

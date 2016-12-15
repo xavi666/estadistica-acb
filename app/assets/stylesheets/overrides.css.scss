@@ -188,9 +188,45 @@ body.front{
 
   // COMPARADOR //
   #comparador{
+    .white{
+      background-color: #fff;
+    }
+    .height120{
+      min-height: 120px;
+    }
+    .height79{
+      min-height: 79px;
+    }
     .name{
       background-color: #B91329;
       color: #fff;
+    }
+    .text_label{
+      color: #000;
+    }
+    .label{
+      background-color: #fff;
+    }
+    .player_1 {
+      .percentage {
+        &:after {
+          position: absolute;
+          left: 0px;
+        }
+      }
+    }
+
+    .player_2 {
+      .percentage {
+        &:after {
+          position: absolute;
+          right: 0px;
+        }
+      }
+    }
+    h4{
+      padding: 0px;
+      margin: 0px;
     }
   }
   // COMPARADOR //
