@@ -105,10 +105,6 @@ body.front{
 
   img.player, img.team {
     width: 22px;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
   }
   img.player_60{
     width: 60px;
@@ -141,7 +137,7 @@ body.front{
     }
   }
   table.statistic{
-    font-size: 11px;
+    font-size: 12px;
   }
 
   #table_home{
@@ -169,11 +165,6 @@ body.front{
   }
 
   table.table-striped{
-    thead th{
-      background-color: #5B5B5E;
-      color: #fff;
-      text-align: center;
-    }
     tr:nth-child(even){
       background-color: #FFF;
     }
@@ -196,6 +187,12 @@ body.front{
     }
     .height79{
       min-height: 79px;
+    }
+    .height40{
+      min-height: 40px;
+      h4{
+        margin-top: 10px
+      }
     }
     .name{
       background-color: #B91329;
@@ -340,15 +337,18 @@ body.front{
 table.statistic{
   text-align: center;
   th{
-    background-color: #5B5B5E;
-    color: #fff;
+    border-top: 1px solid #000 !important;
     text-align: center;
+  }
+  td{
+    padding: 2px !important;
+    vertical-align: middle !important;
   }
   td:nth-child(2n+2) {background: #fff }
   td:nth-child(2n+3) {background: #f1f1f1; }
   td.player{ text-align: left; }
   td.image{ 
-    padding: 2px; 
+    padding: 0px !important;
     img{
       width: 20px !important;
     }

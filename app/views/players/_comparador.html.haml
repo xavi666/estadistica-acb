@@ -46,9 +46,8 @@
           - text = mean.nan? ? 0 : mean.round(2) 
           %dd{class: "percentage percentage-#{value}"}
             %h4.text=text
-      .col-xs-2.center.white
-        %dd
-          %h4.text_label=t("#{field}")
+      .col-xs-2.center.white.height40
+        %h4=t("#{field}")
       .col-xs-5.player_2
         - if player_2_id
           - mean = statistic_2_total["#{field}"].to_f/statistic_2.played_games.to_f

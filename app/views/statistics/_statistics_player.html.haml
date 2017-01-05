@@ -22,3 +22,5 @@
           - Statistic.fields.each do |field|
             - unless field == 'game'
               %th{class: field}= statistic.total[field]
+
+= render "inc/leyenda"
