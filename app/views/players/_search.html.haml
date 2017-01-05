@@ -1,18 +1,29 @@
 - players.each do |player| 
-  = form_for player, url: comparar_players_path, remote: true  do |f|
-    .col-xs-4.selectable-player{:data => {:player_id => "#{player.id}"}}
-      .row
-        .col-xs-6
-          = player_image player, "player_60"
+  .col-xs-4.selectable-player{:data => {:player_id => "#{player.id}"}}
+    .row
+      .col-xs-12.col-sm-4.col-md-4.center
+        = player_image player, "player_60"
+      .col-xs-12.col-sm-8.col-md-8
+        .col-xs-12.center
+          = player.name
+          %br
           = team_image player.team, "team_26 team_over_player"
-        .col-xs-6
-          .col-xs-12
-            = player.name
 
 :javascript
-  $(".dropdown .dropdown-content").show()
+  $(".dropdown .dropdown-content").show();
 
   $(".selectable-player").click(function() {
-    console.log("--->");
-    console.log($(this).data("player-id"));
+    player_1_id = $("#player_1_id").val()
+    player_2_id = $("#player_2_id").val()
+
+    if(player_1_id == '')
+      player_1_id = $(this).data("player-id")
+    else
+      player_2_id = $(this).data("player-id")
+
+    $.ajax({
+      url: '/players/comparar/'+player_1_id+'/'+player_2_id,
+      dataType: 'script',
+      type: 'GET'
+    });
   })

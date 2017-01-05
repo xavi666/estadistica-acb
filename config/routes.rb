@@ -14,7 +14,9 @@ Rails.application.routes.draw do
     end
   end
   resources :games
-  
+
+  get 'players/comparar/:player_1_id' => 'players#comparar'
+  get 'players/comparar/:player_1_id/:player_2_id' => 'players#comparar'
   get 'games/:round_id/round' => 'games#round', as: :games_round
   
   # BACK-END
@@ -24,7 +26,6 @@ Rails.application.routes.draw do
       collection do 
         get :import
         get :calculate_prices
-        get :comparar
       end
     end
     resources :games do

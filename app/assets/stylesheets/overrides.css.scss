@@ -2,10 +2,10 @@
  * FRONT
  */
 body.front{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Hind', sans-serif;
   font-weight: 400;
-  color: #272a2f;
-  background-color: #272a2f;
+  color: #000;
+  background-color: #F4F3F2;
   font-size: 12px;
 
   .font-10{
@@ -16,11 +16,17 @@ body.front{
   }
 
   .logo{
-    color: rgb(183, 149, 11);
-    font-size: 36px;
+    color: white;
+    font-size: 26px;
     //text-shadow: -1px 0 #66b4e8, 0 1px #66b4e8, 1px 0 #66b4e8, 0 -1px #66b4e8;
-    background-color: rgb(31, 97, 141);
-    font-family: 'Teko', cursive;
+    background-color: #B91329;
+    font-family: 'Hind', sans-serif;
+  }
+  .logo:hover{
+    color: #000;
+  }
+  .logo :hover{
+    background-color: #000;
   }
 
   #navbar{
@@ -28,6 +34,7 @@ body.front{
       li{
         a:hover{
           //background-color: #7ec6ef;
+          color: #000;
         }
         a{
           color: #fff;
@@ -41,7 +48,8 @@ body.front{
     border: 0px;
   }
   .navbar{
-    background-color: rgb(31, 97, 141);
+    background-color: #B91329;
+    border: none;
   }
   .navbar, .navbar-brand{
     margin-bottom: 0px;
@@ -70,7 +78,7 @@ body.front{
     color: #F30F0F;
   }
   .content{
-    background-color: white;
+    background-color: #F4F3F2;
     padding-top: 50px;
   }
 
@@ -104,14 +112,15 @@ body.front{
   }
   img.player_60{
     width: 60px;
-    margin: 22px;
   }
   img.team_26{
     width: 26px;
   }
-  img.team_over_player{
-    margin-top: -30px;
-    position: absolute;
+  img.team_80{
+    width: 80px;
+  }
+  img.player_100{
+    width: 100px;
   }
   img {
       vertical-align: middle;
@@ -137,11 +146,7 @@ body.front{
 
   #table_home{
     font-size: 11px;
-    thead th{
-      background-color: #272a2f;
-      color: #fff;
-      text-align: center;
-    }
+    
     tbody{
       tr:nth-child(-n+8) {
         background-color: #faffbd;
@@ -151,24 +156,97 @@ body.front{
       }
     }
   }
-  // HOME
+  
+  // GENERAL //
+  .btn-info{
+    background-color: #3A383A;
+    border: none;
+  }
+  .ver_mas{
+    font-size: 18px;
+    font-weight: bold;
+    color: #B91329;
+  }
+
+  table.table-striped{
+    thead th{
+      background-color: #5B5B5E;
+      color: #fff;
+      text-align: center;
+    }
+    tr:nth-child(even){
+      background-color: #FFF;
+    }
+    tr:nth-child(odd){
+      background-color: #eee;
+    }
+    td{
+      border-top: none;
+    }
+  }
+  // GENERAL //
+
+  // COMPARADOR //
+  #comparador{
+    .white{
+      background-color: #fff;
+    }
+    .height120{
+      min-height: 120px;
+    }
+    .height79{
+      min-height: 79px;
+    }
+    .name{
+      background-color: #B91329;
+      color: #fff;
+    }
+    .text_label{
+      color: #000;
+    }
+    .label{
+      background-color: #fff;
+    }
+    .player_1 {
+      .percentage {
+        &:after {
+          position: absolute;
+          left: 0px;
+        }
+      }
+    }
+
+    .player_2 {
+      .percentage {
+        &:after {
+          position: absolute;
+          right: 0px;
+        }
+      }
+    }
+    h4{
+      padding: 0px;
+      margin: 0px;
+    }
+  }
+  // COMPARADOR //
+
+  // HOME //
 
   // FOOTER //
 
   #footer {
-    border-top: 1px solid #fff;
-    background: #1f618d none repeat scroll 0% 0%;
-    padding-top: 30px;
+    background: #B91329 none repeat scroll 0% 0%;
+    padding-top: 28px;
     clear: both;
     color: #AAA;
     display: block;
   }
 
   #footer h2{
-    color: #b7950b;
-    font-size: 36px;
-    background-color: #1f618d;
-    font-family: 'Teko', cursive;
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Hind';
   }
 
   #footer .footer-brand, #footer .footer-nav, #footer .footer-social, #footer .footer-ns { padding:10px 25px; }
@@ -216,8 +294,7 @@ body.front{
 
   .descansa, .descansa td{
     opacity: 0.6;
-    filter: alpha(opacity=60);
-    background-color: #a8a8a8 !important;
+    filter: alpha(opacity=40);
   }
   // FOOTER //
 
@@ -241,6 +318,12 @@ body.front{
     display: block;
     cursor: pointer;
   }
+  
+  #search_result .selectable-player{
+    padding: 10px 10px;
+    margin: 10px 0px;
+  }
+
   #search_result .selectable-player:hover{
     background-color: grey;
   }
@@ -257,7 +340,7 @@ body.front{
 table.statistic{
   text-align: center;
   th{
-    background-color: #272a2f;
+    background-color: #5B5B5E;
     color: #fff;
     text-align: center;
   }

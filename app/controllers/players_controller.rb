@@ -148,12 +148,14 @@ class PlayersController < ApplicationController
   end
 
   def comparar
-
-
+    @player_1_id = Player.find params[:player_1_id] if params[:player_1_id] and !params[:player_1_id].blank?
+    @player_2_id = Player.find params[:player_2_id] if params[:player_2_id] and !params[:player_2_id].blank?
   end
 
   def search
     @players = Player.active.search(params[:q])
+    @player1 = params[:player1]
+    @player2 = params[:player2]
     respond_to do |format|
       format.js {
       }

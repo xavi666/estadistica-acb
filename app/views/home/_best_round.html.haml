@@ -1,6 +1,7 @@
 %h3
   = t('.best_players_round', round: @round)
-  = link_to t("ver_mas"), mejores_jornada_players_path, class: 'btn btn-info'
+
+  = link_to t("ver_mas"), mejores_jornada_players_path, class: 'ver_mas'
 %ul.nav.nav-tabs{:role => "tablist"}
   - @statistics.each do |position, statistic|
     %li{:class => ("active" if position == @position)}
@@ -9,7 +10,7 @@
   - @statistics.each do |position, statistics|
     .tab-pane{:id => "tabs-#{position}", :class => ("active" if position == @position)}
       .table-responsive
-        %table.table.table-striped.table-condensed.statistic
+        %table.table.table-striped
           %thead
             %tr
               %th
