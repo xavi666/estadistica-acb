@@ -370,7 +370,11 @@ table.statistic{
       }
       th.player{ 
         text-transform: uppercase;
-        text-align: left; 
+        text-align: left;
+        a{
+          text-overflow: ellipsis;
+          overflow: hidden;
+        }
       }
     }
   }
@@ -379,11 +383,11 @@ table.statistic{
     tr:nth-child(odd) {background: #fff}
     td{
       border-right: 1px solid #e5e5e5;
-      vertical-align: middle !important;
+      vertical-align: bottom !important;
       border-top: 0px !important;
       border-bottom: 0px !important;
       padding: 0px !important;
-      line-height: 26px !important;
+      line-height: 30px !important;
     }
     //td:nth-child(2n+2) {background: #fff }
     //td:nth-child(2n+3) {background: #f1f1f1; }
@@ -394,7 +398,7 @@ table.statistic{
       border-bottom: 2px solid #fff !important;
     }
     td.image{ 
-      height: 26px;
+      height: 30px;
       padding: 0px !important;
       img{
         width: 20px !important;
@@ -403,12 +407,13 @@ table.statistic{
     td.sm{
       border-top: 2px solid #fff !important;
       border-bottom: 2px solid #fff !important;
+      vertical-align: bottom !important;
     }
     .player a{
       background: rgba(0, 0, 0, .05);
       display: block;
       padding: 0 20px 0 7px;
-      line-height: 26px;
+      line-height: 30px;
     }
   }
   .sm{ 
