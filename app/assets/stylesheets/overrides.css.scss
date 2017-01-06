@@ -22,6 +22,9 @@ body.front{
   a{
     color: #B91329;
   }
+  a.optimizar{
+    color: #fff;
+  }
 
   .logo{
     color: white;
@@ -86,7 +89,7 @@ body.front{
     background-color: #272a2f;
   }
   .yellow{
-    background-color: rgb(250, 255, 189) !important;
+    background-color: #ecf94c !important;
   }
   .up{
     color: #14A805;
@@ -159,10 +162,10 @@ body.front{
     
     tbody{
       tr:nth-child(-n+8) {
-        background-color: #faffbd;
+        background-color: #ecf94c;
       }
       tr:nth-last-child(-n+2) {
-        background-color: #FF6868;
+        background-color: #bfc2ea;
       }
     }
   }
@@ -372,8 +375,8 @@ table.statistic{
     }
   }
   tbody{
-    tr:nth-child(even) {background: #fff}
-    tr:nth-child(odd) {background: #ececec}
+    tr:nth-child(even) {background: #ececec}
+    tr:nth-child(odd) {background: #fff}
     td{
       border-right: 1px solid #e5e5e5;
       vertical-align: middle !important;
@@ -401,7 +404,7 @@ table.statistic{
       border-top: 2px solid #fff !important;
       border-bottom: 2px solid #fff !important;
     }
-    a{
+    .player a{
       background: rgba(0, 0, 0, .05);
       display: block;
       padding: 0 20px 0 7px;
@@ -413,15 +416,15 @@ table.statistic{
     font-weight: bold;
   }
   .selected{
-    background-color: rgb(250, 255, 189) !important;
+    background-color: #ecf94c !important;
   }
 }
 tr.base td:first-child{
-  border-left: 10px solid #66B4E8;
+  border-left: 10px solid #0084FF;
 
 }
 tr.alero td:first-child{
-  border-left: 10px solid #21C130;
+  border-left: 10px solid #02b913;
 
 }
 tr.pivot td:first-child{
@@ -433,10 +436,10 @@ tr.pivot td:first-child{
  */
 
 .ico_base{
-  background-color: #66B4E8;  
+  background-color: #0084FF;  
 }
 .ico_alero{
-  background-color: #21C130;
+  background-color: #02b913;
 }
 .ico_pivot{
   background-color: #ED1C24;

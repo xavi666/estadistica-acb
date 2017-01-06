@@ -1,18 +1,18 @@
 - if player_1_id or player_2_id
   .row
     .col-xs-5.white
-      .col-xs-6
+      .col-xs-12.col-sm-6.center
         = player_image player_1_id, "player_100" if player_1_id
-      .col-xs-6
+      .col-xs-12.col-sm-6.center
         = team_image player_1_id.team, "team_80" if player_1_id
         .right= link_to "[Delete]", comparar_players_path(:player_2_id => player_2_id.nil? ? '' : player_2_id.id), remote: true if player_1_id
 
     .col-xs-2.white.height120
 
     .col-xs-5.white
-      .col-xs-6
+      .col-xs-12.col-sm-6.center
         = player_image player_2_id, "player_100" if player_2_id
-      .col-xs-6
+      .col-xs-12.col-sm-6.center
         = team_image player_2_id.team, "team_80" if player_2_id
         .right= link_to "[Delete]", comparar_players_path(:player_1_id => player_1_id.nil? ? '' : player_1_id.id), remote: true if player_2_id
 
