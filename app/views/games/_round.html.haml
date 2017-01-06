@@ -6,5 +6,5 @@
   = link_to games_round_url(round_id: round+1), remote: true do
     %span.glyphicon.glyphicon-triangle-right
 
-%table.table.table-striped
+%table.table.statistic
   = render partial: "games/game", locals: {games: games}

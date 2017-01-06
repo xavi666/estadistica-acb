@@ -5,5 +5,5 @@
   - @games.each do |round, games|
     .col-xs-12.col-sm-4.col-md-4{class:  ("yellow" if round == CURRENT_ROUND)}
       = t("jornada", round: round)
-      %table.table.table-striped
+      %table.table.statistic
         = render partial: "games/game", locals: {games: games}

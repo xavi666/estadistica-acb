@@ -1,23 +1,34 @@
 %h2="Estadísticas del #{@game.local_team} - #{@game.away_team}"
 %game
-  .table-responsive.white
-    %table.table.table-striped.statistic
+  
+  %h3.game
+    =team_image @game.local_team
+    =@game.local_team.name
+  .table-responsive
+    %table.table.statistic
       %thead
         %tr
-          %th=team_image @game.local_team
-          %th=@game.local_team.name
+          %th
+          %th.player="Jugador"
           - Statistic.fields.each do |field|
             - unless field == 'game'
               %th= t("#{field}")
       %tbody
         = render partial: "game_statistic", locals: {team: @game.local_team, game: @game}
-        
+  
+  %h3.game
+    =team_image @game.away_team
+    =@game.away_team.name
+  .table-responsive
+    %table.table.statistic      
       %thead
         %tr
-          %th=team_image @game.away_team
-          %th=@game.away_team.name
+          %th
+          %th.player="Jugador"
           - Statistic.fields.each do |field|
             - unless field == 'game'
               %th= t("#{field}")
       %tbody
         = render partial: "game_statistic", locals: {team: @game.away_team, game: @game}
+
+= render "inc/leyenda"

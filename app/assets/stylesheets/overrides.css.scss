@@ -14,6 +14,17 @@ body.front{
   h1, h2, h3, h4, h5{
     font-weight: 500;
   }
+  h3.game{
+    background-color: #fff;
+    padding: 0px 10px;
+  }
+
+  a{
+    color: #B91329;
+  }
+  a.optimizar{
+    color: #fff;
+  }
 
   .logo{
     color: white;
@@ -29,6 +40,7 @@ body.front{
     background-color: #000;
   }
 
+  /* NAVBAR */
   #navbar{
     .nav{
       li{
@@ -56,6 +68,14 @@ body.front{
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
   }
+  .navbar-default .navbar-toggle{
+    color: #fff;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+  }
+  /* NAVBAR */
+
   .round{
     border-radius: 10px;
   }
@@ -69,7 +89,7 @@ body.front{
     background-color: #272a2f;
   }
   .yellow{
-    background-color: rgb(250, 255, 189) !important;
+    background-color: #ecf94c !important;
   }
   .up{
     color: #14A805;
@@ -99,16 +119,12 @@ body.front{
   .game{
     img.team,
     img.player{
-      width: 30px;
+      width: 46px;
     }
   }
 
   img.player, img.team {
     width: 22px;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
   }
   img.player_60{
     width: 60px;
@@ -140,19 +156,16 @@ body.front{
       width: 90%;
     }
   }
-  table.statistic{
-    font-size: 11px;
-  }
 
   #table_home{
     font-size: 11px;
     
     tbody{
       tr:nth-child(-n+8) {
-        background-color: #faffbd;
+        background-color: #ecf94c;
       }
       tr:nth-last-child(-n+2) {
-        background-color: #FF6868;
+        background-color: #bfc2ea;
       }
     }
   }
@@ -169,11 +182,6 @@ body.front{
   }
 
   table.table-striped{
-    thead th{
-      background-color: #5B5B5E;
-      color: #fff;
-      text-align: center;
-    }
     tr:nth-child(even){
       background-color: #FFF;
     }
@@ -196,6 +204,12 @@ body.front{
     }
     .height79{
       min-height: 79px;
+    }
+    .height40{
+      min-height: 40px;
+      h4{
+        margin-top: 10px
+      }
     }
     .name{
       background-color: #B91329;
@@ -338,19 +352,63 @@ body.front{
  * TABLE
  */
 table.statistic{
+  font-size: 14px;
   text-align: center;
-  th{
-    background-color: #5B5B5E;
-    color: #fff;
-    text-align: center;
+  thead{
+    tr{
+      background-color: #fff;
+      th{
+        border-top: 1px solid #000 !important;
+        text-align: center;
+        border-bottom: 0px;
+      }
+      th:first-of-type{
+        border-left: 1px solid #dcdcdc;
+      }
+      th:last-of-type{
+        border-right: 1px solid #dcdcdc;
+      }
+      th.player{ 
+        text-transform: uppercase;
+        text-align: left; 
+      }
+    }
   }
-  td:nth-child(2n+2) {background: #fff }
-  td:nth-child(2n+3) {background: #f1f1f1; }
-  td.player{ text-align: left; }
-  td.image{ 
-    padding: 2px; 
-    img{
-      width: 20px !important;
+  tbody{
+    tr:nth-child(even) {background: #ececec}
+    tr:nth-child(odd) {background: #fff}
+    td{
+      border-right: 1px solid #e5e5e5;
+      vertical-align: middle !important;
+      border-top: 0px !important;
+      border-bottom: 0px !important;
+      padding: 0px !important;
+      line-height: 26px !important;
+    }
+    //td:nth-child(2n+2) {background: #fff }
+    //td:nth-child(2n+3) {background: #f1f1f1; }
+    td.player{ 
+      text-align: left; 
+      border-right: 1px solid #fff;
+      border-top: 2px solid #fff !important;
+      border-bottom: 2px solid #fff !important;
+    }
+    td.image{ 
+      height: 26px;
+      padding: 0px !important;
+      img{
+        width: 20px !important;
+      }
+    }
+    td.sm{
+      border-top: 2px solid #fff !important;
+      border-bottom: 2px solid #fff !important;
+    }
+    .player a{
+      background: rgba(0, 0, 0, .05);
+      display: block;
+      padding: 0 20px 0 7px;
+      line-height: 26px;
     }
   }
   .sm{ 
@@ -358,15 +416,15 @@ table.statistic{
     font-weight: bold;
   }
   .selected{
-    background-color: rgb(250, 255, 189) !important;
+    background-color: #ecf94c !important;
   }
 }
 tr.base td:first-child{
-  border-left: 10px solid #66B4E8;
+  border-left: 10px solid #0084FF;
 
 }
 tr.alero td:first-child{
-  border-left: 10px solid #21C130;
+  border-left: 10px solid #02b913;
 
 }
 tr.pivot td:first-child{
@@ -378,10 +436,10 @@ tr.pivot td:first-child{
  */
 
 .ico_base{
-  background-color: #66B4E8;  
+  background-color: #0084FF;  
 }
 .ico_alero{
-  background-color: #21C130;
+  background-color: #02b913;
 }
 .ico_pivot{
   background-color: #ED1C24;

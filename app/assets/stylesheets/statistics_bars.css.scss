@@ -22,13 +22,13 @@ dt {
 .player_1{
   float: left;
   .text {
-    right: 0;
+    right: 14px;
   }
 }
 .player_2{
   float: right;
   .text {
-    left: 0;
+    left: 14px;
   }
 }
 
@@ -43,7 +43,11 @@ dt {
 
 .text_label {
   font-weight: 600;
+  display: flex;
+  align-items: center;
   height: 40px;
+  position: absolute;
+  justify-content: flex-end;
 }
 
 .percentage {
