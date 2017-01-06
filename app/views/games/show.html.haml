@@ -1,29 +1,30 @@
 %h2="Estadísticas del #{@game.local_team} - #{@game.away_team}"
 %game
-  .table-responsive.white
+  
+  %h3.game
+    =team_image @game.local_team
+    =@game.local_team.name
+  .table-responsive
     %table.table.statistic
       %thead
         %tr
-          %td{colspan: 19}
-            =team_image @game.local_team
-            =@game.local_team.name
-        %tr
           %th
-          %th="Jugador"
+          %th.player="Jugador"
           - Statistic.fields.each do |field|
             - unless field == 'game'
               %th= t("#{field}")
       %tbody
         = render partial: "game_statistic", locals: {team: @game.local_team, game: @game}
-        
+  
+  %h3.game
+    =team_image @game.away_team
+    =@game.away_team.name
+  .table-responsive
+    %table.table.statistic      
       %thead
         %tr
-          %td{colspan: 19}
-            =team_image @game.away_team
-            =@game.away_team.name
-        %tr
           %th
-          %th="Jugador"
+          %th.player="Jugador"
           - Statistic.fields.each do |field|
             - unless field == 'game'
               %th= t("#{field}")

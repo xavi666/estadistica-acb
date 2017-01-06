@@ -14,6 +14,14 @@ body.front{
   h1, h2, h3, h4, h5{
     font-weight: 500;
   }
+  h3.game{
+    background-color: #fff;
+    padding: 0px 10px;
+  }
+
+  a{
+    color: #B91329;
+  }
 
   .logo{
     color: white;
@@ -29,6 +37,7 @@ body.front{
     background-color: #000;
   }
 
+  /* NAVBAR */
   #navbar{
     .nav{
       li{
@@ -56,6 +65,14 @@ body.front{
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
   }
+  .navbar-default .navbar-toggle{
+    color: #fff;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+  }
+  /* NAVBAR */
+
   .round{
     border-radius: 10px;
   }
@@ -99,7 +116,7 @@ body.front{
   .game{
     img.team,
     img.player{
-      width: 30px;
+      width: 46px;
     }
   }
 
@@ -135,9 +152,6 @@ body.front{
     img.player{
       width: 90%;
     }
-  }
-  table.statistic{
-    font-size: 12px;
   }
 
   #table_home{
@@ -335,22 +349,63 @@ body.front{
  * TABLE
  */
 table.statistic{
+  font-size: 14px;
   text-align: center;
-  th{
-    border-top: 1px solid #000 !important;
-    text-align: center;
+  thead{
+    tr{
+      background-color: #fff;
+      th{
+        border-top: 1px solid #000 !important;
+        text-align: center;
+        border-bottom: 0px;
+      }
+      th:first-of-type{
+        border-left: 1px solid #dcdcdc;
+      }
+      th:last-of-type{
+        border-right: 1px solid #dcdcdc;
+      }
+      th.player{ 
+        text-transform: uppercase;
+        text-align: left; 
+      }
+    }
   }
-  td{
-    padding: 2px !important;
-    vertical-align: middle !important;
-  }
-  td:nth-child(2n+2) {background: #fff }
-  td:nth-child(2n+3) {background: #f1f1f1; }
-  td.player{ text-align: left; }
-  td.image{ 
-    padding: 0px !important;
-    img{
-      width: 20px !important;
+  tbody{
+    tr:nth-child(even) {background: #fff}
+    tr:nth-child(odd) {background: #ececec}
+    td{
+      border-right: 1px solid #e5e5e5;
+      vertical-align: middle !important;
+      border-top: 0px !important;
+      border-bottom: 0px !important;
+      padding: 0px !important;
+      line-height: 26px !important;
+    }
+    //td:nth-child(2n+2) {background: #fff }
+    //td:nth-child(2n+3) {background: #f1f1f1; }
+    td.player{ 
+      text-align: left; 
+      border-right: 1px solid #fff;
+      border-top: 2px solid #fff !important;
+      border-bottom: 2px solid #fff !important;
+    }
+    td.image{ 
+      height: 26px;
+      padding: 0px !important;
+      img{
+        width: 20px !important;
+      }
+    }
+    td.sm{
+      border-top: 2px solid #fff !important;
+      border-bottom: 2px solid #fff !important;
+    }
+    a{
+      background: rgba(0, 0, 0, .05);
+      display: block;
+      padding: 0 20px 0 7px;
+      line-height: 26px;
     }
   }
   .sm{ 
