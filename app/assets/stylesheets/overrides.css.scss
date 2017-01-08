@@ -148,15 +148,6 @@ body.front{
     }
   }
 
-  table.detail{
-    td.player_image{
-      min-width: 115px;
-    }
-    img.player{
-      width: 90%;
-    }
-  }
-
   #table_home{
     font-size: 11px;
     
@@ -351,6 +342,10 @@ body.front{
 /*
  * TABLE
  */
+.min, .pt, .t2, .t3, .t1, .reb, .a, .br, .bp, .c, .tap, .m, .fp, .fr, .mas_menos, .v, .sm{
+  text-align: center;  
+}
+
 table.statistic{
   font-size: 14px;
   text-align: center;
@@ -361,6 +356,7 @@ table.statistic{
         border-top: 1px solid #000 !important;
         text-align: center;
         border-bottom: 0px;
+        vertical-align: bottom !important;
       }
       th:first-of-type{
         border-left: 1px solid #dcdcdc;
@@ -436,6 +432,20 @@ tr.pivot td:first-child{
   border-left: 10px solid #ED1C24;
 
 }
+
+
+table.detail{
+  th{
+    border: 0px !important;
+  }
+  td.player_image{
+    min-width: 115px;
+  }
+  img.player{
+    width: 90%;
+  }
+}
+
 /*
  * TABLE
  */

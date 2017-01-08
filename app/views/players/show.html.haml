@@ -1,46 +1,30 @@
 .row
-  .col-xs-12
-    %h1= @player.name
-    
-  .col-xs-12
-    .table-responsive
-      %table.table.table-striped.detail
-        %tbody
-          %tr
-            %td.col-xs-2.center.black.round.player_image{rowspan: 5}
-              = player_image @player
-          %tr
-            %th= "Position"
-            %td= @player.position.text if @player.position
-          %tr
-            %th= "Height"
-            %td= @player.height
-          %tr
-            %th= "Date of Birth"
-            %td= @player.date_of_birth.to_s(:short_date) if @player.date_of_birth
-          %tr 
-            %th= "Place of Birth"
-            %td= @player.place_of_birth
-  .col-xs-12
-    .table-responsive
-      %table.table.table-striped.detail.statistic
-        %thead
-          %tr
-            %th{colspan: 5}= "Promedios"
-        %tr
-          %th= t("valoracion")
-          %th= t("puntos")
-          %th= t("rebotes")
-          %th= t("asistencias")
-          %th= t("triples")
-        %tbody
-          %tr
-            %td= @player.promedio_stat "v"
-            %td= @player.promedio_stat "pt"
-            %td= @player.promedio_stat "reb"
-            %td= @player.promedio_stat "a"
-            %td= @player.promedio_stat "t3"
-
+  .col-xs-12.detail
+    .col-xs-2
+      = player_image @player
+    .col-xs-10
+      %h1= @player.name
+      ="#{@player.position.text} | #{@player.team}"
+    .col-xs-6.col-md-2
+      = t("valoracion")
+      %br
+      = @player.promedio_stat "v"
+    .col-xs-6.col-md-2
+      = t("puntos")
+      %br
+      = @player.promedio_stat "pt"
+    .col-xs-6.col-md-2
+      = t("rebotes")
+      %br
+      = @player.promedio_stat "reb"
+    .col-xs-6.col-md-2
+      = t("asistencias")
+      %br
+      = @player.promedio_stat "a"
+    .col-xs-6.col-md-2 
+      = t("triples")
+      %br
+      = @player.promedio_stat "t3"
               
   .col-xs-12
     = render partial: "statistics/statistics_player", locals: {statistic: @player.statistics.last}

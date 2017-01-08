@@ -1,5 +1,11 @@
 es:  
   activerecord:
+    attributes:
+      player:
+        date_of_birth: "Fecha de Nacimiento"
+        height: "Altura"
+        place_of_birth: "Lugar de Nacimiento"
+        position: "Posición"
     models:
       player: "Jugador"
   admin:
