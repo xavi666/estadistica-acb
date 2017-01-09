@@ -25,6 +25,7 @@ Rails.application.routes.draw do
     resources :players do
       collection do 
         get :import
+        get :import_numbers
         get :calculate_prices
       end
     end

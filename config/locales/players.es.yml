@@ -11,6 +11,9 @@ es:
   admin:
     players:
       index: 
+        calculate_prices: "Calculate Prices"
+        import_numbers: "Import Numbers"
+        import_players: "Import Players"
         title: "Jugadores"
   enumerize:
     player:

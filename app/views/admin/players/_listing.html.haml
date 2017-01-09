@@ -15,8 +15,9 @@
     %thead
       %th.col-md-1= smart_listing.sortable "ID", "id"
       %th.col-md-1
+      %th.col-md-1= smart_listing.sortable "#", "number"
       %th.col-md-3= smart_listing.sortable "Name", "name"
-      %th.col-md-3= smart_listing.sortable "Team", "team"
+      %th.col-md-2= smart_listing.sortable "Team", "team"
       %th.col-md-1= smart_listing.sortable "Price", "price"
       %th.col-md-1= smart_listing.sortable "Position", "position"
       %th.col-md-1= smart_listing.sortable "Active", "active"
@@ -27,7 +28,7 @@
         %tr.editable{data: {id: o.id}}
           = smart_listing.render object: o, partial: "admin/players/player", locals: {object: o}
 
-      = smart_listing.item_new colspan: 8, link: new_admin_player_path
+      = smart_listing.item_new colspan: 9, link: new_admin_player_path
 
   -# Render nice pagination links fitted for Bootstrap 3 by default
   = smart_listing.paginate

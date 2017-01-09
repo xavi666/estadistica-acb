@@ -123,6 +123,24 @@ class Admin::PlayersController < ApplicationController
     player.save!
   end
 
+  def import_numbers
+    Team.all.each do |team|
+      team_url = "http://www.acb.com/plantilla.php?cod_equipo=#{team.acb_short_code}&cod_competicion=LACB&cod_edicion=61"
+      team_html = Nokogiri::HTML(open(team_url))
+      team_html.css("table.plantilla tr").each do |player_data|
+        number = player_data.css('td[1]/text()').to_s
+        name = player_data.css('td[2]/a/text()').to_s
+        puts name
+        if player = Player.find_by_name(name)
+          player.number = number
+          player.save!
+        end
+      end
+    end
+
+    redirect_to admin_players_path and return
+  end
+
   private
     def find_player
       @player = Player.find(params[:id])
