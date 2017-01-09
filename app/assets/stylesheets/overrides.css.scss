@@ -434,7 +434,7 @@ tr.pivot td:first-child{
 }
 
 
-table.detail{
+.detail{
   th{
     border: 0px !important;
   }
@@ -442,7 +442,20 @@ table.detail{
     min-width: 115px;
   }
   img.player{
-    width: 90%;
+    width: 90% !important;
+  }
+  .box{
+    .label{
+      text-align: right;
+      font-size: 11px;
+      color: grey;
+      text-transform: uppercase;
+    }
+    .value{
+      text-align: left;
+      font-size: 30px;
+      color: #B91329;
+    }
   }
 }
 

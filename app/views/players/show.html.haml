@@ -2,29 +2,36 @@
   .col-xs-12.detail
     .col-xs-2
       = player_image @player
-    .col-xs-10
-      %h1= @player.name
-      ="#{@player.position.text} | #{@player.team}"
-    .col-xs-6.col-md-2
-      = t("valoracion")
-      %br
-      = @player.promedio_stat "v"
-    .col-xs-6.col-md-2
-      = t("puntos")
-      %br
-      = @player.promedio_stat "pt"
-    .col-xs-6.col-md-2
-      = t("rebotes")
-      %br
-      = @player.promedio_stat "reb"
-    .col-xs-6.col-md-2
-      = t("asistencias")
-      %br
-      = @player.promedio_stat "a"
-    .col-xs-6.col-md-2 
-      = t("triples")
-      %br
-      = @player.promedio_stat "t3"
+    .col-xs-8
+      .col-xs-1
+        .number= "##{@player.number}"
+      .col-xs-11
+        %h1= "#{@player.name}" 
+        = "#{@player.position.text} | #{@player.team}"
+      .col-xs-12
+        .col-xs-6.col-md-2.box
+          .label= t("valoracion")
+          %br
+          .value= @player.promedio_stat "v"
+        .col-xs-6.col-md-2.box
+          .label= t("puntos")
+          %br
+          .value= @player.promedio_stat "pt"
+        .col-xs-6.col-md-3.box
+          .label= t("rebotes")
+          %br
+          .value= @player.promedio_stat "reb"
+        .col-xs-6.col-md-2.box
+          .label= t("asistencias")
+          %br
+          .value= @player.promedio_stat "a"
+        .col-xs-6.col-md-2.box 
+          .label= t("triples")
+          %br
+          .value= @player.promedio_stat "t3"
+    .col-xs-2
+      = @player.date_of_birth
+    
               
   .col-xs-12
     = render partial: "statistics/statistics_player", locals: {statistic: @player.statistics.last}
