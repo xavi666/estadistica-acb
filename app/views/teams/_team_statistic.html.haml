@@ -3,14 +3,16 @@
     %thead.sortable
       %tr
         %th
+        %th= "#"
         %th= t("player")
         - Statistic.fields.each do |field|
           - unless field == 'game'
             %th= t("#{field}")
     %tbody
-      - team.players.each do |player|
+      - team.players.order_by_position.each do |player|
         %tr{:class => player.position}
           %td= player_image player
+          %td= player.number
           %td= link_to player, player
           - promedio = player.statistics.by_season(CURRENT_SEASON).send("promedio")
           - Statistic.fields.each do |field|
