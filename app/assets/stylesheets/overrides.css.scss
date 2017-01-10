@@ -205,6 +205,9 @@ body.front{
     .name{
       background-color: #B91329;
       color: #fff;
+      a{
+        color: white;
+      }
     }
     .text_label{
       color: #000;
@@ -433,8 +436,8 @@ tr.pivot td:first-child{
 
 }
 
-
 .detail{
+  margin-top: 15px;
   th{
     border: 0px !important;
   }

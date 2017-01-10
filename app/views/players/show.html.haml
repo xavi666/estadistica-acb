@@ -6,7 +6,7 @@
       .col-xs-12
         %h1= "##{@player.number} <span class='split'>|</span> #{@player.name}".html_safe
       .col-xs-12
-        .position_team= "#{@player.position.text} <span class='split'>|</span> #{@player.team}".html_safe
+        .position_team= "#{@player.position.text} <span class='split'>|</span> #{@player.team} #{team_image @player.team}".html_safe
       .col-xs-12
         .col-xs-6.col-md-2.box.row
           .label= t("val")
@@ -29,9 +29,16 @@
           %br
           .value= @player.promedio_stat "t3"
     .col-xs-2
-      = @player.date_of_birth
+      = "#{@player.date_of_birth.to_s(:short_date)}"
+      %br
+      = "#{@player.place_of_birth}"
+      %br
+      = "#{@player.height} cm"
+      %br
+      %br
+      = link_to "[Comparar]", comparar_players_path(player_1_id: @player.id)
     
-              
+    
   .col-xs-12
     = render partial: "statistics/statistics_player", locals: {statistic: @player.statistics.last}
 

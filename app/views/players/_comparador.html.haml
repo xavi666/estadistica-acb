@@ -20,16 +20,16 @@
     .col-xs-5.name
       - if player_1_id
         .col-xs-12
-          %h3= player_1_id.name
-          %h6= [player_1_id.position.text, player_1_id.team.name].join(" - ")
+          %h3= link_to player_1_id.name, player_1_id
+          %h6= "#{player_1_id.position.text} - #{link_to(player_1_id.team.name, player_1_id.team)}".html_safe
     .col-xs-2.center.white.height79
       %h2= "VS"
 
     .col-xs-5.name
       - if player_2_id
         .col-xs-12
-          %h3= player_2_id.name
-          %h6= [player_2_id.position.text, player_2_id.team.name].join(" - ")
+          %h3= ink_to player_2_id.name, player_2_id
+          %h6= "#{player_2_id.position.text} - #{link_to(player_2_id.team.name, player_2_id.team)}".html_safe
 
   - statistic_1 = player_1_id.statistics.by_season(CURRENT_SEASON) if player_1_id
   - statistic_1_total = statistic_1.total if player_1_id
