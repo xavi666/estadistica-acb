@@ -28,7 +28,7 @@
     .col-xs-5.name
       - if player_2_id
         .col-xs-12
-          %h3= ink_to player_2_id.name, player_2_id
+          %h3= link_to player_2_id.name, player_2_id
           %h6= "#{player_2_id.position.text} - #{link_to(player_2_id.team.name, player_2_id.team)}".html_safe
 
   - statistic_1 = player_1_id.statistics.by_season(CURRENT_SEASON) if player_1_id
