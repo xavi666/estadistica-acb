@@ -6,7 +6,7 @@
       .col-xs-12
         %h1= "##{@player.number} <span class='split'>|</span> #{@player.name}".html_safe
       .col-xs-12
-        .position_team= "#{@player.position.text} <span class='split'>|</span> #{@player.team} #{team_image @player.team}".html_safe
+        .position_team= "#{@player.position.text} <span class='split'>|</span> #{link_to(@player.team, @player.team)} #{team_image @player.team}".html_safe
       .col-xs-12
         .col-xs-6.col-md-2.box.row
           .label= t("val")

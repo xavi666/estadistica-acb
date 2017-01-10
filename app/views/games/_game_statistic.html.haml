@@ -1,4 +1,4 @@
-- team.players.each do |player|
+- team.players.order_by_position.each do |player|
   - statistic = player.statistics.by_season(game.season).send("week_#{game.round}")
   - if statistic["game"]
     %tr{:class => player.position}

@@ -11,10 +11,10 @@ class PlayersController < ApplicationController
     @page_keywords    = t('.keywords')
     # SEO
 
-    players_scope = Player.active
-    players_scope = players_scope.where("lower(name) ILIKE ?", "%#{params[:name].downcase}%") unless params[:name].blank?
-    players_scope = players_scope.where("team_id = ?", params[:team_id]) unless params[:team_id].blank?
-    players_scope = players_scope.where("position = ?", params[:position]) unless params[:position].blank?
+    players_scope = Player.active.includes(:team)
+    players_scope = players_scope.where("lower(players.name) ILIKE ?", "%#{params[:name].downcase}%") unless params[:name].blank?
+    players_scope = players_scope.where("players.team_id = ?", params[:team_id]) unless params[:team_id].blank?
+    players_scope = players_scope.where("players.position = ?", params[:position]) unless params[:position].blank?
 
     smart_listing_create :players, players_scope, partial: "players/listing"
   end

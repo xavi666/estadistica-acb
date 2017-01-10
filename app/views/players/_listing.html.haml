@@ -9,10 +9,10 @@
     %span.glyphicon.glyphicon-search
 
 - unless smart_listing.empty?
-  %table.table.table-striped
+  %table.table.table-striped.statistic
     %thead
       %th.col-md-3= smart_listing.sortable t("name"), "name"
-      %th.col-md-3= smart_listing.sortable t("team"), "team"
+      %th.col-md-3= smart_listing.sortable t("team"), "teams.name"
       %th.col-md-1= smart_listing.sortable t("position"), "position"
 
     %tbody

@@ -23,8 +23,8 @@ class Player < ActiveRecord::Base
   # !**************************************************
   # !                  Other
   # !**************************************************
-  default_scope { order(%q{
-                          case position
+  scope :order_by_position, -> { order(%q{
+                          case players.position
                             when 'base' then 1
                             when 'alero' then 2
                             when 'pivot' then 3
