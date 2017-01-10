@@ -442,11 +442,20 @@ tr.pivot td:first-child{
     min-width: 115px;
   }
   img.player{
-    width: 90% !important;
+    width: 100% !important;
+  }
+  .split{
+    color: #B91329;
+  }
+  h1{
+    margin-top: 0px;
+  }
+  .position_team{
+    font-size: 18px;
   }
   .box{
     .label{
-      text-align: right;
+      text-align: left;
       font-size: 11px;
       color: grey;
       text-transform: uppercase;

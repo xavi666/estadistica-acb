@@ -1,32 +1,31 @@
 .row
   .col-xs-12.detail
-    .col-xs-2
+    .col-xs-2.row
       = player_image @player
-    .col-xs-8
-      .col-xs-1
-        .number= "##{@player.number}"
-      .col-xs-11
-        %h1= "#{@player.name}" 
-        = "#{@player.position.text} | #{@player.team}"
+    .col-xs-8.row
       .col-xs-12
-        .col-xs-6.col-md-2.box
-          .label= t("valoracion")
+        %h1= "##{@player.number} <span class='split'>|</span> #{@player.name}".html_safe
+      .col-xs-12
+        .position_team= "#{@player.position.text} <span class='split'>|</span> #{@player.team}".html_safe
+      .col-xs-12
+        .col-xs-6.col-md-2.box.row
+          .label= t("val")
           %br
           .value= @player.promedio_stat "v"
-        .col-xs-6.col-md-2.box
-          .label= t("puntos")
+        .col-xs-6.col-md-2.box.row
+          .label= t("pt")
           %br
           .value= @player.promedio_stat "pt"
-        .col-xs-6.col-md-3.box
-          .label= t("rebotes")
+        .col-xs-6.col-md-3.box.row
+          .label= t("reb")
           %br
           .value= @player.promedio_stat "reb"
-        .col-xs-6.col-md-2.box
-          .label= t("asistencias")
+        .col-xs-6.col-md-2.box.row
+          .label= t("as")
           %br
           .value= @player.promedio_stat "a"
-        .col-xs-6.col-md-2.box 
-          .label= t("triples")
+        .col-xs-6.col-md-2.box.row
+          .label= t("t3")
           %br
           .value= @player.promedio_stat "t3"
     .col-xs-2
