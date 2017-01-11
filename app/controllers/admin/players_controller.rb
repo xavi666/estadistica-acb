@@ -51,13 +51,17 @@ class Admin::PlayersController < ApplicationController
         player_html.css("table.sm_jug > tr").each do |game_row|
           if row > escape_rows && row < session_rounds + escape_rows
             price_up_down = game_row.css("td[13] > b > text()").first.to_s.delete!(',').to_i
-            round = row - escape_rows
+            round = game_row.css("td[1] > b > text()").to_s.to_i
             prices[round] = price_up_down
           end
           row = row + 1
         end
         (current_round).downto(1) do |i|
-          player.price[(i - 1).to_s] = (player.price[i.to_s] + prices[i-1] * -1.to_i) if player.price[i.to_s] and prices[i-1]
+          if player.price[i.to_s] and prices[i-1]
+            player.price[(i - 1).to_s] = (player.price[i.to_s] + prices[i-1] * -1.to_i) 
+          else
+            player.price[(i - 1).to_s] = 0
+          end
         end
         player.save!
       else
