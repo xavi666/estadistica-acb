@@ -15,11 +15,11 @@
             %tr
               %th
               %th= t('jugador')
-              %th= link_to t("valoracion"), {:controller => "players", :action => "mejores_jornada", :field => "sm", :position => position}, class: 'btn btn-info optimizar'
-              %th= link_to t("puntos"), {:controller => "players", :action => "mejores_jornada", :field => "pt", :position => position}, class: 'btn btn-info optimizar'
-              %th= link_to t("rebotes"), {:controller => "players", :action => "mejores_jornada", :field => "reb", :position => position}, class: 'btn btn-info optimizar'
-              %th= link_to t("asistencias"), {:controller => "players", :action => "mejores_jornada", :field => "a", :position => position}, class: 'btn btn-info optimizar'
-              %th= link_to  t("triples"), {:controller => "players", :action => "mejores_jornada", :field => "t3", :position => position}, class: 'btn btn-info optimizar'
+              %th= link_to t("v"), {:controller => "players", :action => "mejores_jornada", :field => "sm", :position => position}, class: 'btn btn-info optimizar'
+              %th= link_to t("pt"), {:controller => "players", :action => "mejores_jornada", :field => "pt", :position => position}, class: 'btn btn-info optimizar'
+              %th= link_to t("reb"), {:controller => "players", :action => "mejores_jornada", :field => "reb", :position => position}, class: 'btn btn-info optimizar'
+              %th= link_to t("a"), {:controller => "players", :action => "mejores_jornada", :field => "a", :position => position}, class: 'btn btn-info optimizar'
+              %th= link_to  t("t3"), {:controller => "players", :action => "mejores_jornada", :field => "t3", :position => position}, class: 'btn btn-info optimizar'
           %tbody
             - statistics.select([:player_id, "week_"+@round]).map {|s| {player_id: s.player_id, "week_"+@round => s.send("week_"+@round)} }.sort_by { |record| -record["week_"+@round][@field].to_f }.first(10).each do |statistic|
               = render partial: "players/mejores_jornada_player", locals: {player: @indexed_players[statistic[:player_id]], statistic: statistic, round: @round, field: @field, position: @position }

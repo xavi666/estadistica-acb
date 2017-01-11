@@ -7,8 +7,8 @@
       %thead
         %tr
           %th{rowspan: 2}
-          %th{rowspan: 2}= t('player')
-          %th{rowspan: 2}= t('price')
+          %th{rowspan: 2}= Player.human_attribute_name('player')
+          %th{rowspan: 2}= Player.human_attribute_name('price')
           %th{:colspan =>  "#{@num_rounds}"}= t('rounds')
         %tr
           - (@round.to_i-@num_rounds+1..@round.to_i).each do |round|

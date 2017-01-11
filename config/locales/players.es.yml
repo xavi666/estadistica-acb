@@ -5,7 +5,9 @@ es:
         date_of_birth: "Fecha de Nacimiento"
         height: "Altura"
         place_of_birth: "Lugar de Nacimiento"
+        player: "Jugador"
         position: "Posición"
+        price: "Precio"
     models:
       player: "Jugador"
   admin:
