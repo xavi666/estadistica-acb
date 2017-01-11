@@ -1,42 +1,43 @@
 .row
   .col-xs-12.detail
-    .col-xs-2.row
+    .col-xs-3.col-md-2.row
       = player_image @player
-    .col-xs-8.row
-      .col-xs-12
+    .col-xs-7.col-md-10.row
+      .col-xs-12.col-md-6
         %h1= "##{@player.number} <span class='split'>|</span> #{@player.name}".html_safe
-      .col-xs-12
+      .col-xs-12.col-md-6
         .position_team= "#{@player.position.text} <span class='split'>|</span> #{link_to(@player.team, @player.team)} #{team_image @player.team}".html_safe
-      .col-xs-12
-        .col-xs-6.col-md-2.box.row
-          .label= t("val")
-          %br
-          .value= @player.promedio_stat "v"
-        .col-xs-6.col-md-2.box.row
-          .label= t("pt")
-          %br
-          .value= @player.promedio_stat "pt"
-        .col-xs-6.col-md-3.box.row
-          .label= t("reb")
-          %br
-          .value= @player.promedio_stat "reb"
-        .col-xs-6.col-md-2.box.row
-          .label= t("as")
-          %br
-          .value= @player.promedio_stat "a"
-        .col-xs-6.col-md-2.box.row
-          .label= t("t3")
-          %br
-          .value= @player.promedio_stat "t3"
-    .col-xs-2
-      = "#{@player.date_of_birth.to_s(:short_date)}"
-      %br
-      = "#{@player.place_of_birth}"
-      %br
-      = "#{@player.height} cm"
-      %br
-      %br
-      = link_to "[Comparar]", comparar_players_path(player_1_id: @player.id)
+    .col-xs-7.col-md-10.row
+      .col-xs-12.col-md-6
+        = "#{@player.date_of_birth.to_s(:short_date)}"
+        %br
+        = "#{@player.place_of_birth}"
+        %br
+        = "#{@player.height} cm"
+      .col-xs-12.col-md-6
+        = link_to "[Comparar]", comparar_players_path(player_1_id: @player.id)
+    .col-xs-12.col-md-12
+      .col-xs-6.col-md-2.box
+        .label= t("val")
+        %br
+        .value= @player.promedio_stat "v"
+      .col-xs-6.col-md-2.box
+        .label= t("pt")
+        %br
+        .value= @player.promedio_stat "pt"
+      .col-xs-6.col-md-3.box
+        .label= t("reb")
+        %br
+        .value= @player.promedio_stat "reb"
+      .col-xs-6.col-md-2.box
+        .label= t("as")
+        %br
+        .value= @player.promedio_stat "a"
+      .col-xs-6.col-md-2.box
+        .label= t("t3")
+        %br
+        .value= @player.promedio_stat "t3"
+    
     
     
   .col-xs-12
