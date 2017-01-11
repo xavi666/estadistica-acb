@@ -27,7 +27,7 @@ es:
     brokerbasket:
       description: "Consulta las subidas de precios de los jugadores en el BrokerBasket de Supermanager."
       keywords: "supermanager, brokerbasket, jugadores, precios, subidas, bajadas, comprar, vender"
-      title: "BrokerBasket para el supermanager"
+      title: "BrokerBasket para el SuperManager"
     comparar:
       title: "Comparar jugadores ACB"
     historico:

@@ -11,7 +11,7 @@
             %td= week
             - week = statistic.send("week_"+week.to_s)
             - Statistic.fields.each do |field|
-              %td{class: field}= week[field]
+              %td{class: field}=  week[field].blank? ? "-" :  week[field]
         %tr
           %th{colspan: 2}= "Promedio"
           - Statistic.fields.each do |field|

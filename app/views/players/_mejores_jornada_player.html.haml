@@ -3,8 +3,8 @@
     = player_image player
     = team_image player.team  
   %td= link_to player.name, player_path(player)
-  %td{:class => ("selected" if field == "sm")}= statistic["week_"+round]["sm"]
-  %td{:class => ("selected" if field == "pt")}= statistic["week_"+round]["pt"]
-  %td{:class => ("selected" if field == "reb")}= statistic["week_"+round]["reb"]
-  %td{:class => ("selected" if field == "a")}= statistic["week_"+round]["a"]
-  %td{:class => ("selected" if field == "t3")}= statistic["week_"+round]["t3"]
+  %td{:class => ("selected" if field == "sm")}= statistic["week_"+round]["sm"].blank? ? "0" : statistic["week_"+round]["sm"]
+  %td{:class => ("selected" if field == "pt")}= statistic["week_"+round]["pt"].blank? ? "0" : statistic["week_"+round]["pt"]
+  %td{:class => ("selected" if field == "reb")}= statistic["week_"+round]["reb"].blank? ? "0" : statistic["week_"+round]["reb"]
+  %td{:class => ("selected" if field == "a")}= statistic["week_"+round]["a"].blank? ? "0" : statistic["week_"+round]["a"]
+  %td{:class => ("selected" if field == "t3")}= statistic["week_"+round]["t3"].blank? ? "0" : statistic["week_"+round]["t3"]
