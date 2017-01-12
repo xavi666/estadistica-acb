@@ -209,11 +209,20 @@ body.front{
         color: white;
       }
     }
+    .history{
+      span.label{
+        font-size: 15px;
+        float: left;
+        margin: 3px 8px;
+        padding: 9px 8px;
+        min-width: 44px;
+      }
+      span.label.reb{
+        min-width: 64px;
+      }
+    }
     .text_label{
       color: #000;
-    }
-    .label{
-      background-color: #fff;
     }
     .player_1 {
       .percentage {

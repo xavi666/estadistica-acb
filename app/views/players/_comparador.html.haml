@@ -36,6 +36,34 @@
   - statistic_2 = player_2_id.statistics.by_season(CURRENT_SEASON) if player_2_id
   - statistic_2_total = statistic_2.total if player_2_id
 
+  - @fields.each do |week|
+    .row.history
+      .col-xs-5.height40
+        - if player_1_id
+          - s = statistic_1.attributes.slice(*week)
+          %span.label.label-danger= s.values.first["v"] ? s.values.first["v"] : "-"
+          %span.label.label-danger= s.values.first["pt"] ? s.values.first["pt"] : "-"
+          %span.label.label-danger.reb= s.values.first["reb"] ? s.values.first["reb"] : "-"
+          %span.label.label-danger= s.values.first["t3"] ? s.values.first["t3"] : "-"
+          %span.label.label-danger= s.values.first["a"] ? s.values.first["a"] : "-"
+
+      .col-xs-2.center.white.height40
+        %h4= t('weeks.'+week)
+      .col-xs-5.player_2
+        - if player_2_id
+          - s = statistic_2.attributes.slice(*week)
+          %span.label.label-danger= s.values.first["v"] ? s.values.first["v"] : "-"
+          %span.label.label-danger= s.values.first["pt"] ? s.values.first["pt"] : "-"
+          %span.label.label-danger.reb= s.values.first["reb"] ? s.values.first["reb"] : "-"
+          %span.label.label-danger= s.values.first["t3"] ? s.values.first["t3"] : "-"
+          %span.label.label-danger= s.values.first["a"] ? s.values.first["a"] : "-"
+
+  .row
+    .col-xs-5
+    .col-xs-2.center.white.height40
+      %h4="PROMEDIOS"
+    .col-xs-5
+
   - fields = ["sm", "v", "pt", "a", "reb", "t1", "t2", "t3"]
   - fields.each do |field|
     .row

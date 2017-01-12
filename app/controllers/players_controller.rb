@@ -150,6 +150,7 @@ class PlayersController < ApplicationController
   def comparar
     @player_1_id = Player.find params[:player_1_id] if params[:player_1_id] and !params[:player_1_id].blank?
     @player_2_id = Player.find params[:player_2_id] if params[:player_2_id] and !params[:player_2_id].blank?
+    @fields = (CURRENT_ROUND.to_i-5...CURRENT_ROUND.to_i).map{ |i| 'week_'+i.to_s}
   end
 
   def search
