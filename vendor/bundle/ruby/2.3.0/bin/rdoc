@@ -19,9 +19,4 @@ if ARGV.first
   end
 end
 
-<<<<<<< HEAD
 load Gem.activate_bin_path('rdoc', 'rdoc', version)
-=======
-gem 'rdoc', version
-load Gem.bin_path('rdoc', 'rdoc', version)
->>>>>>> 2444d4077c937ea47e30ee15510ce273a14b8e7a

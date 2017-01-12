@@ -36,15 +36,6 @@
   - statistic_2 = player_2_id.statistics.by_season(CURRENT_SEASON) if player_2_id
   - statistic_2_total = statistic_2.total if player_2_id
 
-  .row.history
-    .col-xs-5.height40
-      %h4
-        %span="VAL"
-      %h4
-        %span="PT"
-      %h4
-        %span="REB" 
-
   - @fields.each do |week|
     .row.history
       .col-xs-5.height40
