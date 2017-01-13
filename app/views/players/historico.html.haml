@@ -10,19 +10,22 @@
     .tab-pane{:id => "tabs-#{position}", :class => ("active" if position == @position)}
       - if position == @position
         .table-responsive
-          %table.table.table-striped
+          %table.table.table-striped.statistic
             %thead
               %tr
                 %th
-                %th{:colspan => 2}
+                %th
                   = link_to "v", {:controller => "players", :action => "historico", :field => "v", :position => position, :num_rounds => @num_rounds}, class: 'btn btn-info'
                   = link_to "pt", {:controller => "players", :action => "historico", :field => "pt", :position => position, :num_rounds => @num_rounds}, class: 'btn btn-info'
                   = link_to "reb", {:controller => "players", :action => "historico", :field => "reb", :position => position, :num_rounds => @num_rounds}, class: 'btn btn-info'
                   = link_to "a", {:controller => "players", :action => "historico", :field => "a", :position => position, :num_rounds => @num_rounds}, class: 'btn btn-info'
+                %th
                 %th{:colspan => "#{@num_rounds}"}
-                  = t('rounds')
-                  - (1..CURRENT_ROUND.to_i-1).each do |round|
-                    = link_to t(round.to_s), {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => round}, class: 'btn btn-info'
+                  = t('ultimas_jornadas')
+                  = link_to "2", {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => 2}, class: 'btn btn-info'
+                  = link_to "3", {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => 3}, class: 'btn btn-info'
+                  = link_to "4", {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => 4}, class: 'btn btn-info'
+                  = link_to "5", {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => 5}, class: 'btn btn-info'
 
               %tr
                 %th
