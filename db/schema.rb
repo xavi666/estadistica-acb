@@ -11,10 +11,47 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161024150036) do
+ActiveRecord::Schema.define(version: 20170115192400) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "blogit_comments", force: :cascade do |t|
+    t.string   "name",       null: false
+    t.string   "email",      null: false
+    t.string   "website"
+    t.text     "body",       null: false
+    t.integer  "post_id",    null: false
+    t.string   "state"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "blogit_posts", force: :cascade do |t|
+    t.string   "title",                            null: false
+    t.text     "body",                             null: false
+    t.string   "state",          default: "draft", null: false
+    t.integer  "comments_count", default: 0,       null: false
+    t.integer  "blogger_id"
+    t.string   "blogger_type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.text     "description"
+  end
+
+  add_index "blogit_posts", ["blogger_type", "blogger_id"], name: "index_blogit_posts_on_blogger_type_and_blogger_id", using: :btree
+
+  create_table "contents", force: :cascade do |t|
+    t.string   "title"
+    t.text     "body"
+    t.integer  "user_id"
+    t.boolean  "published",  default: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "contents", ["published"], name: "index_contents_on_published", using: :btree
+  add_index "contents", ["user_id"], name: "index_contents_on_user_id", using: :btree
 
   create_table "games", force: :cascade do |t|
     t.datetime "game_date"
@@ -49,6 +86,7 @@ ActiveRecord::Schema.define(version: 20161024150036) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.jsonb    "price",           default: {}
+    t.string   "number"
   end
 
   add_index "players", ["team_id"], name: "index_players_on_team_id", using: :btree
@@ -112,14 +150,17 @@ ActiveRecord::Schema.define(version: 20161024150036) do
     t.string   "name"
     t.string   "short_code"
     t.integer  "team_id"
-    t.boolean  "active",      default: true
+    t.boolean  "active",         default: true
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "second_name"
-    t.integer  "position",    default: 0
-    t.integer  "played",      default: 0
-    t.integer  "won",         default: 0
-    t.integer  "lost",        default: 0
+    t.integer  "position",       default: 0
+    t.integer  "played",         default: 0
+    t.integer  "won",            default: 0
+    t.integer  "lost",           default: 0
+    t.string   "rest_round_1",   default: "0"
+    t.string   "rest_round_2",   default: "0"
+    t.string   "acb_short_code"
   end
 
   add_index "teams", ["team_id"], name: "index_teams_on_team_id", using: :btree

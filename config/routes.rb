@@ -21,6 +21,7 @@ Rails.application.routes.draw do
   
   # BACK-END
   namespace :admin do
+    resources :contents
     resources :teams
     resources :players do
       collection do 
