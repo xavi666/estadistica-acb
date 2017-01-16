@@ -104,16 +104,24 @@ body.front{
 
   // HOME
   .games{
-    background-color: #f1f1f1;
-    padding: 10px;
+  padding: 0px 10px 0px 0px;
+    .no_padding{
+      padding: 0px;
+    }
+    .padding_4{
+      margin: 0px 0px 10px 0px;
+      padding: 4px;
+    }
     .box{
-      margin-bottom: 5px;
       text-align: center;
       font-size: 14px;
-      font-weight: bold;
       img.team{
-        width: 65%;
+        width: 100%;
       }
+    }
+    .date{
+      font-size: 12px;
+      text-align: center;
     }
   }
   .game{
