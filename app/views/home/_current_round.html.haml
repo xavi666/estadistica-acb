@@ -1,21 +1,23 @@
 %h3= t('jornada_acb', round: CURRENT_ROUND)
-- @games.each do |game|
-  .games.col-xs-3.col-sm-3.col-md-3
-    %a{:href => game_path(game), :class => "white col-xs-12 padding_4 z-depth-3"}
-      .col-md-4.box.no_padding
-        = team_image game.local_team
-        %br
-        = "#{game.local_team.won}/#{game.local_team.lost}"
-      - if game.local_score.blank? and game.away_score.blank?
-        .col-md-4.box.date.no_padding
-          = short_date game.game_date
-      - else
-        .col-md-6.box.yellow.no_padding
-          =link_to game.local_score, game, :"title" => "#{t('estadisticas')} #{game.local_team.name} - #{game.away_team.name}"
-        .col-md-6.box.yellow.no_padding
-          =link_to game.away_score, game, :"title" => "#{t('estadisticas')} #{game.local_team.name} - #{game.away_team.name}"
-      .col-md-4.box.no_padding
-        = team_image game.away_team
-        %br
-        = "#{game.away_team.won}/#{game.away_team.lost}"
-      
+.row
+  - @games.each do |game|
+    .col-xs-3.col-sm-3.col-md-3
+      .col-xs-12.row.white
+        %a{:href => game_path(game)}
+          .col-md-4.no_padding
+            = team_image game.local_team
+            %br
+            = "#{game.local_team.won}/#{game.local_team.lost}"
+          - if game.local_score.blank? and game.away_score.blank?
+            .col-md-4.date.no_padding
+              = short_date game.game_date
+          - else
+            .col-md-6.yellow.no_padding
+              =link_to game.local_score, game, :"title" => "#{t('estadisticas')} #{game.local_team.name} - #{game.away_team.name}"
+            .col-md-6.yellow.no_padding
+              =link_to game.away_score, game, :"title" => "#{t('estadisticas')} #{game.local_team.name} - #{game.away_team.name}"
+          .col-md-4.no_padding
+            = team_image game.away_team
+            %br
+            = "#{game.away_team.won}/#{game.away_team.lost}"
+        

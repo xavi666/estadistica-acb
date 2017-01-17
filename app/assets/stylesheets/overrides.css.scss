@@ -103,11 +103,13 @@ body.front{
   }
 
   // HOME
+  .no_padding{
+    padding: 0px !important;
+  }
   .games{
-  padding: 0px 10px 0px 0px;
-    .no_padding{
-      padding: 0px;
-    }
+    padding: 0px 10px 0px 0px;
+    box-shadow: 20px 20px 50px 10px #000 inset;  
+    
     .padding_4{
       margin: 0px 0px 10px 0px;
       padding: 4px;
@@ -261,7 +263,6 @@ body.front{
   .leyenda{
     td{
       border: 0px;
-      font-size: 10px !important;
     }
   }
   // LEYENDA //
