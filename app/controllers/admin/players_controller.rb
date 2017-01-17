@@ -134,7 +134,6 @@ class Admin::PlayersController < ApplicationController
       team_html.css("table.plantilla tr").each do |player_data|
         number = player_data.css('td[1]/text()').to_s
         name = player_data.css('td[2]/a/text()').to_s
-        puts name
         if player = Player.find_by_name(name)
           player.number = number
           player.save!
