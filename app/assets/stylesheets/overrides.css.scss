@@ -20,7 +20,7 @@ body.front{
   }
 
   a{
-    color: #B91329;
+    color: #282f80;
   }
   a.optimizar{
     color: #fff;
@@ -29,8 +29,6 @@ body.front{
   .logo{
     color: white;
     font-size: 26px;
-    //text-shadow: -1px 0 #66b4e8, 0 1px #66b4e8, 1px 0 #66b4e8, 0 -1px #66b4e8;
-    background-color: #B91329;
     font-family: 'Hind', sans-serif;
   }
   .logo:hover{
@@ -45,7 +43,6 @@ body.front{
     .nav{
       li{
         a:hover{
-          //background-color: #7ec6ef;
           color: #000;
         }
         a{
@@ -60,7 +57,7 @@ body.front{
     border: 0px;
   }
   .navbar{
-    background-color: #B91329;
+    background-color: #282f80;
     border: none;
   }
   .navbar, .navbar-brand{
@@ -88,8 +85,12 @@ body.front{
   .black{
     background-color: #272a2f;
   }
-  .yellow{
-    background-color: #ecf94c !important;
+  .important{
+    background-color: #B91329 !important;
+    a{
+      color: #fff;
+    }
+    color: #fff;
   }
   .up{
     color: #14A805;
@@ -164,10 +165,14 @@ body.front{
     
     tbody{
       tr:nth-child(-n+8) {
-        background-color: #ecf94c;
+        background-color: #21BCEF;
+        a{
+          color: #fff;
+        }
+        color: #fff;
       }
       tr:nth-last-child(-n+2) {
-        background-color: #bfc2ea;
+        background-color: #b2b3b7;
       }
     }
   }
@@ -447,9 +452,6 @@ table.statistic{
   .sm{ 
     background-color: #66b4e8 !important; 
     font-weight: bold;
-  }
-  .selected{
-    background-color: #ecf94c !important;
   }
 }
 tr.base td:first-child{

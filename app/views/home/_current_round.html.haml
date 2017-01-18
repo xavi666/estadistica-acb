@@ -12,13 +12,13 @@
             .col-md-4.date.no_padding
               = short_date game.game_date
           - else
-            .col-md-6.yellow.no_padding
+            .col-md-6.important.no_padding
               =link_to game.local_score, game, :"title" => "#{t('estadisticas')} #{game.local_team.name} - #{game.away_team.name}"
-            .col-md-6.yellow.no_padding
+            .col-md-6.important.no_padding
               =link_to game.away_score, game, :"title" => "#{t('estadisticas')} #{game.local_team.name} - #{game.away_team.name}"
           .col-md-4.no_padding.center
             = team_image game.away_team, css="team_height_40"
             %br
             = "#{game.away_team.won}/#{game.away_team.lost}"
-      .col-xs-12.yellow.game_inner.center
+      .col-xs-12.important.game_inner.center
         = link_to t(".estadistica_primera_vuelda"), game_path(game.first_second_game)
