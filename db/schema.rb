@@ -11,35 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170115192400) do
+ActiveRecord::Schema.define(version: 20170118131606) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "blogit_comments", force: :cascade do |t|
-    t.string   "name",       null: false
-    t.string   "email",      null: false
-    t.string   "website"
-    t.text     "body",       null: false
-    t.integer  "post_id",    null: false
-    t.string   "state"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "blogit_posts", force: :cascade do |t|
-    t.string   "title",                            null: false
-    t.text     "body",                             null: false
-    t.string   "state",          default: "draft", null: false
-    t.integer  "comments_count", default: 0,       null: false
-    t.integer  "blogger_id"
-    t.string   "blogger_type"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.text     "description"
-  end
-
-  add_index "blogit_posts", ["blogger_type", "blogger_id"], name: "index_blogit_posts_on_blogger_type_and_blogger_id", using: :btree
 
   create_table "contents", force: :cascade do |t|
     t.string   "title"
@@ -59,14 +34,16 @@ ActiveRecord::Schema.define(version: 20170115192400) do
     t.string   "round"
     t.integer  "local_team_id"
     t.integer  "away_team_id"
-    t.boolean  "active",        default: true
+    t.boolean  "active",            default: true
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "local_score"
     t.integer  "away_score"
+    t.integer  "first_second_game"
   end
 
   add_index "games", ["away_team_id"], name: "index_games_on_away_team_id", using: :btree
+  add_index "games", ["first_second_game"], name: "index_games_on_first_second_game", using: :btree
   add_index "games", ["local_team_id"], name: "index_games_on_local_team_id", using: :btree
 
   create_table "players", force: :cascade do |t|

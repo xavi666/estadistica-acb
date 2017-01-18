@@ -107,23 +107,21 @@ body.front{
     padding: 0px !important;
   }
   .games{
-    padding: 0px 10px 0px 0px;
-    box-shadow: 20px 20px 50px 10px #000 inset;  
-    
-    .padding_4{
-      margin: 0px 0px 10px 0px;
-      padding: 4px;
-    }
+    display: table-row;
     .box{
       text-align: center;
       font-size: 14px;
-      img.team{
-        width: 100%;
-      }
     }
     .date{
       font-size: 12px;
       text-align: center;
+    }
+    .game{
+      margin-bottom: 14px;
+      padding: 0px 7px;
+    }
+    .game_inner{
+      padding: 10px;
     }
   }
   .game{
@@ -141,6 +139,9 @@ body.front{
   }
   img.team_26{
     width: 26px;
+  }
+  img.team_height_40{
+    height: 40px;
   }
   img.team_80{
     width: 80px;
