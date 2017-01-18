@@ -2,7 +2,6 @@
 %ul.nav.nav-tabs{:role => "tablist"}
   - @positions.each do |position|
     %li{:class => ("active" if position == @position)}
-      //%a{"data-toggle" => "tab", :href => "#tabs-"+position.to_s}= t(position).pluralize.humanize
       = link_to t(position).pluralize.humanize, {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => @num_rounds}
 
 .tab-content

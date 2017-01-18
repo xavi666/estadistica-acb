@@ -1,25 +1,23 @@
 %h3
   = t('.best_players_round', round: @round)
-
   = link_to t("ver_mas"), mejores_jornada_players_path, class: 'ver_mas'
 %ul.nav.nav-tabs{:role => "tablist"}
-  - @statistics.each do |position, statistic|
-    %li{:class => ("active" if position == @position)}
-      = link_to position.pluralize.humanize, {:controller => "players", :action => "mejores_jornada", :field => "sm", :position => position}
+  - @positions.each do |position|
+    %li{:class => ("active" if position == "all")}
+      = link_to t(position).pluralize.humanize, {:controller => "players", :action => "mejores_jornada", :field => @field, :position => position, :num_rounds => @num_rounds}
 .tab-content
-  - @statistics.each do |position, statistics|
-    .tab-pane{:id => "tabs-#{position}", :class => ("active" if position == @position)}
-      .table-responsive
-        %table.table.statistic
-          %thead
-            %tr
-              %th
-              %th= t('jugador')
-              %th= link_to t("v"), {:controller => "players", :action => "mejores_jornada", :field => "sm", :position => position}, class: 'btn btn-info optimizar'
-              %th= link_to t("pt"), {:controller => "players", :action => "mejores_jornada", :field => "pt", :position => position}, class: 'btn btn-info optimizar'
-              %th= link_to t("reb"), {:controller => "players", :action => "mejores_jornada", :field => "reb", :position => position}, class: 'btn btn-info optimizar'
-              %th= link_to t("a"), {:controller => "players", :action => "mejores_jornada", :field => "a", :position => position}, class: 'btn btn-info optimizar'
-              %th= link_to  t("t3"), {:controller => "players", :action => "mejores_jornada", :field => "t3", :position => position}, class: 'btn btn-info optimizar'
-          %tbody
-            - statistics.select([:player_id, "week_"+@round]).map {|s| {player_id: s.player_id, "week_"+@round => s.send("week_"+@round)} }.sort_by { |record| -record["week_"+@round][@field].to_f }.first(10).each do |statistic|
-              = render partial: "players/mejores_jornada_player", locals: {player: @indexed_players[statistic[:player_id]], statistic: statistic, round: @round, field: @field, position: @position }
+  .tab-pane{:id => "tabs-all", :class => "active"}
+    .table-responsive
+      %table.table.statistic
+        %thead
+          %tr
+            %th
+            %th= t('jugador')
+            %th= link_to t("v"), {:controller => "players", :action => "mejores_jornada", :field => "sm"}, class: 'btn btn-info optimizar'
+            %th= link_to t("pt"), {:controller => "players", :action => "mejores_jornada", :field => "pt"}, class: 'btn btn-info optimizar'
+            %th= link_to t("reb"), {:controller => "players", :action => "mejores_jornada", :field => "reb"}, class: 'btn btn-info optimizar'
+            %th= link_to t("a"), {:controller => "players", :action => "mejores_jornada", :field => "a"}, class: 'btn btn-info optimizar'
+            %th= link_to  t("t3"), {:controller => "players", :action => "mejores_jornada", :field => "t3"}, class: 'btn btn-info optimizar'
+        %tbody
+          - @round_players.each do |player|
+            = render partial: "players/mejores_jornada_player", locals: {player: @indexed_players[player[:player_id]], round: @round, statistic: player[:statistic], sum: player[:sum], field: "sm", position: "base" }
