@@ -9,16 +9,17 @@
     %span.glyphicon.glyphicon-search
 
 - unless smart_listing.empty?
-  %table.table.table-striped.statistic
-    %thead
-      %th.col-md-3= smart_listing.sortable t("name"), "name"
-      %th.col-md-3= smart_listing.sortable t("team"), "teams.name"
-      %th.col-md-1= smart_listing.sortable t("position"), "position"
+  .table-responsive
+    %table.table.statistic
+      %thead
+        %th.col-md-3= smart_listing.sortable t("name"), "name"
+        %th.col-md-3= smart_listing.sortable t("team"), "teams.name"
+        %th.col-md-1= smart_listing.sortable t("position"), "position"
 
-    %tbody
-      - smart_listing.collection.each do |o|
-        %tr.editable{data: {id: o.id}}
-          = smart_listing.render object: o, partial: "players/player", locals: {object: o}
+      %tbody
+        - smart_listing.collection.each do |o|
+          %tr{:class => [o.position, o.try(:team).try(:rest_round_1) == CURRENT_ROUND || o.try(:team).try(:rest_round_2) == CURRENT_ROUND ? "descansa" : ""]}
+            = smart_listing.render object: o, partial: "players/player", locals: {object: o}
 
   -# Render nice pagination links fitted for Bootstrap 3 by default
   = smart_listing.paginate

@@ -1,4 +1,4 @@
-%tr
+%tr{:class => [player.position, player.try(:team).try(:rest_round_1) == CURRENT_ROUND || player.try(:team).try(:rest_round_2) == CURRENT_ROUND ? "descansa" : ""]}
   %td
     = player_image player
     = link_to player.name, player_path(player)
