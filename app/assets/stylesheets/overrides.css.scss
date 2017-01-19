@@ -125,12 +125,6 @@ body.front{
       padding: 10px;
     }
   }
-  .game{
-    img.team,
-    img.player{
-      width: 46px;
-    }
-  }
 
   img.player, img.team {
     height: 22px;
@@ -269,6 +263,7 @@ body.front{
   .leyenda{
     td{
       border: 0px;
+      font-size: 10px;
     }
   }
   // LEYENDA //
@@ -476,7 +471,6 @@ tr.pivot td:first-child{
     min-width: 115px;
   }
   img.player{
-    width: 100% !important;
   }
   .split{
     color: #B91329;
