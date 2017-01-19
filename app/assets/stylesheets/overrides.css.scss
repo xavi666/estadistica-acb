@@ -15,7 +15,6 @@ body.front{
     font-weight: 500;
   }
   h3.game{
-    background-color: #fff;
     padding: 0px 10px;
   }
 
@@ -91,6 +90,12 @@ body.front{
       color: #fff;
     }
     color: #fff;
+    .statistic{
+      color: #282f80;
+      a{
+        color: #282f80;
+      }
+    }
   }
   .up{
     color: #14A805;
@@ -148,9 +153,10 @@ body.front{
       vertical-align: middle;
   }
 
-  h1 {
+  h1, h3 {
     img {
-      width: 58px;
+      width: 40px;
+      height: auto !important;
     }
   }
 
