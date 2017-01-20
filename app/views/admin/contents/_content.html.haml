@@ -1,6 +1,6 @@
 %td.text-left= object.id
 %td= link_to object.title, admin_content_path(object)
-%td= object.body
+%td= truncate object.body.html_safe, length: 25
 %td
   - if object.published
     %i.glyphicon.glyphicon-ok

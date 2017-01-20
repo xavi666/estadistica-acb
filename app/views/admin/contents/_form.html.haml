@@ -2,15 +2,24 @@
   = form_for @content, url: @content.new_record? ? admin_contents_path : admin_content_path(@content), remote: true, html: {class: "form-horizontal"} do |f|
     .form-group
       .col-md-3.control-label= f.label "Title"
-      .col-md-5= f.text_field :title, class: 'string form-control'
+      .col-md-8= f.text_field :title, class: 'string form-control'
     .form-group
       .col-md-3.control-label= f.label "Body"
-      .col-md-5= f.text_field :body, class: 'string form-control'
+      .col-md-8= f.text_area(:body, cols: 50, rows: 20, class: 'string form-control wysihtml5')
     .form-group
       .col-md-3.control-label= f.label "Published"
-      .col-md-5= f.check_box :published
+      .col-md-8= f.check_box :published
     .form-group
       .col-md-3
-      .col-md-5
+      .col-md-8
         = f.submit "Save", class: "btn btn-primary"
         %button.btn.btn-link.cancel Cancel
+
+:javascript
+  $(document).ready(function(){
+
+    $('.wysihtml5').each(function(i, elem) {
+      $(elem).wysihtml5();
+    });
+
+  })
