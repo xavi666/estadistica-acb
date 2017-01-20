@@ -20,9 +20,9 @@ es:
   enumerize:
     player:
       position:
-          base: "Base"
-          alero: "Alero"
-          pivot: "Pívot"
+        base: "Base"
+        alero: "Alero"
+        pivot: "Pívot"
   players:
     brokerbasket:
       description: "Consulta las subidas de precios de los jugadores en el BrokerBasket de Supermanager."
