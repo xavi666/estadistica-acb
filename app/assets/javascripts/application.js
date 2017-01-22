@@ -18,3 +18,10 @@
 //= require select2
 //= require Chart.min
 //= require_tree .
+//= require bootstrap-wysihtml5
+//= require bootstrap-wysihtml5/locales/es-ES
+
+//= require bootstrap-wysihtml5/wysihtml5x-toolbar.js
+//= require bootstrap-wysihtml5/handlebars.runtime.min.js
+
+//= require bootstrap-wysihtml5/minimum

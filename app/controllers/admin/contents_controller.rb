@@ -32,10 +32,10 @@ class Admin::ContentsController < ApplicationController
 
   private
     def find_content
-      @player = Content.find(params[:id])
+      @content = Content.find(params[:id])
     end
 
     def content_params
-      params.require(:player).permit([:title, :body, :user_id, :published])
+      params.require(:content).permit([:title, :body, :user_id, :published])
     end
 end

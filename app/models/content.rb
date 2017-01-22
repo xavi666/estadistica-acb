@@ -23,11 +23,11 @@ class Content < ActiveRecord::Base
   # !**************************************************
   
   def to_s
-    name
+    title
   end
 
   def to_param
-    [id.to_s, name.parameterize].join("-")
+    [id.to_s, title.parameterize].join("-")
   end
 
 end
