@@ -20,6 +20,7 @@ es:
   enumerize:
     player:
       position:
+        all: "All"
         base: "Base"
         alero: "Alero"
         pivot: "Pívot"
