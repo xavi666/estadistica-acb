@@ -1,0 +1,6 @@
+#content.col-xs-12
+	%h1= @content.title
+	.summary= @content.summary
+	.image= content_image @content.image_url, css = "width_100_per_cent"
+	.keywords= @content.keywords
+	.body= @content.body.html_safe
