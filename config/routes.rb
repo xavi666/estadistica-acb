@@ -14,6 +14,7 @@ Rails.application.routes.draw do
     end
   end
   resources :games
+  resources :contents
 
   get 'players/comparar/:player_1_id' => 'players#comparar'
   get 'players/comparar/:player_1_id/:player_2_id' => 'players#comparar'

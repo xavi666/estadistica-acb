@@ -24,6 +24,7 @@ class Admin::ContentsController < ApplicationController
 
   def update
     @content.update_attributes(content_params)
+    @content.save
   end
 
   def destroy
@@ -36,6 +37,6 @@ class Admin::ContentsController < ApplicationController
     end
 
     def content_params
-      params.require(:content).permit([:title, :body, :user_id, :published])
+      params.require(:content).permit([:title, :body, :summary, :keywords, :image_thumb_url, :image_url, :user_id, :published])
     end
 end

@@ -11,8 +11,10 @@
   %table.table.table-striped
     %thead
       %th.col-md-1= smart_listing.sortable "ID", "id"
+      %th.col-md-4= smart_listing.sortable "Image", "image_thumb_url"
       %th.col-md-4= smart_listing.sortable "Title", "title"
-      %th.col-md-4= smart_listing.sortable "Body", "body"
+      %th.col-md-4= smart_listing.sortable "Sumary", "sumary"
+      %th.col-md-4= smart_listing.sortable "Keywords", "keywords"
       %th.col-md-1= smart_listing.sortable "Published", "published"
       %th.col-md-2= "Options"
     %tbody
@@ -20,7 +22,7 @@
       %tr.editable{data: {id: o.id}}
         = smart_listing.render object: o, partial: "admin/contents/content", locals: {object: o}
         
-    = smart_listing.item_new colspan: 5, link: new_admin_content_path
+    = smart_listing.item_new colspan: 7, link: new_admin_content_path
 
   -# Render nice pagination links fitted for Bootstrap 3 by default
   = smart_listing.paginate

@@ -3,3 +3,6 @@ es:
     contents:
       index: 
         title: "Contenidos"
+  contents:
+    home:
+      title: "Métela tú, que a mí..."

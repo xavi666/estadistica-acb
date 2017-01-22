@@ -11,18 +11,47 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170118131606) do
+ActiveRecord::Schema.define(version: 20170122180732) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "blogit_comments", force: :cascade do |t|
+    t.string   "name",       null: false
+    t.string   "email",      null: false
+    t.string   "website"
+    t.text     "body",       null: false
+    t.integer  "post_id",    null: false
+    t.string   "state"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "blogit_posts", force: :cascade do |t|
+    t.string   "title",                            null: false
+    t.text     "body",                             null: false
+    t.string   "state",          default: "draft", null: false
+    t.integer  "comments_count", default: 0,       null: false
+    t.integer  "blogger_id"
+    t.string   "blogger_type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.text     "description"
+  end
+
+  add_index "blogit_posts", ["blogger_type", "blogger_id"], name: "index_blogit_posts_on_blogger_type_and_blogger_id", using: :btree
 
   create_table "contents", force: :cascade do |t|
     t.string   "title"
     t.text     "body"
     t.integer  "user_id"
-    t.boolean  "published",  default: false
+    t.boolean  "published",       default: false
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "summary"
+    t.string   "keywords"
+    t.string   "image_url"
+    t.string   "image_thumb_url"
   end
 
   add_index "contents", ["published"], name: "index_contents_on_published", using: :btree
