@@ -4,7 +4,7 @@
     = text_field_tag :name, params["name"], class: "search form-control", placeholder: "Search by name...", autocomplete: :off
     = select_tag :team_id, options_from_collection_for_select(Team.active, 'id', 'name', params["team_id"]), class: "search form-control", :prompt => "Search by Team"
 
-    = select_tag :position, options_for_select(Player.position.options, params["position"]), class: "search form-control", :prompt => "Search by Position"
+    = select_tag :position, options_for_select(["all", "base", "alero", "pivot"], params["position"]), class: "search form-control", :prompt => "Search by Position"
 
 
   %button.btn.btn-primary.disabled{type: :submit}
