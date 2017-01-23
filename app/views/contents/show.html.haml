@@ -3,8 +3,8 @@
   .summary= @content.summary
   .image= content_image @content.image_url, css = "width_100_per_cent"
   .row.keywords_date
-    .col-xs-9
+    .col-xs-8
       .keywords= @content.keywords
-    .col-xs-3
+    .col-xs-4
       .date= @content.created_at.to_s(:short_date)
   .body= @content.body.html_safe
