@@ -1,4 +1,6 @@
 #content.col-xs-12
+  .row
+    .col-xs-12.metelatu= t(".title")
   %h1= @content.title
   .summary= @content.summary
   .image= content_image @content.image_url, css = "width_100_per_cent"
@@ -8,3 +10,12 @@
     .col-xs-4
       .date= @content.created_at.to_s(:short_date)
   .body= @content.body.html_safe
+
+#related_content
+  - @related_contents.each do |content|
+    .col-xs-4
+      .col-xs-12.no_padding.white
+        %a{:href => content_path(content)} 
+          .image= content_image content.image_thumb_url, css = "width_100_per_cent"
+          .col-xs-12.keywords= content.keywords 
+          .col-xs-12.title= content.title 

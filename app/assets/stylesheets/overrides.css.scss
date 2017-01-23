@@ -281,7 +281,7 @@ body.front{
   .width_100_per_cent{
       width: 100%;
     }
-  #content_home{
+  #content_home, #related_content{
     margin: 15px 0px;
     .section_title{
       color: #fff;
@@ -307,6 +307,12 @@ body.front{
   }
   #content{
     background-color: #fff;
+    .metelatu{
+      background-color: #B91329;
+      font-size: 33px;
+      color: #fff;
+      margin-top: 15px;
+    }
     h1{
       font-size: 40px;
     }
@@ -332,6 +338,9 @@ body.front{
     .body{
       font-size: 16px;
       margin: 15px 0px;
+    }
+    #related_content{
+
     }
   }
   // CONTENTS //
