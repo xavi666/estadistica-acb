@@ -1,6 +1,10 @@
 #content.col-xs-12
-	%h1= @content.title
-	.summary= @content.summary
-	.image= content_image @content.image_url, css = "width_100_per_cent"
-	.keywords= @content.keywords
-	.body= @content.body.html_safe
+  %h1= @content.title
+  .summary= @content.summary
+  .image= content_image @content.image_url, css = "width_100_per_cent"
+  .row.keywords_date
+    .col-xs-9
+      .keywords= @content.keywords
+    .col-xs-3
+      .date= @content.created_at.to_s(:short_date)
+  .body= @content.body.html_safe

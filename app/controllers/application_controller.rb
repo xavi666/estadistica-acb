@@ -64,7 +64,7 @@ class ApplicationController < ActionController::Base
     @round_games = Game.by_season(CURRENT_SEASON).by_round(CURRENT_ROUND.to_i - 1) if CURRENT_ROUND.to_i > 1
     @teams = Team.active.order(position: :asc)
 
-    @contents = Content.last
+    @content = Content.last
   end
 
   def prepare_meta_tags(options={})
