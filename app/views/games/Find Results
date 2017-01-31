@@ -1,0 +1,63 @@
+Searching 57731 files for "select_tag :position, options_for_select("
+
+/Users/xaviergarcesmarti/Sites/estadistica-acb/app/views/admin/players/_listing.html.haml:
+    5      = select_tag :team_id, options_from_collection_for_select(Team.active, 'id', 'name', params["team_id"]), class: "search form-control", :prompt => "Search by Team"
+    6  
+    7:     = select_tag :position, options_for_select(Player.position.options, params["position"]), class: "search form-control", :prompt => "Search by Position"
+    8  
+    9  
+
+/Users/xaviergarcesmarti/Sites/estadistica-acb/app/views/admin/statistics/_listing.html.haml:
+    5      = select_tag :team_id, options_from_collection_for_select(Team.active, 'id', 'name', params["team_id"]), class: "search form-control", :prompt => "Search by Team"
+    6  
+    7:     = select_tag :position, options_for_select(["all", "base", "alero", "pivot"], params["position"]), class: "search form-control", :prompt => "Search by Position"
+    8  
+    9  
+
+/Users/xaviergarcesmarti/Sites/estadistica-acb/app/views/players/_listing.html.haml:
+    4      = text_field_tag :name, params["name"], class: "search form-control", placeholder: t("search_by_name"), autocomplete: :off
+    5      = select_tag :team_id, options_from_collection_for_select(Team.active, 'id', 'name', params["team_id"]), class: "search form-control", :prompt => t("search_by_team")
+    6:     = select_tag :position, options_for_select(Player.position.options, params["position"]), class: "search form-control", :prompt => t("search_by_position")
+    7  
+    8    %button.btn.btn-primary.disabled{type: :submit}
+
+/Users/xaviergarcesmarti/Sites/estadistica-acb/app/views/statistics/_listing.html.haml:
+    5      = select_tag :team_id, options_from_collection_for_select(Team.active, 'id', 'name', params["team_id"]), class: "search form-control", :prompt => "Search by Team"
+    6  
+    7:     = select_tag :position, options_for_select(Player.position.options, params["position"]), class: "search form-control", :prompt => "Search by Position"
+    8  
+    9  
+
+
+
+Searching 148 files for "select_tag :position, options_for_select("
+
+/Users/xaviergarcesmarti/Sites/estadistica-acb/app/views/admin/players/_listing.html.haml:
+    5      = select_tag :team_id, options_from_collection_for_select(Team.active, 'id', 'name', params["team_id"]), class: "search form-control", :prompt => "Search by Team"
+    6  
+    7:     = select_tag :position, options_for_select(Player.position.options, params["position"]), class: "search form-control", :prompt => "Search by Position"
+    8  
+    9  
+
+/Users/xaviergarcesmarti/Sites/estadistica-acb/app/views/admin/statistics/_listing.html.haml:
+    5      = select_tag :team_id, options_from_collection_for_select(Team.active, 'id', 'name', params["team_id"]), class: "search form-control", :prompt => "Search by Team"
+    6  
+    7:     = select_tag :position, options_for_select(["all", "base", "alero", "pivot"], params["position"]), class: "search form-control", :prompt => "Search by Position"
+    8  
+    9  
+
+/Users/xaviergarcesmarti/Sites/estadistica-acb/app/views/players/_listing.html.haml:
+    4      = text_field_tag :name, params["name"], class: "search form-control", placeholder: t("search_by_name"), autocomplete: :off
+    5      = select_tag :team_id, options_from_collection_for_select(Team.active, 'id', 'name', params["team_id"]), class: "search form-control", :prompt => t("search_by_team")
+    6:     = select_tag :position, options_for_select(["all", "base", "alero", "pivot"], params["position"]), class: "search form-control", :prompt => t("search_by_position")
+    7  
+    8    %button.btn.btn-primary.disabled{type: :submit}
+
+/Users/xaviergarcesmarti/Sites/estadistica-acb/app/views/statistics/_listing.html.haml:
+    5      = select_tag :team_id, options_from_collection_for_select(Team.active, 'id', 'name', params["team_id"]), class: "search form-control", :prompt => "Search by Team"
+    6  
+    7:     = select_tag :position, options_for_select(["all", "base", "alero", "pivot"], params["position"]), class: "search form-control", :prompt => "Search by Position"
+    8  
+    9  
+
+4 matches across 4 files
