@@ -30,4 +30,12 @@ class Content < ActiveRecord::Base
     [id.to_s, title.parameterize].join("-")
   end
 
+  def self.published
+    where(published: true)
+  end
+
+  def self.not_current content
+    where.not(id: content.id)
+  end
+
 end

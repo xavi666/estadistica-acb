@@ -21,6 +21,8 @@ class ContentsController < ApplicationController
     @page_description = @content.summary
     @page_keywords    = @content.keywords
     # SEO
+
+    @related_contents = Content.published.not_current(@content).last(3)
   end
 
   private

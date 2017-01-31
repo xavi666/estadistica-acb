@@ -281,7 +281,7 @@ body.front{
   .width_100_per_cent{
       width: 100%;
     }
-  #content_home{
+  #content_home, #related_content{
     margin: 15px 0px;
     .section_title{
       color: #fff;
@@ -306,19 +306,41 @@ body.front{
     }
   }
   #content{
+    background-color: #fff;
+    .metelatu{
+      background-color: #B91329;
+      font-size: 33px;
+      color: #fff;
+      margin-top: 15px;
+    }
     h1{
       font-size: 40px;
     }
+    .keywords_date{
+      border-bottom: 1px solid #F4F3F2;
+    }
     .keywords{
-      font-size: 24px;
+      font-size: 20px;
       color: #a1a1a1;
       margin: 15px 0px 7px 0px;
+      line-height: 20px;
+    }
+    .date{
+      text-align: right;
+      font-size: 16px;
+      margin: 15px 0px 7px 0px;
+      line-height: 20px;
     }
     .summary{
-      margin: 15px 0px 7px 0px;
+      font-size: 26px;
+      color: #a1a1a1;
     }
     .body{
-      font-size: 14px;  
+      font-size: 16px;
+      margin: 15px 0px;
+    }
+    #related_content{
+      margin-top: 15px;
     }
   }
   // CONTENTS //
@@ -431,6 +453,10 @@ body.front{
  */
 .min, .pt, .t2, .t3, .t1, .reb, .a, .br, .bp, .c, .tap, .m, .fp, .fr, .mas_menos, .v, .sm{
   text-align: center;  
+}
+
+.height_50{
+  height: 50px;
 }
 
 table.statistic{
