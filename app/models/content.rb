@@ -26,16 +26,16 @@ class Content < ActiveRecord::Base
     title
   end
 
-  def to_param
-    [id.to_s, title.parameterize].join("-")
-  end
-
   def self.published
     where(published: true)
   end
 
   def self.not_current content
     where.not(id: content.id)
+  end
+
+  def to_param
+    [id.to_s, title.parameterize].join("-")
   end
 
 end

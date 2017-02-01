@@ -1,6 +1,5 @@
 class Admin::ContentsController < ApplicationController
 
-  include ActionView::Helpers::NumberHelper
   include SmartListing::Helper::ControllerExtensions
   helper  SmartListing::Helper
   load_and_authorize_resource
