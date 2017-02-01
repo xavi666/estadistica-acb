@@ -19,6 +19,9 @@
       .col-md-3.control-label= f.label "Body"
       .col-md-8= f.text_area(:body, cols: 50, rows: 20, class: 'string form-control wysihtml5')
     .form-group
+      .col-md-3.control-label= f.label "Date"
+      .col-md-8= f.text_field :created_at, class: 'string form-control'
+    .form-group
       .col-md-3.control-label= f.label "Published"
       .col-md-8= f.check_box :published
     .form-group

@@ -37,6 +37,6 @@ class Admin::ContentsController < ApplicationController
     end
 
     def content_params
-      params.require(:content).permit([:title, :body, :summary, :keywords, :image_thumb_url, :image_url, :user_id, :published])
+      params.require(:content).permit([:title, :body, :summary, :keywords, :image_thumb_url, :image_url, :user_id, :created_at, :published])
     end
 end

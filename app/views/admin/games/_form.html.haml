@@ -13,7 +13,7 @@
       .col-md-3.control-label= f.label "Away Team"
       .col-md-5= f.collection_select :away_team_id, Team.active, :id, :name, {}, {class: 'form-control select2'}
     .form-group
-      .col-md-3.control-label= f.label "Position"
+      .col-md-3.control-label= f.label "Date"
       .col-md-5= f.text_field :game_date, class: 'string form-control'
     .form-group
       .col-md-3.control-label= f.label "Active"
