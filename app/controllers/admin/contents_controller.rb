@@ -23,8 +23,7 @@ class Admin::ContentsController < ApplicationController
   end
 
   def update
-    @content.update_attributes(content_params)
-    @content.save
+    @content.update(content_params)
   end
 
   def destroy
