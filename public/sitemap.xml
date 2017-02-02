@@ -1,2009 +1,2691 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>http://www.estadisticasacb.com/</loc>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/teams</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/brokerbasket</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/comparar</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/141-herbalife-gran-canaria-morabanc-andorra</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/9</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/140-rio-natura-monbus-obradoiro-iberostar-tenerife</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/16</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/144-tecnyconta-zaragoza-unicaja</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/12</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/143-movistar-estudiantes-retabet-bilbao-basket</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/11</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/142-ucam-murcia-cb-baskonia</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/10</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/137-montakit-fuenlabrada-divina-seguros-joventut</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/13</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/138-real-madrid-valencia-basket-club</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/14</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/139-icl-manresa-real-betis-energia-plus</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/15</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;num_rounds=3&amp;position=all</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;num_rounds=3&amp;position=base</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;num_rounds=3&amp;position=alero</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;num_rounds=3&amp;position=pivot</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=pt</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=reb</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=a</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=t3</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/180-shermadini-giorgi</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/133-norel-henk</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/181-sikma-luke</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/30-bogris-georgios</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/39-campazzo-facundo</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/20-beaubois-rodrigue</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/218-wilson-jamar</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/237-rupnik-luka</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/60-doellman-justin</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/90-jackson-edwin</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/historico</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/historico?field=sm&amp;num_rounds=3&amp;position=all</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/historico?field=sm&amp;num_rounds=3&amp;position=base</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/historico?field=sm&amp;num_rounds=3&amp;position=alero</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/historico?field=sm&amp;num_rounds=3&amp;position=pivot</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/199-tomic-ante</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/84-hanga-adam</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/65-dubljevic-bojan</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/62-doornekamp-aaron</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/122-mumbru-alex</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/teams/17-rio-natura-monbus-obradoiro</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/134-rio-natura-monbus-obradoiro-montakit-fuenlabrada</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/teams/10-montakit-fuenlabrada</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/teams/18-valencia-basket-club</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/133-valencia-basket-club-movistar-estudiantes</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/teams/12-movistar-estudiantes</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/teams/11-morabanc-andorra</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/129-morabanc-andorra-real-betis-energia-plus</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/teams/1-real-betis-energia-plus</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/teams/8-iberostar-tenerife</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/132-iberostar-tenerife-fc-barcelona-lassa</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/teams/5-fc-barcelona-lassa</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/teams/14-unicaja</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/136-unicaja-ucam-murcia-cb</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/teams/13-ucam-murcia-cb</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/teams/2-tecnyconta-zaragoza</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/135-tecnyconta-zaragoza-icl-manresa</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/teams/7-icl-manresa</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/teams/9-baskonia</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/130-baskonia-retabet-bilbao-basket</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/teams/3-retabet-bilbao-basket</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/teams/4-divina-seguros-joventut</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/131-divina-seguros-joventut-real-madrid</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/teams/15-real-madrid</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/teams/6-herbalife-gran-canaria</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/2-movistar-estudiantes-real-betis-energia-plus</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/4-icl-manresa-fc-barcelona-lassa</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/1-herbalife-gran-canaria-iberostar-tenerife</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/7-ucam-murcia-cb-divina-seguros-joventut</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/8-tecnyconta-zaragoza-valencia-basket-club</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/6-montakit-fuenlabrada-retabet-bilbao-basket</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/5-rio-natura-monbus-obradoiro-baskonia</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/3-real-madrid-unicaja</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/16-iberostar-tenerife-rio-natura-monbus-obradoiro</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/10-baskonia-ucam-murcia-cb</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/11-retabet-bilbao-basket-movistar-estudiantes</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/12-unicaja-tecnyconta-zaragoza</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/13-divina-seguros-joventut-montakit-fuenlabrada</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/9-morabanc-andorra-herbalife-gran-canaria</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/14-valencia-basket-club-real-madrid</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/15-real-betis-energia-plus-icl-manresa</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/18-fc-barcelona-lassa-baskonia</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/23-ucam-murcia-cb-icl-manresa</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/24-iberostar-tenerife-real-betis-energia-plus</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/19-herbalife-gran-canaria-valencia-basket-club</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/21-tecnyconta-zaragoza-retabet-bilbao-basket</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/17-morabanc-andorra-divina-seguros-joventut</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/22-rio-natura-monbus-obradoiro-movistar-estudiantes</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/20-montakit-fuenlabrada-unicaja</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/32-unicaja-herbalife-gran-canaria</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/27-real-madrid-ucam-murcia-cb</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/28-icl-manresa-rio-natura-monbus-obradoiro</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/29-real-betis-energia-plus-tecnyconta-zaragoza</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/25-movistar-estudiantes-montakit-fuenlabrada</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/30-baskonia-morabanc-andorra</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/26-divina-seguros-joventut-iberostar-tenerife</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/31-retabet-bilbao-basket-fc-barcelona-lassa</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/39-tecnyconta-zaragoza-ucam-murcia-cb</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/33-morabanc-andorra-retabet-bilbao-basket</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/40-iberostar-tenerife-unicaja</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/38-divina-seguros-joventut-baskonia</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/34-fc-barcelona-lassa-real-betis-energia-plus</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/35-herbalife-gran-canaria-montakit-fuenlabrada</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/37-rio-natura-monbus-obradoiro-valencia-basket-club</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/36-movistar-estudiantes-real-madrid</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/41-retabet-bilbao-basket-iberostar-tenerife</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/46-ucam-murcia-cb-herbalife-gran-canaria</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/48-real-betis-energia-plus-rio-natura-monbus-obradoiro</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/42-real-madrid-tecnyconta-zaragoza</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/43-valencia-basket-club-morabanc-andorra</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/44-montakit-fuenlabrada-fc-barcelona-lassa</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/45-unicaja-baskonia</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/47-icl-manresa-divina-seguros-joventut</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/55-rio-natura-monbus-obradoiro-tecnyconta-zaragoza</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/53-montakit-fuenlabrada-valencia-basket-club</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/52-herbalife-gran-canaria-real-betis-energia-plus</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/54-divina-seguros-joventut-unicaja</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/49-morabanc-andorra-ucam-murcia-cb</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/51-baskonia-icl-manresa</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/50-fc-barcelona-lassa-real-madrid</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/56-iberostar-tenerife-movistar-estudiantes</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/63-rio-natura-monbus-obradoiro-herbalife-gran-canaria</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/60-ucam-murcia-cb-fc-barcelona-lassa</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/59-icl-manresa-morabanc-andorra</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/57-movistar-estudiantes-divina-seguros-joventut</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/62-unicaja-retabet-bilbao-basket</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/61-valencia-basket-club-baskonia</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/58-real-madrid-iberostar-tenerife</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/64-tecnyconta-zaragoza-montakit-fuenlabrada</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/65-morabanc-andorra-rio-natura-monbus-obradoiro</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/70-divina-seguros-joventut-valencia-basket-club</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/72-real-betis-energia-plus-ucam-murcia-cb</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/68-retabet-bilbao-basket-icl-manresa</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/66-fc-barcelona-lassa-movistar-estudiantes</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/67-baskonia-tecnyconta-zaragoza</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/69-herbalife-gran-canaria-real-madrid</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/71-iberostar-tenerife-montakit-fuenlabrada</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/80-movistar-estudiantes-herbalife-gran-canaria</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/76-ucam-murcia-cb-rio-natura-monbus-obradoiro</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/74-retabet-bilbao-basket-divina-seguros-joventut</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/77-valencia-basket-club-real-betis-energia-plus</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/79-unicaja-fc-barcelona-lassa</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/75-real-madrid-icl-manresa</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/78-montakit-fuenlabrada-morabanc-andorra</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/73-baskonia-iberostar-tenerife</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/85-valencia-basket-club-retabet-bilbao-basket</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/87-rio-natura-monbus-obradoiro-divina-seguros-joventut</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/88-tecnyconta-zaragoza-iberostar-tenerife</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/82-icl-manresa-unicaja</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/84-real-betis-energia-plus-baskonia</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/81-fc-barcelona-lassa-herbalife-gran-canaria</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/83-movistar-estudiantes-morabanc-andorra</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/86-real-madrid-montakit-fuenlabrada</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/96-unicaja-valencia-basket-club</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/90-baskonia-movistar-estudiantes</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/95-iberostar-tenerife-ucam-murcia-cb</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/93-montakit-fuenlabrada-icl-manresa</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/89-morabanc-andorra-fc-barcelona-lassa</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/94-divina-seguros-joventut-real-betis-energia-plus</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/91-retabet-bilbao-basket-real-madrid</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/92-herbalife-gran-canaria-tecnyconta-zaragoza</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/102-ucam-murcia-cb-retabet-bilbao-basket</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/98-movistar-estudiantes-unicaja</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/100-valencia-basket-club-iberostar-tenerife</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/104-real-betis-energia-plus-montakit-fuenlabrada</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/103-icl-manresa-herbalife-gran-canaria</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/97-fc-barcelona-lassa-divina-seguros-joventut</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/99-real-madrid-rio-natura-monbus-obradoiro</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/101-tecnyconta-zaragoza-morabanc-andorra</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/105-morabanc-andorra-unicaja</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/109-herbalife-gran-canaria-baskonia</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/111-icl-manresa-movistar-estudiantes</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/112-real-betis-energia-plus-real-madrid</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/106-fc-barcelona-lassa-valencia-basket-club</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/107-montakit-fuenlabrada-ucam-murcia-cb</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/110-rio-natura-monbus-obradoiro-retabet-bilbao-basket</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/108-divina-seguros-joventut-tecnyconta-zaragoza</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/119-valencia-basket-club-icl-manresa</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/114-retabet-bilbao-basket-real-betis-energia-plus</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/116-iberostar-tenerife-morabanc-andorra</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/118-ucam-murcia-cb-movistar-estudiantes</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/120-unicaja-rio-natura-monbus-obradoiro</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/115-herbalife-gran-canaria-divina-seguros-joventut</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/117-tecnyconta-zaragoza-fc-barcelona-lassa</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/113-baskonia-real-madrid</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/122-retabet-bilbao-basket-herbalife-gran-canaria</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/121-fc-barcelona-lassa-rio-natura-monbus-obradoiro</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/127-montakit-fuenlabrada-baskonia</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/128-real-betis-energia-plus-unicaja</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/125-ucam-murcia-cb-valencia-basket-club</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/126-real-madrid-morabanc-andorra</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/124-icl-manresa-iberostar-tenerife</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/games/123-movistar-estudiantes-tecnyconta-zaragoza</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/107-llull-sergio</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/102-larkin-shane</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/61-doncic-luka</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/5-albicy-andrew</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/73-fogg-kyle</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/116-mccalebb-bo</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/117-mcconnell-mickey</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/159-rice-tyrese</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/96-koponen-petteri</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/216-white-davin</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/163-sabat-albert</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/242-renfroe-alex</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/51-cvetkovic-aleksandar</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/46-cook-omar</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/23-bellas-tomas</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/37-cabezas-carlos</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/169-san-miguel-rodrigo</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/4-akognon-josh</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/154-radicevic-nikola</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/138-oliver-albert</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/70-fernandez-jaime</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/55-diaz-alberto</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/43-chery-kenny</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/211-vives-guillem</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/83-hakanson-ludde</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/192-tabu-jonathan</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/99-lafayette-oliver</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/151-pozas-pepe</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/175-schreiner-thomas</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/239-juskevicius-adas</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/19-bassas-ferran</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/246-prigioni-pablo</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/165-salgado-javier</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/103-llompart-pedro</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/251-smith-terry</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/77-garcia-sergi</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/249-machado-michael</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/64-draper-dontaye</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/110-luz-rafa</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/40-cardenas-fran</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/204-van-rossom-sam</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/105-llorente-sergio</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/205-vasiliauskas-sarunas</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/170-sans-agusti</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/45-colom-guillem</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/94-jofresa-david</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/241-pluta-andrzej</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/49-costa-lluis</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/229-alocen-carlos</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/72-figueras-pol</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/57-dimitrijevic-nenad</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/146-peno-stefan</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/21-beiran-javier</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/15-bamforth-scott</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/128-nedovic-nemanja</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/78-gecevicius-martynas</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/108-lockett-trent</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/98-kuric-kyle</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/210-vidal-sergi</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/59-diot-antoine</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/26-benzing-robin</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/112-martinez-rafa</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/168-san-emeterio-f</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/186-stojanovski-vojdan</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/71-fernandez-rudy</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/144-paunic-ivan</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/137-oleson-brad</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/41-carroll-jaycee</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/92-jelinek-david</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/214-walker-david</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/182-smith-jamar</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/158-ribas-pau</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/223-dulkys-deividas</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/81-grigonis-marius</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/1-abalde-alberto</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/171-sastre-joan</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/126-navarro-juan-carlos</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/198-tomas-pere</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/213-waczynski-adam</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/160-richotti-nico</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/48-corbacho-alberto</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/56-diez-daniel</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/139-o-neale-royce</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/166-salin-sasu</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/25-benite-vitor</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/147-perperoglou-stratos</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/9-antetokounmpo-thanasis</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/28-blazic-jaka</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/153-rabaseda-xavi</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/24-bendzius-eimantas</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/150-popovic-marko</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/17-baron-billy</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/162-rojas-sadiel</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/125-navarro-david</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/104-llorca-alex</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/82-grimau-jordi</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/111-maciulis-jonas</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/207-ventura-albert</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/67-eriksson-marcus</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/190-suggs-scott</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/183-smits-rolands</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/219-yusta-santiago</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/230-budinger-chase</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/184-soko-ovie</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/50-cruz-francisco</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/203-urtasun-txemi</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/176-sedekerskis-tadas</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/88-holt-stephen</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/172-sato-romain</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/47-cooney-trevor</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/149-pocius-martynas</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/91-jankovic-vladimir</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/76-garcia-marc</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/226-english-carl</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/193-taylor-jeffery</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/209-vicedo-edgar</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/245-pinero-taqwa</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/31-borg-tobias</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/143-pauli-oriol</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/234-rush-brion</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/132-nogues-jose-ignacio</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/22-belemene-romaric</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/100-lapornik-luka</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/109-lorbek-domen</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/174-schneider-hugo</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/232-lopez-arostegui-xabier</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/95-jou-guillem</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/10-aranitovic-petar</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/68-esteban-maxim</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/101-lapornik-miha</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/250-omeragic-adnan</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/114-matulionis-osvaldas</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/248-cuellar-david</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/240-ortega-jose-francisco</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/121-montanez-roman</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/32-brizuela-dario</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/167-sanchez-alfonso</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/178-servera-miquel</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/18-barreiro-jonathan</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/221-mendia-borja</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/161-rigo-tomeu</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/197-todorovic-dejan</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/118-mendia-borja</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/13-ayon-gustavo</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/123-musli-dejan</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/74-fotu-isaac</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/189-suarez-carlos</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/93-jelovac-stevan</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/179-shengelia-tornike</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/236-jordan-jerome</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/157-reyes-felipe</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/244-mahalbasic-rasid</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/206-vazquez-fran</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/35-burjanadze-beka</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/220-zoric-luka</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/231-diagne-moussa</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/36-buva-ivan</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/217-whittington-shayne</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/156-randolph-anthony</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/69-faverani-vitor</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/86-hendrix-richard</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/142-pasecniks-anzejs</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/225-kravtsov-viacheslav</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/185-stevic-oliver</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/66-eric-michael</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/212-voigtmann-johannes</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/14-baez-eulis</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/29-bogdanovic-luka</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/194-thomas-will</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/208-vezenkov-aleksandar</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/12-auda-patrick</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/201-trapani-joe</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/124-nachbar-bostjan</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/233-rey-xavi</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/6-allen-rosco</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/89-hunter-othello</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/3-aguilar-pablo</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/196-tillie-kim</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/33-brooks-jeff</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/177-sekulic-blagota</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/173-savane-sitapha</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/140-oriola-pierre</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/141-page-dylan</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/38-cakarun-marjan</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/52-delia-marcos</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/148-planinic-darko</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/152-pustovyi-artem</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/87-hervelle-axel</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/155-radovic-nemanja</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/113-martin-nacho</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/191-suton-goran</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/187-stutz-garrett</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/16-bargnani-andrea</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/195-thompkins-trey</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/238-holmes-jonathan</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/63-dorsey-joey</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/7-andric-luksa</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/8-antelo-jose-angel</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/34-bryant-john</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/106-llovet-nacho</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/85-hanley-will</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/2-abromaitis-tim</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/202-triguero-juan-jose</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/120-miralles-albert</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/215-wear-david</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/235-traore-ali</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/243-hollins-ryan</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/58-diop-ilimane</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/131-nocioni-andres</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/129-niang-mamadou</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/11-arteaga-victor</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/44-claver-victor</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/188-suarez-alex</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/42-cate-emanuel</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/119-milosevic-strahinja</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/247-zaytsev-igor</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/97-kraljevic-filip</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/228-sena-wesley</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/79-gielo-tomasz</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/115-mayot-deng</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/130-nikolic-danilo</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/164-sakho-jordan</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/224-ndiaye-hamady</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/53-diagne-atoumane</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/145-pechacek-adam</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/135-olaizola-julen</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/134-okouo-viny</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/75-garcia-juan-jose</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/252-vucetic-vasilije</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/222-pursl-simon</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/227-maric-nikola</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/80-gonzalez-chema</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/27-bieshaar-terrence</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/54-diagne-moussa</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/127-n-diaye-hamady</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/200-traore-ali</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=v&amp;num_rounds=1&amp;position=all</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=v&amp;num_rounds=1&amp;position=base</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=v&amp;num_rounds=1&amp;position=alero</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=v&amp;num_rounds=1&amp;position=pivot</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;position=all</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=pt&amp;position=all</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=reb&amp;position=all</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=a&amp;position=all</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=t3&amp;position=all</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;num_rounds=1&amp;position=all</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;num_rounds=1&amp;position=base</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;num_rounds=1&amp;position=alero</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;num_rounds=1&amp;position=pivot</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;position=base</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=pt&amp;position=base</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=reb&amp;position=base</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=a&amp;position=base</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=t3&amp;position=base</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;position=alero</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=pt&amp;position=alero</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=reb&amp;position=alero</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=a&amp;position=alero</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=t3&amp;position=alero</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;position=pivot</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=pt&amp;position=pivot</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=reb&amp;position=pivot</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=a&amp;position=pivot</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=t3&amp;position=pivot</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=pt&amp;num_rounds=1&amp;position=all</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=pt&amp;num_rounds=1&amp;position=base</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=pt&amp;num_rounds=1&amp;position=alero</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=pt&amp;num_rounds=1&amp;position=pivot</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=reb&amp;num_rounds=1&amp;position=all</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=reb&amp;num_rounds=1&amp;position=base</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=reb&amp;num_rounds=1&amp;position=alero</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=reb&amp;num_rounds=1&amp;position=pivot</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=a&amp;num_rounds=1&amp;position=all</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=a&amp;num_rounds=1&amp;position=base</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=a&amp;num_rounds=1&amp;position=alero</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=a&amp;num_rounds=1&amp;position=pivot</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=t3&amp;num_rounds=1&amp;position=all</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=t3&amp;num_rounds=1&amp;position=base</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=t3&amp;num_rounds=1&amp;position=alero</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=t3&amp;num_rounds=1&amp;position=pivot</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=180</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=133</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=181</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=30</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=39</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=20</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=218</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=237</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=60</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=90</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=3&amp;position=all</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=3&amp;position=base</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=3&amp;position=alero</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;num_rounds=3&amp;position=pivot</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;num_rounds=3&amp;position=all</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;num_rounds=3&amp;position=all</loc>
-  <priority>0.64</priority>
-</url>
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>http://www.estadisticasacb.com/</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/teams/15-real-madrid</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/146-movistar-estudiantes-rio-natura-monbus-obradoiro</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/teams/17-rio-natura-monbus-obradoiro</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/152-unicaja-montakit-fuenlabrada</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/teams/10-montakit-fuenlabrada</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/teams/12-movistar-estudiantes</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/145-retabet-bilbao-basket-tecnyconta-zaragoza</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/teams/2-tecnyconta-zaragoza</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/teams/14-unicaja</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/150-baskonia-fc-barcelona-lassa</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/teams/5-fc-barcelona-lassa</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/teams/3-retabet-bilbao-basket</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/149-divina-seguros-joventut-morabanc-andorra</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/teams/11-morabanc-andorra</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/teams/9-baskonia</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/147-icl-manresa-ucam-murcia-cb</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/teams/13-ucam-murcia-cb</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/teams/4-divina-seguros-joventut</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/148-real-betis-energia-plus-iberostar-tenerife</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/teams/8-iberostar-tenerife</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/teams/7-icl-manresa</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/151-valencia-basket-club-herbalife-gran-canaria</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/teams/6-herbalife-gran-canaria</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/teams/1-real-betis-energia-plus</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/teams/18-valencia-basket-club</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/6-allen-rosco</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/233-rey-xavi</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/contents/4-resumen-y-datos-de-la-jornada-19-acb</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/90-jackson-edwin</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/180-shermadini-giorgi</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/128-nedovic-nemanja</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=sm&amp;amp;num_rounds=3&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=sm&amp;amp;num_rounds=3&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=sm&amp;amp;num_rounds=3&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/44-claver-victor</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=sm&amp;amp;num_rounds=3&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/159-rice-tyrese</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/102-larkin-shane</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/25-benite-vitor</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/122-mumbru-alex</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/198-tomas-pere</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/169-san-miguel-rodrigo</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/62-doornekamp-aaron</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/199-tomic-ante</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/93-jelovac-stevan</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=reb</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=a</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=t3</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;amp;num_rounds=3&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=pt</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;amp;num_rounds=3&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;amp;num_rounds=3&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;amp;num_rounds=3&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/153-morabanc-andorra-baskonia</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/30</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/26</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/160-tecnyconta-zaragoza-real-betis-energia-plus</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/29</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/154-fc-barcelona-lassa-retabet-bilbao-basket</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/31</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/157-iberostar-tenerife-divina-seguros-joventut</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/32</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/158-ucam-murcia-cb-real-madrid</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/27</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/159-rio-natura-monbus-obradoiro-icl-manresa</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/28</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/155-herbalife-gran-canaria-unicaja</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/156-montakit-fuenlabrada-movistar-estudiantes</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/25</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/teams</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/195-thompkins-trey</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/brokerbasket</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/157-reyes-felipe</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/188-suarez-alex</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/89-hunter-othello</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/131-nocioni-andres</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/156-randolph-anthony</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/111-maciulis-jonas</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/193-taylor-jeffery</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/13-ayon-gustavo</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/107-llull-sergio</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/41-carroll-jaycee</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/71-fernandez-rudy</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/217-whittington-shayne</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/61-doncic-luka</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/64-draper-dontaye</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/152-pustovyi-artem</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/219-yusta-santiago</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/106-llovet-nacho</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/203-urtasun-txemi</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/24-bendzius-eimantas</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/223-dulkys-deividas</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/151-pozas-pepe</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/191-suton-goran</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/117-mcconnell-mickey</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/173-savane-sitapha</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/11-arteaga-victor</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/141-page-dylan</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/209-vicedo-edgar</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/218-wilson-jamar</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/82-grimau-jordi</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/70-fernandez-jaime</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/145-pechacek-adam</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/46-cook-omar</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/48-corbacho-alberto</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/114-matulionis-osvaldas</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/40-cardenas-fran</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/257-hettsheimeir-rafael</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/177-sekulic-blagota</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/215-wear-david</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/150-popovic-marko</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/183-smits-rolands</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/80-gonzalez-chema</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/237-rupnik-luka</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/50-cruz-francisco</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/144-paunic-ivan</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/254-omic-alen</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/189-suarez-carlos</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/83-hakanson-ludde</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/33-brooks-jeff</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/123-musli-dejan</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/134-okouo-viny</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/56-diez-daniel</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/182-smith-jamar</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/55-diaz-alberto</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/213-waczynski-adam</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/73-fogg-kyle</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/99-lafayette-oliver</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/54-diagne-moussa</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/253-moreno-victor</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/104-llorca-alex</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/248-cuellar-david</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/37-cabezas-carlos</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/200-traore-ali</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/256-balvin-ondrej</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/235-traore-ali</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/97-kraljevic-filip</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/74-fotu-isaac</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/32-brizuela-dario</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/178-servera-miquel</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/78-gecevicius-martynas</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/26-benzing-robin</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/18-barreiro-jonathan</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/239-juskevicius-adas</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/77-garcia-sergi</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/23-bellas-tomas</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/130-nikolic-danilo</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/87-hervelle-axel</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/36-buva-ivan</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/197-todorovic-dejan</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/221-mendia-borja</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/101-lapornik-miha</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/31-borg-tobias</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/15-bamforth-scott</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/192-tabu-jonathan</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/165-salgado-javier</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/222-pursl-simon</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/133-norel-henk</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/88-holt-stephen</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/229-alocen-carlos</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/224-ndiaye-hamady</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/75-garcia-juan-jose</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/60-doellman-justin</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/127-n-diaye-hamady</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/208-vezenkov-aleksandar</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/126-navarro-juan-carlos</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/69-faverani-vitor</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/231-diagne-moussa</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/212-voigtmann-johannes</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/147-perperoglou-stratos</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/146-peno-stefan</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/16-bargnani-andrea</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/96-koponen-petteri</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/196-tillie-kim</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/28-blazic-jaka</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/58-diop-ilimane</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/176-sedekerskis-tadas</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/20-beaubois-rodrigue</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/84-hanga-adam</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/110-luz-rafa</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/228-sena-wesley</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/258-laprovittola-nicolas</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/238-holmes-jonathan</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/53-diagne-atoumane</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/63-dorsey-joey</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/158-ribas-pau</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/68-esteban-maxim</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/137-oleson-brad</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/72-figueras-pol</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/67-eriksson-marcus</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/242-renfroe-alex</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/105-llorente-sergio</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/66-eric-michael</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/252-vucetic-vasilije</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/125-navarro-david</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/185-stevic-oliver</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/118-mendia-borja</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/175-schreiner-thomas</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/35-burjanadze-beka</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/214-walker-david</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/187-stutz-garrett</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/92-jelinek-david</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/9-antetokounmpo-thanasis</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/29-bogdanovic-luka</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/45-colom-guillem</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/5-albicy-andrew</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/100-lapornik-luka</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/236-jordan-jerome</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/79-gielo-tomasz</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/163-sabat-albert</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/210-vidal-sergi</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/207-ventura-albert</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/113-martin-nacho</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/1-abalde-alberto</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/251-smith-terry</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/174-schneider-hugo</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/57-dimitrijevic-nenad</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/227-maric-nikola</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/246-prigioni-pablo</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/47-cooney-trevor</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/179-shengelia-tornike</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/135-olaizola-julen</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/230-budinger-chase</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/4-akognon-josh</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/162-rojas-sadiel</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/155-radovic-nemanja</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/255-tumba-kevin</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/103-llompart-pedro</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/8-antelo-jose-angel</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/52-delia-marcos</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/38-cakarun-marjan</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/17-baron-billy</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/240-ortega-jose-francisco</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/121-montanez-roman</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/247-zaytsev-igor</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/39-campazzo-facundo</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/51-cvetkovic-aleksandar</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/190-suggs-scott</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/12-auda-patrick</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/184-soko-ovie</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/249-machado-michael</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/10-aranitovic-petar</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/27-bieshaar-terrence</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/149-pocius-martynas</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/49-costa-lluis</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/205-vasiliauskas-sarunas</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/120-miralles-albert</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/132-nogues-jose-ignacio</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/30-bogris-georgios</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/232-lopez-arostegui-xabier</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/170-sans-agusti</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/81-grigonis-marius</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/85-hanley-will</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/206-vazquez-fran</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/202-triguero-juan-jose</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/245-pinero-taqwa</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/2-abromaitis-tim</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/19-bassas-ferran</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/244-mahalbasic-rasid</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/216-white-davin</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/119-milosevic-strahinja</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/108-lockett-trent</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/124-nachbar-bostjan</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/167-sanchez-alfonso</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/43-chery-kenny</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/186-stojanovski-vojdan</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/154-radicevic-nikola</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/129-niang-mamadou</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/76-garcia-marc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/250-omeragic-adnan</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/226-english-carl</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/160-richotti-nico</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/201-trapani-joe</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/115-mayot-deng</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/21-beiran-javier</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/164-sakho-jordan</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/95-jou-guillem</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/7-andric-luksa</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/234-rush-brion</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/243-hollins-ryan</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/22-belemene-romaric</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/94-jofresa-david</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/3-aguilar-pablo</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/142-pasecniks-anzejs</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/14-baez-eulis</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/139-o-neale-royce</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/86-hendrix-richard</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/153-rabaseda-xavi</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/116-mccalebb-bo</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/166-salin-sasu</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/138-oliver-albert</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/140-oriola-pierre</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/98-kuric-kyle</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/181-sikma-luke</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/172-sato-romain</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/194-thomas-will</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/65-dubljevic-bojan</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/112-martinez-rafa</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/225-kravtsov-viacheslav</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/168-san-emeterio-f</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/204-van-rossom-sam</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/171-sastre-joan</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/211-vives-guillem</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/148-planinic-darko</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/59-diot-antoine</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/220-zoric-luka</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/42-cate-emanuel</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/143-pauli-oriol</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/109-lorbek-domen</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/241-pluta-andrzej</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/161-rigo-tomeu</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/34-bryant-john</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=233</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/91-jankovic-vladimir</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=90</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=180</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=6</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=128</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;amp;num_rounds=3&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=sm&amp;amp;num_rounds=5&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=sm&amp;amp;num_rounds=2&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;amp;num_rounds=3&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=sm&amp;amp;num_rounds=4&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;amp;num_rounds=3&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=sm&amp;amp;num_rounds=5&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;amp;num_rounds=3&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=sm&amp;amp;num_rounds=2&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;amp;num_rounds=3&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=sm&amp;amp;num_rounds=4&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;amp;num_rounds=3&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;amp;num_rounds=3&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;amp;num_rounds=3&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=sm&amp;amp;num_rounds=5&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;amp;num_rounds=3&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=sm&amp;amp;num_rounds=4&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=sm&amp;amp;num_rounds=2&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;amp;num_rounds=3&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;amp;num_rounds=3&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;amp;num_rounds=3&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=44</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;amp;num_rounds=5&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;amp;num_rounds=2&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;amp;num_rounds=4&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;amp;num_rounds=3&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;amp;num_rounds=3&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;amp;num_rounds=3&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;amp;num_rounds=3&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=sm&amp;amp;num_rounds=5&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=102</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=sm&amp;amp;num_rounds=4&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=198</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=sm&amp;amp;num_rounds=2&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=159</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=199</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=25</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=122</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=a&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=169</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=62</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=93</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=t3&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=pt&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=reb&amp;amp;num_rounds=1&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=reb&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=reb&amp;amp;num_rounds=1&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=a&amp;amp;num_rounds=1&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=reb&amp;amp;num_rounds=1&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=a&amp;amp;num_rounds=1&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=a&amp;amp;num_rounds=1&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=reb&amp;amp;num_rounds=1&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=t3&amp;amp;num_rounds=1&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=t3&amp;amp;num_rounds=1&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=a&amp;amp;num_rounds=1&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=t3&amp;amp;num_rounds=1&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=reb&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=t3&amp;amp;num_rounds=1&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=a&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;amp;num_rounds=1&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=t3&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;amp;num_rounds=1&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=pt&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;amp;num_rounds=1&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=pt&amp;amp;num_rounds=1&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;amp;num_rounds=1&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=pt&amp;amp;num_rounds=1&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=t3&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=pt&amp;amp;num_rounds=1&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=pt&amp;amp;num_rounds=1&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=reb&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=a&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=a&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=pt&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=t3&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=sm&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=reb&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=pt&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=v&amp;amp;num_rounds=1&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=v&amp;amp;num_rounds=1&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=v&amp;amp;num_rounds=1&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/47-icl-manresa-divina-seguros-joventut</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/mejores_jornada?field=v&amp;amp;num_rounds=1&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/42-real-madrid-tecnyconta-zaragoza</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/44-montakit-fuenlabrada-fc-barcelona-lassa</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/45-unicaja-baskonia</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/48-real-betis-energia-plus-rio-natura-monbus-obradoiro</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/46-ucam-murcia-cb-herbalife-gran-canaria</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/43-valencia-basket-club-morabanc-andorra</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/37-rio-natura-monbus-obradoiro-valencia-basket-club</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/36-movistar-estudiantes-real-madrid</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/41-retabet-bilbao-basket-iberostar-tenerife</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/40-iberostar-tenerife-unicaja</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/38-divina-seguros-joventut-baskonia</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/34-fc-barcelona-lassa-real-betis-energia-plus</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/39-tecnyconta-zaragoza-ucam-murcia-cb</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/33-morabanc-andorra-retabet-bilbao-basket</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/35-herbalife-gran-canaria-montakit-fuenlabrada</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/29-real-betis-energia-plus-tecnyconta-zaragoza</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/25-movistar-estudiantes-montakit-fuenlabrada</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/26-divina-seguros-joventut-iberostar-tenerife</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/30-baskonia-morabanc-andorra</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/27-real-madrid-ucam-murcia-cb</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/28-icl-manresa-rio-natura-monbus-obradoiro</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/32-unicaja-herbalife-gran-canaria</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/20-montakit-fuenlabrada-unicaja</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/31-retabet-bilbao-basket-fc-barcelona-lassa</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/18-fc-barcelona-lassa-baskonia</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/24-iberostar-tenerife-real-betis-energia-plus</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/22-rio-natura-monbus-obradoiro-movistar-estudiantes</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/17-morabanc-andorra-divina-seguros-joventut</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/21-tecnyconta-zaragoza-retabet-bilbao-basket</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/23-ucam-murcia-cb-icl-manresa</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/9-morabanc-andorra-herbalife-gran-canaria</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/15-real-betis-energia-plus-icl-manresa</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/19-herbalife-gran-canaria-valencia-basket-club</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/10-baskonia-ucam-murcia-cb</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/11-retabet-bilbao-basket-movistar-estudiantes</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/14-valencia-basket-club-real-madrid</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/16-iberostar-tenerife-rio-natura-monbus-obradoiro</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/12-unicaja-tecnyconta-zaragoza</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/13-divina-seguros-joventut-montakit-fuenlabrada</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/5-rio-natura-monbus-obradoiro-baskonia</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/8-tecnyconta-zaragoza-valencia-basket-club</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/4-icl-manresa-fc-barcelona-lassa</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/1-herbalife-gran-canaria-iberostar-tenerife</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/6-montakit-fuenlabrada-retabet-bilbao-basket</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/7-ucam-murcia-cb-divina-seguros-joventut</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/2-movistar-estudiantes-real-betis-energia-plus</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=157</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/games/3-real-madrid-unicaja</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=100</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=50</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=195</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=75</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=4</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=11</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=5</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=3</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=2</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=89</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=188</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=131</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=111</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=156</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=193</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=107</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=13</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=41</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=217</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=71</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=61</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=152</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=64</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=219</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=203</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=106</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=24</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=151</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=191</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=223</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=173</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=11</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=117</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=209</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=218</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=141</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=70</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=145</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=82</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=48</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=114</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=46</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=257</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=177</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=40</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=150</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=183</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=215</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=237</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=50</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=80</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=254</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=189</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=144</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=33</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=123</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=83</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=56</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=182</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=134</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=55</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=73</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=213</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=104</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=253</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=99</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=200</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=37</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=54</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=97</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=235</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=248</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=178</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=32</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=256</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=18</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=26</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=74</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=77</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=23</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=78</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=36</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=87</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=239</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=101</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=221</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=130</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=192</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=15</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=197</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=133</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=222</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=31</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=224</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=229</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=165</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=60</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=88</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=126</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=69</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=75</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=212</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=147</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=208</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=16</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=96</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=231</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=28</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=58</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=146</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=20</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=84</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=196</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=228</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=258</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=176</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=53</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=63</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=110</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=68</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=137</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=238</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=72</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=242</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=158</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=105</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=252</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=67</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=125</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=118</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=66</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=175</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=214</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=185</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=187</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=9</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=35</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=29</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=5</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=92</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=100</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=79</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=45</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=163</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=207</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=236</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=113</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=251</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=210</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=174</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=227</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=1</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=246</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=179</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=57</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=135</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=230</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=47</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=155</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=162</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=4</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=8</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=103</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=255</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=17</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=38</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=52</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=247</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=121</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=240</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=190</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=51</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=39</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=249</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=184</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=12</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=149</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=27</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=10</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=120</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=205</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=49</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=232</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=30</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=132</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=85</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=81</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=170</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=245</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=202</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=206</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=19</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=244</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=2</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=119</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=108</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=216</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=167</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=43</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=124</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=154</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=129</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=186</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=250</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=226</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=76</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=201</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=115</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=160</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=164</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=95</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=21</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=234</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=243</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=7</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=94</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=3</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=22</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=14</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=139</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=142</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=153</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=116</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=86</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=98</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=138</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=166</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=65</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=140</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=181</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=168</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=172</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=194</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=59</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=112</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=225</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=211</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=204</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=171</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=148</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=42</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=220</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_2_id=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=109</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=143</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;amp;num_rounds=5&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=241</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=161</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;amp;num_rounds=2&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=34</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/comparar?player_1_id=91</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;amp;num_rounds=2&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;amp;num_rounds=4&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;amp;num_rounds=5&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;amp;num_rounds=2&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;amp;num_rounds=5&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;amp;num_rounds=5&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;amp;num_rounds=5&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;amp;num_rounds=4&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;amp;num_rounds=2&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;amp;num_rounds=5&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;amp;num_rounds=4&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;amp;num_rounds=4&amp;amp;position=base</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;amp;num_rounds=2&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;amp;num_rounds=5&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;amp;num_rounds=5&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;amp;num_rounds=2&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;amp;num_rounds=2&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;amp;num_rounds=2&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;amp;num_rounds=5&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;amp;num_rounds=4&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;amp;num_rounds=4&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;amp;num_rounds=5&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;amp;num_rounds=4&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;amp;num_rounds=4&amp;amp;position=alero</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;amp;num_rounds=2&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;amp;num_rounds=5&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;amp;num_rounds=5&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;amp;num_rounds=2&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;amp;num_rounds=4&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;amp;num_rounds=4&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;amp;num_rounds=2&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;amp;num_rounds=4&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;amp;num_rounds=4&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;amp;num_rounds=2&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;amp;num_rounds=5&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=v&amp;amp;num_rounds=2&amp;amp;position=pivot</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;amp;num_rounds=2&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;amp;num_rounds=5&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;amp;num_rounds=5&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;amp;num_rounds=4&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=reb&amp;amp;num_rounds=4&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=pt&amp;amp;num_rounds=2&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=100&amp;amp;players_smart_listing[sort][teams.name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=100&amp;amp;players_smart_listing[sort][position]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players/historico?field=a&amp;amp;num_rounds=4&amp;amp;position=all</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=50&amp;amp;players_smart_listing[sort][teams.name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=25</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=100&amp;amp;players_smart_listing[sort][name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=75&amp;amp;players_smart_listing[sort][position]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=50&amp;amp;players_smart_listing[sort][position]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=6</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=75&amp;amp;players_smart_listing[sort][name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=75&amp;amp;players_smart_listing[sort][teams.name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=50&amp;amp;players_smart_listing[sort][name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=4&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=8</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=7</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=11&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=4&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=4&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=5&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=10</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=9</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=5&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=11&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=11&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=2&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=3&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=5&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=2&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=3&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=3&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=2&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=100&amp;amp;players_smart_listing[sort][teams.name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=100&amp;amp;players_smart_listing[sort][position]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=75&amp;amp;players_smart_listing[sort][position]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=50&amp;amp;players_smart_listing[sort][teams.name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=6&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=100&amp;amp;players_smart_listing[sort][name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=50&amp;amp;players_smart_listing[sort][position]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=75&amp;amp;players_smart_listing[sort][name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=6&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=75&amp;amp;players_smart_listing[sort][teams.name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=4&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=6&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=8&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=8&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=50&amp;amp;players_smart_listing[sort][name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=8&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=11&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=7&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=7&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=5&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=7&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=4&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=10&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=4&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=10&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=9&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=10&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=9&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=5&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=9&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=asc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=11&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=2&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=11&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=3&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=2&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=5&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=3&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=3&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=100&amp;amp;players_smart_listing[sort][teams.name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=2&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=100&amp;amp;players_smart_listing[sort][position]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=75&amp;amp;players_smart_listing[sort][position]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=50&amp;amp;players_smart_listing[sort][teams.name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=6&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=100&amp;amp;players_smart_listing[sort][name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=50&amp;amp;players_smart_listing[sort][position]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=75&amp;amp;players_smart_listing[sort][name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=6&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=75&amp;amp;players_smart_listing[sort][teams.name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=4&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=6&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=8&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=8&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=50&amp;amp;players_smart_listing[sort][name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=8&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=11&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=7&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=5&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=7&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=7&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=10&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=4&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=9&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=4&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=10&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=5&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=10&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=9&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=2&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=9&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=desc</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=11&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=2&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=11&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=3&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=2&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=5&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=3&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=6&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=3&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=6&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=1&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=8&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=6&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=8&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=7&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=8&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=7&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=10&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=7&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=9&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=10&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=10&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=9&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][teams.name]=</loc>
+  </url>
+  <url>
+    <loc>http://www.estadisticasacb.com/players?players_smart_listing[page]=9&amp;amp;players_smart_listing[per_page]=25&amp;amp;players_smart_listing[sort][position]=</loc>
+  </url>
 </urlset>
+<!--<guid value="9e513219-1160-4caf-9c9a-1fbbf3f605d4" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
