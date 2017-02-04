@@ -14,10 +14,11 @@
               %tr
                 %th
                 %th
-                  = link_to "v", {:controller => "players", :action => "historico", :field => "v", :position => position, :num_rounds => @num_rounds}, class: 'btn btn-info'
-                  = link_to "pt", {:controller => "players", :action => "historico", :field => "pt", :position => position, :num_rounds => @num_rounds}, class: 'btn btn-info'
-                  = link_to "reb", {:controller => "players", :action => "historico", :field => "reb", :position => position, :num_rounds => @num_rounds}, class: 'btn btn-info'
-                  = link_to "a", {:controller => "players", :action => "historico", :field => "a", :position => position, :num_rounds => @num_rounds}, class: 'btn btn-info'
+                  = link_to "sm", {:controller => "players", :action => "historico", :field => "sm", :position => position, :num_rounds => @num_rounds}, { class:[ (:important if @field == "sm"), "btn btn-info" ] }
+                  = link_to "v", {:controller => "players", :action => "historico", :field => "v", :position => position, :num_rounds => @num_rounds}, { class:[ (:important if @field == "v"), "btn btn-info" ] }
+                  = link_to "pt", {:controller => "players", :action => "historico", :field => "pt", :position => position, :num_rounds => @num_rounds}, { class:[ (:important if @field == "pt"), "btn btn-info" ] }
+                  = link_to "reb", {:controller => "players", :action => "historico", :field => "reb", :position => position, :num_rounds => @num_rounds}, { class:[ (:important if @field == "reb"), "btn btn-info" ] }
+                  = link_to "a", {:controller => "players", :action => "historico", :field => "a", :position => position, :num_rounds => @num_rounds}, { class:[ (:important if @field == "a"), "btn btn-info" ] }
                 %th
                 %th{:colspan => "#{@num_rounds}"}
                   = t('ultimas_jornadas')

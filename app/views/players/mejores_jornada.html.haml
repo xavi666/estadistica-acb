@@ -14,7 +14,9 @@
               %tr
                 %th
                 %th= t('jugador')
-                %th= link_to t("valoracion"), {:controller => "players", :action => "mejores_jornada", :field => "sm", :position => position}, class: 'btn btn-info optimizar'
+                %th= t('price')
+                %th= link_to t("SM"), {:controller => "players", :action => "mejores_jornada", :field => "sm", :position => position}, class: 'btn btn-info optimizar'
+                %th= link_to t("valoracion"), {:controller => "players", :action => "mejores_jornada", :field => "v", :position => position}, class: 'btn btn-info optimizar'
                 %th= link_to t("puntos"), {:controller => "players", :action => "mejores_jornada", :field => "pt", :position => position}, class: 'btn btn-info optimizar'
                 %th= link_to t("rebotes"), {:controller => "players", :action => "mejores_jornada", :field => "reb", :position => position}, class: 'btn btn-info optimizar'
                 %th= link_to t("asistencias"), {:controller => "players", :action => "mejores_jornada", :field => "a", :position => position}, class: 'btn btn-info optimizar'

@@ -1,4 +1,4 @@
-class HomeController < ApplicationController
+    class HomeController < ApplicationController
 
   def index
     # SEO
@@ -12,7 +12,7 @@ class HomeController < ApplicationController
     @statistics_aleros = Statistic.aleros
     @statistics_pivots = Statistic.pivots
     @statistics = {"base" => @statistics_bases, "alero" => @statistics_aleros, "pivot" => @statistics_pivots }
-    @field = params[:field] || "sm" 
+    @field = params[:field] || "v" 
     @position = params[:position] || "base"
 
     @players = Player.all
