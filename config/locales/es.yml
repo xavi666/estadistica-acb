@@ -35,6 +35,7 @@ es:
       games: "Calendario ACB"
       players: "Jugadores"
       teams: "Equipos"
+      trending_players: "Jugadores en Racha"
   down: "Baja %{per_cent}%"
   estadistica: "Estadística"
   estadisticas: "Estadísticas del %{local} - %{away}"
