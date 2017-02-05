@@ -31,6 +31,28 @@
           %h3= link_to player_2_id.name, player_2_id
           %h6= "#{player_2_id.position.text} - #{link_to(player_2_id.team.name, player_2_id.team)}".html_safe
 
+  - if player_1_id
+    .row.history
+      .col-xs-5.height40
+        .row
+          .btn-info.optimizar.col-xs-2.center= t("v")
+          .btn-info.optimizar.col-xs-2.center= t("pt")
+          .btn-info.optimizar.col-xs-4.center= t("reb")
+          .btn-info.optimizar.col-xs-2.center= t("t3")
+          .btn-info.optimizar.col-xs-2.center= t("a")
+
+      .col-xs-2.center.white.height40
+        %h4=""
+
+      - if player_2_id
+        .col-xs-5.height40
+          .row
+            .btn-info.optimizar.col-xs-2.center= t("v")
+            .btn-info.optimizar.col-xs-2.center= t("pt")
+            .btn-info.optimizar.col-xs-4.center= t("reb")
+            .btn-info.optimizar.col-xs-2.center= t("t3")
+            .btn-info.optimizar.col-xs-2.center= t("a")
+
   - statistic_1 = player_1_id.statistics.by_season(CURRENT_SEASON) if player_1_id
   - statistic_1_total = statistic_1.total if player_1_id
   - statistic_2 = player_2_id.statistics.by_season(CURRENT_SEASON) if player_2_id
@@ -42,23 +64,26 @@
         - if player_1_id
           - s = statistic_1.attributes.slice(*week)
           - win_lost = s.values.first["v"] == s.values.first["sm"] ? "label-danger" : "label-success"
-          %span.label{class: win_lost}= s.values.first["v"] ? s.values.first["v"] : "-"
-          %span.label{class: win_lost}= s.values.first["pt"] ? s.values.first["pt"] : "-"
-          %span.label.rebound{class: win_lost}= s.values.first["reb"] ? s.values.first["reb"] : "-"
-          %span.label{class: win_lost}= s.values.first["t3"] ? s.values.first["t3"] : "-"
-          %span.label{class: win_lost}= s.values.first["a"] ? s.values.first["a"] : "-"
+          .row
+            .optimizar.col-xs-2.center{class: win_lost}= s.values.first["v"] ? s.values.first["v"] : "-"
+            .optimizar.col-xs-2.center{class: win_lost}= s.values.first["pt"] ? s.values.first["pt"] : "-"
+            .optimizar.col-xs-4.center{class: win_lost}= s.values.first["reb"] ? s.values.first["reb"] : "-"
+            .optimizar.col-xs-2.center{class: win_lost}= s.values.first["t3"] ? s.values.first["t3"] : "-"
+            .optimizar.col-xs-2.center{class: win_lost}= s.values.first["a"] ? s.values.first["a"] : "-"
 
       .col-xs-2.center.white.height40
         %h4= t('weeks.'+week)
-      .col-xs-5.player_2
+
+      .col-xs-5.player_2.height40
         - if player_2_id
           - s = statistic_2.attributes.slice(*week)
           - s = statistic_2.attributes.slice(*week)
-          %span.label{class: win_lost}= s.values.first["v"] ? s.values.first["v"] : "-"
-          %span.label{class: win_lost}= s.values.first["pt"] ? s.values.first["pt"] : "-"
-          %span.label.rebound{class: win_lost}= s.values.first["reb"] ? s.values.first["reb"] : "-"
-          %span.label{class: win_lost}= s.values.first["t3"] ? s.values.first["t3"] : "-"
-          %span.label{class: win_lost}= s.values.first["a"] ? s.values.first["a"] : "-"
+          .row
+            .optimizar.col-xs-2.center{class: win_lost}= s.values.first["v"] ? s.values.first["v"] : "-"
+            .optimizar.col-xs-2.center{class: win_lost}= s.values.first["pt"] ? s.values.first["pt"] : "-"
+            .optimizar.col-xs-4.center{class: win_lost}= s.values.first["reb"] ? s.values.first["reb"] : "-"
+            .optimizar.col-xs-2.center{class: win_lost}= s.values.first["t3"] ? s.values.first["t3"] : "-"
+            .optimizar.col-xs-2.center{class: win_lost}= s.values.first["a"] ? s.values.first["a"] : "-"
 
   .row
     .col-xs-5
