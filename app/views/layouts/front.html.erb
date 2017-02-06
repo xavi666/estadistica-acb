@@ -42,6 +42,9 @@
             <div class="col-xs-12 col-sm-12 col-md-12" id="content_home">
               <%= render partial: 'contents/home' %>
             </div>
+            <div class="col-xs-12" id="twitter">
+              <%= render partial: "front/twitter" %>
+            </div>
             <div class="col-xs-12 col-sm-12 col-md-12" id="calendario_home">
               <%= render partial: 'games/round', locals: {round: CURRENT_ROUND.to_i-1, games: @round_games} if @round_games and @round_games.any? %>
             </div>
