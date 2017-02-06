@@ -5,7 +5,7 @@
         = player_image player_1_id, "player_100" if player_1_id
       .col-xs-12.col-sm-6.center
         = team_image player_1_id.team, "team_80" if player_1_id
-        .right= link_to "[Delete]", comparar_players_path(:player_2_id => player_2_id.nil? ? '' : player_2_id.id), remote: true if player_1_id
+        .right= link_to "[Eliminar]", comparar_players_path(:player_2_id => player_2_id.nil? ? '' : player_2_id.id), remote: true if player_1_id
 
     .col-xs-2.white.height120
 
@@ -14,7 +14,7 @@
         = player_image player_2_id, "player_100" if player_2_id
       .col-xs-12.col-sm-6.center
         = team_image player_2_id.team, "team_80" if player_2_id
-        .right= link_to "[Delete]", comparar_players_path(:player_1_id => player_1_id.nil? ? '' : player_1_id.id), remote: true if player_2_id
+        .right= link_to "[Eliminar]", comparar_players_path(:player_1_id => player_1_id.nil? ? '' : player_1_id.id), remote: true if player_2_id
 
   .row
     .col-xs-5.name
@@ -33,7 +33,7 @@
 
   - if player_1_id
     .row.history
-      .col-xs-5.height40
+      .col-xs-5
         .row
           .btn-info.optimizar.col-xs-2.center= t("v")
           .btn-info.optimizar.col-xs-2.center= t("pt")
@@ -41,11 +41,11 @@
           .btn-info.optimizar.col-xs-2.center= t("t3")
           .btn-info.optimizar.col-xs-2.center= t("a")
 
-      .col-xs-2.center.white.height40
+      .col-xs-2.center.white
         %h4="Jornada"
 
       - if player_2_id
-        .col-xs-5.height40
+        .col-xs-5
           .row
             .btn-info.optimizar.col-xs-2.center= t("v")
             .btn-info.optimizar.col-xs-2.center= t("pt")
@@ -60,7 +60,7 @@
 
   - @fields.each do |week|
     .row.history
-      .col-xs-5.height40
+      .col-xs-5
         - if player_1_id
           - s = statistic_1.attributes.slice(*week)
           - win_lost = s.values.first["v"] == s.values.first["sm"] ? "label-danger" : "label-success"
@@ -71,10 +71,10 @@
             .optimizar.col-xs-2.center{class: win_lost}= s.values.first["t3"] ? s.values.first["t3"] : "-"
             .optimizar.col-xs-2.center{class: win_lost}= s.values.first["a"] ? s.values.first["a"] : "-"
 
-      .col-xs-2.center.white.height40
+      .col-xs-2.center.white
         %h4= t('weeks.'+week)
 
-      .col-xs-5.player_2.height40
+      .col-xs-5.player_2
         - if player_2_id
           - s = statistic_2.attributes.slice(*week)
           - s = statistic_2.attributes.slice(*week)
@@ -87,7 +87,7 @@
 
   .row
     .col-xs-5
-    .col-xs-2.center.white.height40
+    .col-xs-2.center.white
       %h4="PROMEDIOS"
     .col-xs-5
 

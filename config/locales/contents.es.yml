@@ -1,4 +1,14 @@
 es:
+  activerecord:
+    errors:
+      messages:
+        record_invalid: "Record Invalid"
+
+      models:
+        content:
+          attributes:
+            title:
+              taken: "Value Already Taken."
   admin:
     contents:
       index: 

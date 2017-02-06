@@ -4,6 +4,5 @@ class AddSummaryToContents < ActiveRecord::Migration
   	add_column :contents, :keywords, :string
   	add_column :contents, :image_url, :string
   	add_column :contents, :image_thumb_url, :string
-
   end
 end

@@ -23,7 +23,9 @@ class Admin::ContentsController < ApplicationController
   end
 
   def update
-    @content.update(content_params)
+    @content = Content.find(params[:id])
+    @content.assign_attributes(content_params)
+    @content.save
   end
 
   def destroy

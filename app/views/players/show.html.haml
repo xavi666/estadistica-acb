@@ -1,13 +1,13 @@
 .row
   .col-xs-12.detail
-    .col-xs-3.col-md-2.row
-      = player_image @player
-    .col-xs-7.col-md-10.row
+    .col-xs-5.col-md-3.row
+      = player_image @player, css = ""
+    .col-xs-7.col-md-9.row
       .col-xs-12.col-md-6
         %h1= "##{@player.number} <span class='split'>|</span> #{@player.name}".html_safe
       .col-xs-12.col-md-6
         .position_team= "#{@player.position.text} <span class='split'>|</span> #{link_to(@player.team, @player.team)} #{team_image @player.team}".html_safe
-    .col-xs-7.col-md-10.row
+    .col-md-12.row
       .col-xs-12.col-md-6
         = "#{@player.date_of_birth.to_s(:short_date)}"
         %br
@@ -15,7 +15,7 @@
         %br
         = "#{@player.height} cm"
       .col-xs-12.col-md-6
-        = link_to "[Comparar]", comparar_players_path(player_1_id: @player.id)
+        = link_to "[Comparar]", comparar_players_path(player_1_id: @player.id), class: "btn-info btn optimizar col-md-12"
     .col-xs-12.col-md-12
       .col-xs-6.col-md-2.box
         .label= t("val")
