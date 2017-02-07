@@ -42,7 +42,7 @@ class Admin::PlayersController < ApplicationController
     current_round = Setting.find_by_key("current_round").value.to_i
     session_rounds = Setting.find_by_key("session_rounds").value.to_i
 
-    Player.all.each do |player|
+    Player.all.first(1).each do |player|
       row = 1
       escape_rows = 4
       player_url = WEBrick::HTTPUtils.escape(players_url + player.name)
@@ -58,7 +58,11 @@ class Admin::PlayersController < ApplicationController
         end
         (current_round).downto(1) do |i|
           if player.price[i.to_s] and prices[i-1]
-            player.price[(i - 1).to_s] = (player.price[i.to_s] + prices[i-1] * -1.to_i) 
+            if player.team.rest_round_1 == current_round.to_s or player.team.rest_round_2 == current_round.to_s
+              player.price[(i - 1).to_s] = player.price[i.to_s]
+            else
+              player.price[(i - 1).to_s] = (player.price[i.to_s] + prices[i-1] * -1.to_i) 
+            end
           else
             player.price[(i - 1).to_s] = 0
           end
