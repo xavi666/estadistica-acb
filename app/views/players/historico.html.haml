@@ -12,7 +12,7 @@
           %table.table.table-striped.statistic
             %thead
               %tr
-                %th
+                %th.player_team_image
                 %th
                   = link_to "sm", {:controller => "players", :action => "historico", :field => "sm", :position => position, :num_rounds => @num_rounds}, { class:[ (:important if @field == "sm"), "btn btn-info" ] }
                   = link_to "v", {:controller => "players", :action => "historico", :field => "v", :position => position, :num_rounds => @num_rounds}, { class:[ (:important if @field == "v"), "btn btn-info" ] }
@@ -20,7 +20,7 @@
                   = link_to "reb", {:controller => "players", :action => "historico", :field => "reb", :position => position, :num_rounds => @num_rounds}, { class:[ (:important if @field == "reb"), "btn btn-info" ] }
                   = link_to "a", {:controller => "players", :action => "historico", :field => "a", :position => position, :num_rounds => @num_rounds}, { class:[ (:important if @field == "a"), "btn btn-info" ] }
                 %th
-                %th{:colspan => "#{@num_rounds}"}
+                %th{:colspan => "#{@num_rounds+1}"}
                   = t('ultimas_jornadas')
                   = link_to "2", {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => 2}, class: 'btn btn-info'
                   = link_to "3", {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => 3}, class: 'btn btn-info'
@@ -33,6 +33,7 @@
                 %th= t('price')
                 - (@round.to_i-@num_rounds+1..@round.to_i).each do |round|
                   %th= round
+                %th= t('total')
 
             %tbody
               - @trending_players.each do |player|

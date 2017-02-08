@@ -8,3 +8,5 @@
     = player_price player.current_price
   - sum.each do |round|
     %td= round
+  %td.important
+    %b=sum.sum.round(2)
