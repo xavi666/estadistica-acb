@@ -1,45 +1,45 @@
 - if player_1_id or player_2_id
   .row
     .col-xs-5.white
-      .col-xs-12.col-sm-6.center
+      .col-xs-12.col-sm-6.center.no_padding
         = player_image player_1_id, "player_100" if player_1_id
-      .col-xs-12.col-sm-6.center
+      .col-xs-12.col-sm-6.center.no_padding
         = team_image player_1_id.team, "team_80" if player_1_id
         .right= link_to "[Eliminar]", comparar_players_path(:player_2_id => player_2_id.nil? ? '' : player_2_id.id), remote: true if player_1_id
 
     .col-xs-2.white.height120
 
     .col-xs-5.white
-      .col-xs-12.col-sm-6.center
+      .col-xs-12.col-sm-6.center.no_padding
         = player_image player_2_id, "player_100" if player_2_id
-      .col-xs-12.col-sm-6.center
+      .col-xs-12.col-sm-6.center.no_padding
         = team_image player_2_id.team, "team_80" if player_2_id
         .right= link_to "[Eliminar]", comparar_players_path(:player_1_id => player_1_id.nil? ? '' : player_1_id.id), remote: true if player_2_id
 
   .row
     .col-xs-5.name
       - if player_1_id
-        .col-xs-12
+        .col-xs-12.row
           %h3= link_to player_1_id.name, player_1_id
           %h6= "#{player_1_id.position.text} - #{link_to(player_1_id.team.name, player_1_id.team)}".html_safe
     .col-xs-2.center.white.height79
-      %h2= "VS"
+      %h2.vs= "VS"
 
     .col-xs-5.name
       - if player_2_id
-        .col-xs-12
+        .col-xs-12.row
           %h3= link_to player_2_id.name, player_2_id
           %h6= "#{player_2_id.position.text} - #{link_to(player_2_id.team.name, player_2_id.team)}".html_safe
 
   - if player_1_id
-    .row.history
+    .row.history.data
       .col-xs-5
         .row
-          .btn-info.optimizar.col-xs-2.center= t("v")
-          .btn-info.optimizar.col-xs-2.center= t("pt")
-          .btn-info.optimizar.col-xs-4.center= t("reb")
-          .btn-info.optimizar.col-xs-2.center= t("t3")
-          .btn-info.optimizar.col-xs-2.center= t("a")
+          .btn-info.optimizar.col-xs-2.center.padding_2= t("v")
+          .btn-info.optimizar.col-xs-2.center.padding_2= t("pt")
+          .btn-info.optimizar.col-xs-4.center.padding_2= t("reb")
+          .btn-info.optimizar.col-xs-2.center.padding_2= t("t3")
+          .btn-info.optimizar.col-xs-2.center.padding_2= t("a")
 
       .col-xs-2.center.white
         %h4="Jornada"
@@ -47,11 +47,11 @@
       - if player_2_id
         .col-xs-5
           .row
-            .btn-info.optimizar.col-xs-2.center= t("v")
-            .btn-info.optimizar.col-xs-2.center= t("pt")
-            .btn-info.optimizar.col-xs-4.center= t("reb")
-            .btn-info.optimizar.col-xs-2.center= t("t3")
-            .btn-info.optimizar.col-xs-2.center= t("a")
+            .btn-info.optimizar.col-xs-2.center.padding_2= t("v")
+            .btn-info.optimizar.col-xs-2.center.padding_2= t("pt")
+            .btn-info.optimizar.col-xs-4.center.padding_2= t("reb")
+            .btn-info.optimizar.col-xs-2.center.padding_2= t("t3")
+            .btn-info.optimizar.col-xs-2.center.padding_2= t("a")
 
   - statistic_1 = player_1_id.statistics.by_season(CURRENT_SEASON) if player_1_id
   - statistic_1_total = statistic_1.total if player_1_id
@@ -59,17 +59,17 @@
   - statistic_2_total = statistic_2.total if player_2_id
 
   - @fields.each do |week|
-    .row.history
+    .row.history.data
       .col-xs-5
         - if player_1_id
           - s = statistic_1.attributes.slice(*week)
           - win_lost = s.values.first["v"] == s.values.first["sm"] ? "label-danger" : "label-success"
           .row
-            .optimizar.col-xs-2.center{class: win_lost}= s.values.first["v"] ? s.values.first["v"] : "-"
-            .optimizar.col-xs-2.center{class: win_lost}= s.values.first["pt"] ? s.values.first["pt"] : "-"
-            .optimizar.col-xs-4.center{class: win_lost}= s.values.first["reb"] ? s.values.first["reb"] : "-"
-            .optimizar.col-xs-2.center{class: win_lost}= s.values.first["t3"] ? s.values.first["t3"] : "-"
-            .optimizar.col-xs-2.center{class: win_lost}= s.values.first["a"] ? s.values.first["a"] : "-"
+            .optimizar.col-xs-2.center.padding_2{class: win_lost}= s.values.first["v"] ? s.values.first["v"] : "-"
+            .optimizar.col-xs-2.center.padding_2{class: win_lost}= s.values.first["pt"] ? s.values.first["pt"] : "-"
+            .optimizar.col-xs-4.center.padding_2{class: win_lost}= s.values.first["reb"] ? s.values.first["reb"] : "-"
+            .optimizar.col-xs-2.center.padding_2{class: win_lost}= s.values.first["t3"] ? s.values.first["t3"] : "-"
+            .optimizar.col-xs-2.center.padding_2{class: win_lost}= s.values.first["a"] ? s.values.first["a"] : "-"
 
       .col-xs-2.center.white
         %h4= t('weeks.'+week)
@@ -77,13 +77,13 @@
       .col-xs-5.player_2
         - if player_2_id
           - s = statistic_2.attributes.slice(*week)
-          - s = statistic_2.attributes.slice(*week)
+          - win_lost = s.values.first["v"] == s.values.first["sm"] ? "label-danger" : "label-success"
           .row
-            .optimizar.col-xs-2.center{class: win_lost}= s.values.first["v"] ? s.values.first["v"] : "-"
-            .optimizar.col-xs-2.center{class: win_lost}= s.values.first["pt"] ? s.values.first["pt"] : "-"
-            .optimizar.col-xs-4.center{class: win_lost}= s.values.first["reb"] ? s.values.first["reb"] : "-"
-            .optimizar.col-xs-2.center{class: win_lost}= s.values.first["t3"] ? s.values.first["t3"] : "-"
-            .optimizar.col-xs-2.center{class: win_lost}= s.values.first["a"] ? s.values.first["a"] : "-"
+            .optimizar.col-xs-2.center.padding_2{class: win_lost}= s.values.first["v"] ? s.values.first["v"] : "-"
+            .optimizar.col-xs-2.center.padding_2{class: win_lost}= s.values.first["pt"] ? s.values.first["pt"] : "-"
+            .optimizar.col-xs-4.center.padding_2{class: win_lost}= s.values.first["reb"] ? s.values.first["reb"] : "-"
+            .optimizar.col-xs-2.center.padding_2{class: win_lost}= s.values.first["t3"] ? s.values.first["t3"] : "-"
+            .optimizar.col-xs-2.center.padding_2{class: win_lost}= s.values.first["a"] ? s.values.first["a"] : "-"
 
   .row
     .col-xs-5

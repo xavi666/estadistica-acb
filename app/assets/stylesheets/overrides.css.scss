@@ -112,6 +112,9 @@ body.front{
   .no_padding{
     padding: 0px !important;
   }
+  .padding_2{
+    padding: 2px !important;
+  }
   .games{
     display: table-row;
     .box{
@@ -230,6 +233,12 @@ body.front{
       a{
         color: white;
       }
+    }
+    .data{
+      font-size: 12px;
+    }
+    .vs{
+      font-size: 20px;
     }
     .history{
       span.label{
