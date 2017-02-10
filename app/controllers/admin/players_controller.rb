@@ -12,8 +12,10 @@ class Admin::PlayersController < ApplicationController
     players_scope = Player.active
     players_scope = players_scope.where("lower(name) ILIKE ?", "%#{params[:name].downcase}%") unless params[:name].blank?
     players_scope = players_scope.where("team_id = ?", params[:team_id]) unless params[:team_id].blank?
-    players_scope = players_scope.where("position = ?", params[:position]) unless params[:position].blank?
+    players_scope = players_scope.where("position = ?", params[:position]) unless params[:position].blank? and params[:position] != "all"
 
+    players_scope = players_scope.where("#{params[:best_round]} = true") unless params[:best_round].blank?
+    
     smart_listing_create :players, players_scope, partial: "admin/players/listing"
   end
 
@@ -154,6 +156,6 @@ class Admin::PlayersController < ApplicationController
     end
 
     def player_params
-      params.require(:player).permit([:name, :position, :team_id, :href, :active])
+      params.require(:player).permit([:name, :position, :team_id, :href, :active, :best_round_val, :best_round_points, :best_round_rebounds, :best_round_assists, :best_round_3points])
     end
 end

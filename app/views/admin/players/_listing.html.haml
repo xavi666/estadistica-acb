@@ -4,8 +4,9 @@
     = text_field_tag :name, params["name"], class: "search form-control", placeholder: "Search by name...", autocomplete: :off
     = select_tag :team_id, options_from_collection_for_select(Team.active, 'id', 'name', params["team_id"]), class: "search form-control", :prompt => "Search by Team"
 
-    = select_tag :position, options_for_select(["all", "base", "alero", "pivot"], params["position"]), class: "search form-control", :prompt => "Search by Position"
+    = select_tag :position, options_for_select([["Todos", "all"], ["Base", "base"], ["Alero", "alero"], ["Pivot", "pivot"]], params["position"]), class: "search form-control", :prompt => "Search by Position"
 
+    = select_tag :best_round, options_for_select([["MPV Round", "best_round_val"], ["Top Round Points", "best_round_points"], ["Top Round Rebounds", "best_round_rebounds"], ["Top Round Assists", "best_round_assists"], ["Top Round 3P","best_round_3points"]], params["position"]), class: "search form-control", :prompt => "Search by Round Tops"
 
   %button.btn.btn-primary.disabled{type: :submit}
     %span.glyphicon.glyphicon-search

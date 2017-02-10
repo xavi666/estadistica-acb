@@ -153,7 +153,7 @@ class PlayersController < ApplicationController
   def comparar
     @player_1_id = Player.find params[:player_1_id] if params[:player_1_id] and !params[:player_1_id].blank?
     @player_2_id = Player.find params[:player_2_id] if params[:player_2_id] and !params[:player_2_id].blank?
-    @fields = (CURRENT_ROUND.to_i-5...CURRENT_ROUND.to_i).map{ |i| 'week_'+i.to_s}
+    @fields = (1...CURRENT_ROUND.to_i).map{ |i| 'week_'+i.to_s}
   end
 
   def search
@@ -172,6 +172,6 @@ class PlayersController < ApplicationController
     end
 
     def player_params
-      params.require(:player).permit([:name, :position, :team_id, :href, :active])
+      params.require(:player).permit([:name, :position, :team_id, :href, :active, :best_round_val, :best_round_points, :best_round_rebounds, :best_round_assists, :best_round_3points])
     end
 end
