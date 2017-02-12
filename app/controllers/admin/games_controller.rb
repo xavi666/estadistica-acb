@@ -54,6 +54,10 @@ class Admin::GamesController < ApplicationController
           game = Game.new
           game.local_team_id = local.id
           game.away_team_id = away.id
+          
+          unless date_score.include? ' - '
+            game.game_date = !date_score.blank? ? DateTime.parse(date_score) : ""
+          end
         end
 
         # Sate - Result
@@ -61,8 +65,6 @@ class Admin::GamesController < ApplicationController
           array_score = date_score.split(" - ")
           game.local_score = array_score[0]
           game.away_score = array_score[1]
-        else
-          game.game_date = !date_score.blank? ? DateTime.parse(date_score) : ""
         end
 
         game.season = current_season
