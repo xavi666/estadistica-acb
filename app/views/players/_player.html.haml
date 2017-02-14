@@ -3,6 +3,6 @@
     = player_image_22 player
     = link_to player.name, player_path(player)
   %td.text-left
-    = team_image player.team
+    = team_image_22 player.team
     = link_to player.team.name, team_path(player.team)
   %td= player.position.try(:text)

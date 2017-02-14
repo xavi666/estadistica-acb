@@ -8,7 +8,7 @@
 %tr{:class => player.position.to_s }
   %td{:class => classes }
     = player_image_22 player
-    = team_image player.team  
+    = team_image_22 player.team  
   %td{:class => classes }= link_to player.name, player_path(player)
   %td{:class => classes }= player_price current_price
   %td{:class => classes }= promedio
