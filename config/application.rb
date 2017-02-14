@@ -31,7 +31,7 @@ module Acbmanager
     # Enable escaping HTML in JSON.
     config.active_support.escape_html_entities_in_json = true
     config.assets.initialize_on_precompile = true
-    config.assets.precompile += %w( www.js sessions.js embed.js www.css sessions.css embed.css )
+    #config.assets.precompile += %w( www.js sessions.js embed.js www.css sessions.css embed.css )
 
     # Use SQL instead of Active Record's schema dumper when creating the database.
     # This is necessary if your schema can't be completely dumped by the schema dumper,
@@ -44,6 +44,6 @@ module Acbmanager
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '2.0'
 
-    config.assets.paths << "#{Rails}/vendor/assets/fonts"
+    #config.assets.paths << "#{Rails}/vendor/assets/fonts"
   end
 end
