@@ -5,7 +5,7 @@ module PlayersHelper
   end
 
   def player_image_22 player
-  	#image_tag(image_url('/assets/players/height_22/'+player.image.to_s))
+  	image_tag(image_url('/assets/players/height_22/'+player.image.to_s))
   end
 
   def player_price price
