@@ -5,9 +5,7 @@ module PlayersHelper
   end
 
   def player_image_22 player
-  	if Rails.application.assets.find_asset image_url('/assets/players/height_22/'+player.image.to_s)
-      image_tag(image_url('/assets/players/height_22/'+player.image.to_s))
-    end
+    image_tag('players/height_22/'+player.image.to_s).html_safe
   end
 
   def player_price price
