@@ -8,6 +8,7 @@ Rails.application.routes.draw do
     collection do 
       get :brokerbasket
       get :historico
+      get :temporada
       get :mejores_jornada
       get :comparar
       get :search

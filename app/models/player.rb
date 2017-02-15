@@ -70,6 +70,10 @@ class Player < ActiveRecord::Base
     statistics.by_season([CURRENT_SEASON]).total[field]
   end
 
+  def played_games
+    statistics.by_season([CURRENT_SEASON]).played_games
+  end
+
   def current_price
     price[CURRENT_ROUND]
   end

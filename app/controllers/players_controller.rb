@@ -122,6 +122,35 @@ class PlayersController < ApplicationController
     @round = (CURRENT_ROUND.to_i-1).to_s
   end
 
+  def temporada
+    # SEO
+    @page_title       = t('.title')
+    @page_description = t('.description')
+    @page_keywords    = t('.keywords')
+    # SEO
+
+    #params
+    @num_rounds = CURRENT_ROUND.to_i-1
+    @position = params[:position] ? params[:position] : "all"
+    @field = params[:field] || "v"
+
+    @positions = Player.position.values
+    @positions.unshift("all") if @positions.exclude? "all"
+
+    @players = Player.all
+    @indexed_players = @players.index_by(&:id)
+
+    fields = (CURRENT_ROUND.to_i-@num_rounds..CURRENT_ROUND.to_i-1).map{ |i| 'week_'+i.to_s}
+    unless @position == "all"
+      @players = @players.where("players.position = ?", @position)
+    end
+    
+    @temporada_players = @players.map{|p| {player_id: p.id, statistic: p.statistics.by_season(CURRENT_SEASON), sum: p.statistics.by_season(CURRENT_SEASON).attributes.slice(*fields).map{|k, values| values[@field].to_f}} }.sort_by { |record| -(record[:sum]).sum.to_f }
+
+    @round = (CURRENT_ROUND.to_i-1).to_s
+  end
+
+
   def mejores_jornada
     # SEO
     @page_title       = t('.title')

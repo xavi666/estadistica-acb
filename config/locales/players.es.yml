@@ -50,3 +50,5 @@ es:
       description: "Estadísticas de %{player} de la liga Endesa ACB %{season}. Valoración, puntos, rebotes asistencias y triples por jornada, acumulados y promedio."
       keywords: "%{player}, estadísticas, acumulados, histórico, temporada, acb"
       title: "Estadísticas de %{player}"
+    temporada:
+      played_games: "Partidos"
