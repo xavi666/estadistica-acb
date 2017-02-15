@@ -24,11 +24,11 @@
                   .col-xs-6
                     = t('.ultimas_jornadas')
                     %br
-                    = link_to "2", {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => 2}, class: 'btn btn-info'
-                    = link_to "3", {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => 3}, class: 'btn btn-info'
-                    = link_to "4", {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => 4}, class: 'btn btn-info'
-                    = link_to "5", {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => 5}, class: 'btn btn-info'
-                    = link_to t('.total_round', rounds: CURRENT_ROUND.to_i-1), {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => CURRENT_ROUND.to_i-1}, class: 'btn btn-info'
+                    = link_to "2", {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => 2}, { class:[ (:important if @num_rounds == 2), "btn btn-info" ] }
+                    = link_to "3", {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => 3}, { class:[ (:important if @num_rounds == 3), "btn btn-info" ] }
+                    = link_to "4", {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => 4}, { class:[ (:important if @num_rounds == 4), "btn btn-info" ] }
+                    = link_to "5", {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => 5}, { class:[ (:important if @num_rounds == 5), "btn btn-info" ] }
+                    = link_to t('.total_round', rounds: CURRENT_ROUND.to_i-1), {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => CURRENT_ROUND.to_i-1}, { class:[ (:important if @num_rounds == CURRENT_ROUND.to_i-1), "btn btn-info" ] }
 
               %tr
                 %th
