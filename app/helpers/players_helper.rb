@@ -1,12 +1,12 @@
 module PlayersHelper
 
-  def player_image player, css = "player"
+  def player_image player, css = "player_60"
     if player.image
       logical_path = 'players/original/'+player.image.to_s
       if asset_available? logical_path
         image_tag(logical_path, class: css).html_safe if player.image
       else
-        image_tag('players/default.jpg', class: css).html_safe if player.image        
+        image_tag('players/default.jpg', class: "player_60").html_safe if player.image        
       end
     end
   end
