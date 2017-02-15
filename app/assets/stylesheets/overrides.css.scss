@@ -512,6 +512,9 @@ table.statistic{
       padding: 0px !important;
       line-height: 30px !important;
     }
+    td:first-child{
+      width: 54px !important;
+    }
     //td:nth-child(2n+2) {background: #fff }
     //td:nth-child(2n+3) {background: #f1f1f1; }
     td.player{ 

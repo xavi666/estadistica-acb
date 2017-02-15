@@ -12,20 +12,23 @@
           %table.table.table-striped.statistic
             %thead
               %tr
-                %th.player_team_image
-                %th
-                  = link_to "sm", {:controller => "players", :action => "historico", :field => "sm", :position => position, :num_rounds => @num_rounds}, { class:[ (:important if @field == "sm"), "btn btn-info" ] }
-                  = link_to "v", {:controller => "players", :action => "historico", :field => "v", :position => position, :num_rounds => @num_rounds}, { class:[ (:important if @field == "v"), "btn btn-info" ] }
-                  = link_to "pt", {:controller => "players", :action => "historico", :field => "pt", :position => position, :num_rounds => @num_rounds}, { class:[ (:important if @field == "pt"), "btn btn-info" ] }
-                  = link_to "reb", {:controller => "players", :action => "historico", :field => "reb", :position => position, :num_rounds => @num_rounds}, { class:[ (:important if @field == "reb"), "btn btn-info" ] }
-                  = link_to "a", {:controller => "players", :action => "historico", :field => "a", :position => position, :num_rounds => @num_rounds}, { class:[ (:important if @field == "a"), "btn btn-info" ] }
-                %th
-                %th{:colspan => "#{@num_rounds+1}"}
-                  = t('ultimas_jornadas')
-                  = link_to "2", {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => 2}, class: 'btn btn-info'
-                  = link_to "3", {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => 3}, class: 'btn btn-info'
-                  = link_to "4", {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => 4}, class: 'btn btn-info'
-                  = link_to "5", {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => 5}, class: 'btn btn-info'
+                %th{colspan: "#{@num_rounds+4}"}
+                  .col-xs-6
+                    = t('.datos')
+                    %br
+                    = link_to "sm", {:controller => "players", :action => "historico", :field => "sm", :position => position, :num_rounds => @num_rounds}, { class:[ (:important if @field == "sm"), "btn btn-info" ] }
+                    = link_to "v", {:controller => "players", :action => "historico", :field => "v", :position => position, :num_rounds => @num_rounds}, { class:[ (:important if @field == "v"), "btn btn-info" ] }
+                    = link_to "pt", {:controller => "players", :action => "historico", :field => "pt", :position => position, :num_rounds => @num_rounds}, { class:[ (:important if @field == "pt"), "btn btn-info" ] }
+                    = link_to "reb", {:controller => "players", :action => "historico", :field => "reb", :position => position, :num_rounds => @num_rounds}, { class:[ (:important if @field == "reb"), "btn btn-info" ] }
+                    = link_to "a", {:controller => "players", :action => "historico", :field => "a", :position => position, :num_rounds => @num_rounds}, { class:[ (:important if @field == "a"), "btn btn-info" ] }
+                  .col-xs-6
+                    = t('.ultimas_jornadas')
+                    %br
+                    = link_to "2", {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => 2}, class: 'btn btn-info'
+                    = link_to "3", {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => 3}, class: 'btn btn-info'
+                    = link_to "4", {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => 4}, class: 'btn btn-info'
+                    = link_to "5", {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => 5}, class: 'btn btn-info'
+                    = link_to t('.total_round', rounds: CURRENT_ROUND.to_i-1), {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => CURRENT_ROUND.to_i-1}, class: 'btn btn-info'
 
               %tr
                 %th

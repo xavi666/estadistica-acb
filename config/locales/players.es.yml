@@ -32,9 +32,12 @@ es:
     comparar:
       title: "Comparar jugadores ACB"
     historico:
+      datos: "Datos"
       description: "Consulta los jugadores en racha de las últimas jornadas, buscando por valoración, puntos, rebotes, asistencias, y clasificando en Bases, Aleros y Pívots."
       keywords: "supermanager, fichajes, valoración, puntos, asistencias, rebotes, estadísticas, historial"
       title: "Jugadores en Racha"
+      total_round: "Total (%{rounds} Jornadas)"
+      ultimas_jornadas: "Últimas Jornadas"
     index:
       description: "Todos los jugadores de la liga Endesa ACB, clasificados por equipo y posición."
       keywords: "jugadores, acb, equipos, alero, bases, pívots"
