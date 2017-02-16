@@ -34,7 +34,7 @@ es:
       comparador: "Comparador"
       games: "Calendario ACB"
       players: "Jugadores"
-      players_supermanager: "Jugadores SuperManager"
+      players_supermanager: "Datos SuperManager"
       teams: "Equipos"
       trending_players: "Jugadores en Racha"
   down: "Baja %{per_cent}%"
