@@ -3,6 +3,7 @@
     = player_image_22 player
     = team_image_22 player.team  
   %td
+    = playing_cup player.team 
     = link_to player.name, player_path(player)
   %td
     = player_price player.current_price

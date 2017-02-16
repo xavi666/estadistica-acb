@@ -21,4 +21,10 @@ module TeamsHelper
       end
     end
   end
+
+  def playing_cup team
+    if team and team.playing_cup
+      image_tag('players/cup.png').html_safe
+    end
+  end
 end

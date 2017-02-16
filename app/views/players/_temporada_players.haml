@@ -3,12 +3,19 @@
     = player_image_22 player
     = team_image_22 player.team  
   %td
+    = playing_cup player.team 
     = link_to player.name, player_path(player)
   %td
     = player_price player.current_price
   %td
     = player.played_games
-  %td.important
-    %b=sum.sum.round(2)
   %td
+    = player.total_minutos
+  %td
+    = player.promedio_minutos
+  %td
+    %b=sum.sum.round(2)
+  %td.important
     = player.promedio_stat @field
+  %td
+    = player.por_40_minutos @field

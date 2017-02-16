@@ -145,7 +145,7 @@ class PlayersController < ApplicationController
       @players = @players.where("players.position = ?", @position)
     end
     
-    @temporada_players = @players.map{|p| {player_id: p.id, statistic: p.statistics.by_season(CURRENT_SEASON), sum: p.statistics.by_season(CURRENT_SEASON).attributes.slice(*fields).map{|k, values| values[@field].to_f}} }.sort_by { |record| -(record[:sum]).sum.to_f }
+    @temporada_players = @players.map{|p| {player_id: p.id, statistic: p.statistics.by_season(CURRENT_SEASON), promedio: p.statistics.by_season(CURRENT_SEASON).promedio[@field], sum: p.statistics.by_season(CURRENT_SEASON).attributes.slice(*fields).map{|k, values| values[@field].to_f}} }.sort_by { |record| -(record[:promedio]).to_f }
 
     @round = (CURRENT_ROUND.to_i-1).to_s
   end

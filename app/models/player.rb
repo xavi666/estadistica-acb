@@ -59,19 +59,31 @@ class Player < ActiveRecord::Base
 
   # Getting Data
   def stat_field field
-    statistics.by_season([CURRENT_SEASON]).send(field)
+    statistics.by_season([CURRENT_SEASON]).send(field).to_f
   end
 
   def promedio_stat field
-    statistics.by_season([CURRENT_SEASON]).promedio[field]
+    statistics.by_season([CURRENT_SEASON]).promedio[field].to_f
   end
 
   def total_stat field
-    statistics.by_season([CURRENT_SEASON]).total[field]
+    statistics.by_season([CURRENT_SEASON]).total[field].to_f
   end
 
   def played_games
-    statistics.by_season([CURRENT_SEASON]).played_games
+    statistics.by_season([CURRENT_SEASON]).played_games.to_i
+  end
+
+  def promedio_minutos
+    statistics.by_season([CURRENT_SEASON]).promedio["min"].to_s.chop.to_f
+  end
+
+  def total_minutos
+    statistics.by_season([CURRENT_SEASON]).total["min"].to_s.chop.to_f
+  end
+
+  def por_40_minutos field
+   (promedio_stat(field) / promedio_minutos * 40).round(2)
   end
 
   def current_price

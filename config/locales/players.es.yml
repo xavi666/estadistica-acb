@@ -51,4 +51,11 @@ es:
       keywords: "%{player}, estadísticas, acumulados, histórico, temporada, acb"
       title: "Estadísticas de %{player}"
     temporada:
+      description: "Estadísticas globales de los jugadores de la Liga Endesa ACB para el SuperManager KIA. Datos acumulados por puntuación SuperManager, valoración, puntos, rebotes y asistencias; con promedios, acumulados y estadísticas por 40 minutos jugados."
+      keywords: "jugadores supermanger, estadísticas, acb, supermanager, por 40 minutos, promedios, acumulados"
+      title: "Jugadores SuperManager"
+
       played_games: "Partidos"
+      por_40_min: "Por 40 Minutos"
+      minutos_totales: "Min. Totales"
+      miutos_por_partido: "Min. x Partido"

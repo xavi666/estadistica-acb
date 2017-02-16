@@ -1,8 +1,10 @@
 %tr{:class => [player.position, player.try(:team).try(:rest_round_1) == CURRENT_ROUND || player.try(:team).try(:rest_round_2) == CURRENT_ROUND ? "descansa" : ""]}
   %td
     = player_image_22 player
-    = team_image_22 player.team  
-  %td= link_to player.name, player_path(player)
+    = team_image_22 player.team 
+  %td
+    = playing_cup player.team 
+    = link_to player.name, player_path(player)
   %td= player_price(player.current_price)
   %td{:class => ("important" if field == "sm")}= statistic["week_"+round]["sm"].blank? ? "0" : statistic["week_"+round]["sm"]
   %td{:class => ("important" if field == "v")}= statistic["week_"+round]["v"].blank? ? "0" : statistic["week_"+round]["v"]

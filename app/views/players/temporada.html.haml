@@ -2,7 +2,7 @@
 %ul.nav.nav-tabs{:role => "tablist"}
   - @positions.each do |position|
     %li{:class => ("active" if position == @position)}
-      = link_to t(position).pluralize.humanize, {:controller => "players", :action => "historico", :field => @field, :position => position, :num_rounds => @num_rounds}
+      = link_to t(position).pluralize.humanize, {:controller => "players", :action => "temporada", :field => @field, :position => position, :num_rounds => @num_rounds}
 
 .tab-content
   - @positions.each do |position|
@@ -27,8 +27,11 @@
                 %th= t('player')
                 %th= t('price')
                 %th= t('.played_games')
+                %th= t('.minutos_totales')
+                %th= t('.minutos_por_partido')
                 %th= t('total')
                 %th= t('promedio')
+                %th= t('.por_40_min')
 
             %tbody
               - @temporada_players.each do |player|
