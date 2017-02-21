@@ -85,8 +85,9 @@ class Game < ActiveRecord::Base
     end
   end
 
-  def import_game
-    games_url = self.href
+  def self.import_game game
+    puts game.href
+    games_url = game.href
     games_url.force_encoding('binary')
     games_url = WEBrick::HTTPUtils.escape(games_url)
     game_html = Nokogiri::HTML(open(games_url))
@@ -97,7 +98,6 @@ class Game < ActiveRecord::Base
       date_of_birth = game_data.css('p[5]/strong[1]/text()').to_s
       place_of_birth = game_data.css('p[5]/strong[2]/text()').to_s
       
-
       position_detail = position_detail
       height = height
       date_of_birth = date_of_birth
