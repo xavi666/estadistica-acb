@@ -28,5 +28,5 @@ task :scheduler => :environment do
     config.access_token_secret = "lK9vNRXxRVJxL4MzoW4NhlmQwouQQtAUEEWCjVYcHS9d2"
   end
 
-  client.update("I'm tweeting with @gem!")
+  #client.update("I'm tweeting with @gem!")
 end
