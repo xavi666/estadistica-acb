@@ -74,6 +74,10 @@ gem 'bootstrap-wysihtml5-rails'
 # Twitter
 gem 'twitter'
 
+# WebShot
+gem 'webshot'
+gem "mini_magick"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
