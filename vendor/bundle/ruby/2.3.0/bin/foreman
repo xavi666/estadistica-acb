@@ -19,5 +19,4 @@ if ARGV.first
   end
 end
 
-gem 'foreman', version
-load Gem.bin_path('foreman', 'foreman', version)
+load Gem.activate_bin_path('foreman', 'foreman', version)
