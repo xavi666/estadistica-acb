@@ -100,15 +100,15 @@ task :twitter => :environment do
                   {id: "59", url: "http://estadisticasacb.com/players/temporada?field=t3&num_rounds=#{(CURRENT_ROUND.to_i-1).to_s}&position=alero", image_name: "aleros_total_t3", crop: "700x220+40+150", tweet: "🏀📉Consulta los mejores aleros en triples de la Liga Endesa #SuperManager #LigaACB Más datos en"},
                   {id: "60", url: "http://estadisticasacb.com/players/temporada?field=t3&num_rounds=#{(CURRENT_ROUND.to_i-1).to_s}&position=pivot", image_name: "pivots_total_t3", crop: "700x220+40+150", tweet: "🏀📉Consulta los mejores pívots en triples de la Liga Endesa #SuperManager #LigaACB Más datos en"}
                 ]
-  SCREENSHOTS.each do |ss|
-    #ss = SCREENSHOTS[rand(SCREENSHOTS.size)]
+  #SCREENSHOTS.each do |ss|
+    ss = SCREENSHOTS[rand(SCREENSHOTS.size)]
     ws.capture(ss[:url], "public/screenshots/#{ss[:id].to_s}_#{ss[:image_name]}.png", timeout: 2) do |magick|
       magick.combine_options do |c|
         c.crop(ss[:crop])
         url = Google::UrlShortener::Url.new(:long_url => ss[:url])
         puts ss[:url]
-        #client.update_with_media("#{ss[:tweet]} #{url.shorten!}", File.new("public/screenshots/#{ss[:id]}_#{ss[:image_name]}.png"))
+        client.update_with_media("#{ss[:tweet]} #{url.shorten!}", File.new("public/screenshots/#{ss[:id]}_#{ss[:image_name]}.png"))
       end
     end
-  end
+  #end
 end
