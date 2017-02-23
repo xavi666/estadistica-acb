@@ -78,6 +78,9 @@ gem 'twitter'
 gem 'webshot'
 gem "mini_magick"
 
+# Google Shortener
+gem 'google_url_shortener'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
