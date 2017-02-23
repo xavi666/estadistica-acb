@@ -16,6 +16,12 @@
       .col-md-3.control-label= f.label "Date"
       .col-md-5= f.text_field :game_date, class: 'string form-control'
     .form-group
+      .col-md-3.control-label= f.label "Local Score"
+      .col-md-5= f.text_field :local_score, class: 'string form-control'
+    .form-group
+      .col-md-3.control-label= f.label "Away Score"
+      .col-md-5= f.text_field :away_score, class: 'string form-control'
+    .form-group
       .col-md-3.control-label= f.label "Active"
       .col-md-5= f.check_box :active
 
