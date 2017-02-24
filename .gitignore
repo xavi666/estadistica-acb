@@ -12,6 +12,7 @@
 
 # bundler state
 /.bundle
+/vendor
 /vendor/bundle/
 /vendor/ruby/
 

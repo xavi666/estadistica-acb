@@ -9,7 +9,7 @@ task :twitter => :environment do
   end
 
   # Setup Capybara
-  ws = Webshot::Screenshot.instance
+  #ws = Webshot::Screenshot.instance
 
   # Google Shortener
   Google::UrlShortener::Base.api_key = "AIzaSyA5vz0QOBbR4q0jHZ4rMpmTvy8l0A9uZ7Q"
@@ -102,13 +102,13 @@ task :twitter => :environment do
                 ]
   #SCREENSHOTS.each do |ss|
     ss = SCREENSHOTS[rand(SCREENSHOTS.size)]
-    ws.capture(ss[:url], "public/screenshots/#{ss[:id].to_s}_#{ss[:image_name]}.png", timeout: 2) do |magick|
-      magick.combine_options do |c|
-        c.crop(ss[:crop])
+    #ws.capture(ss[:url], "public/screenshots/#{ss[:id].to_s}_#{ss[:image_name]}.png", timeout: 2) do |magick|
+      #magick.combine_options do |c|
+        #c.crop(ss[:crop])
         url = Google::UrlShortener::Url.new(:long_url => ss[:url])
         puts ss[:url]
         client.update_with_media("#{ss[:tweet]} #{url.shorten!}", File.new("public/screenshots/#{ss[:id]}_#{ss[:image_name]}.png"))
-      end
-    end
+      #end
+    #end
   #end
 end
