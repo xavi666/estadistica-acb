@@ -106,6 +106,7 @@ task :twitter => :environment do
       #magick.combine_options do |c|
         #c.crop(ss[:crop])
         url = Google::UrlShortener::Url.new(:long_url => ss[:url])
+        puts "--- > SCREENSHOTS"
         puts ss[:url]
         client.update_with_media("#{ss[:tweet]} #{url.shorten!}", File.new("public/screenshots/#{ss[:id]}_#{ss[:image_name]}.png"))
       #end
