@@ -75,7 +75,7 @@ gem 'bootstrap-wysihtml5-rails'
 gem 'twitter'
 
 # WebShot
-gem 'webshot'
+#gem 'webshot'
 gem "mini_magick"
 
 # Google Shortener
