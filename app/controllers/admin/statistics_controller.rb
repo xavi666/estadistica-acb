@@ -32,7 +32,7 @@ class Admin::StatisticsController < ApplicationController
   end
 
   def import
-    Statistics.import_statistics
+    Statistic.import_statistics
     redirect_to admin_statistics_path and return
   end
 
