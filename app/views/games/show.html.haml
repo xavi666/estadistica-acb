@@ -16,6 +16,8 @@
     %tbody
       = render partial: "game_statistic", locals: {team: @game.local_team, game: @game}
 
+= render partial: "game_addsense"
+
 %h3
   = team_image @game.away_team
   = @game.away_team.name
