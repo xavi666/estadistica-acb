@@ -13,10 +13,10 @@ Gem::Specification.new do |s|
   s.email = ["contact@sology.eu".freeze]
   s.homepage = "https://github.com/Sology/smart_listing".freeze
   s.licenses = ["MIT".freeze]
-  s.rubygems_version = "2.6.7".freeze
+  s.rubygems_version = "2.6.8".freeze
   s.summary = "SmartListing helps creating sortable lists of ActiveRecord collections with pagination, filtering and inline editing.".freeze
 
-  s.installed_by_version = "2.6.7" if s.respond_to? :installed_by_version
+  s.installed_by_version = "2.6.8" if s.respond_to? :installed_by_version
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
