@@ -152,9 +152,13 @@ class Player < ActiveRecord::Base
     end
     player_html.css("td.fichaJugadorimg").each do |player_image|
       image = Array.wrap(player_image.css("img").map { |link| link['src'] })[0].to_s
-      a_image = image.split('/')
-      a_image.last.gsub! '.jpg', '.png'
-      player.image = a_image.last
+      if image
+        a_image = image.split('/')
+        if a_image
+          a_image.last.gsub! '.jpg', '.png'
+          player.image = a_image.last
+        end
+      end
     end
     player_html.css("table.fichaJugadorSM").each do |player_sm|
       price = player_sm.css('tr[3]/td[2]/text()')
