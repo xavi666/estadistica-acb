@@ -154,7 +154,7 @@ class Player < ActiveRecord::Base
       image = Array.wrap(player_image.css("img").map { |link| link['src'] })[0].to_s
       if image
         a_image = image.split('/')
-        if a_image
+        unless a_image.last.nil?
           a_image.last.gsub! '.jpg', '.png'
           player.image = a_image.last
         end
