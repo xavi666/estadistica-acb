@@ -11,13 +11,24 @@ module TeamsHelper
     end
   end
 
-  def team_image_22 team, css = "team"
+  def team_image_22 team
     if team and team.short_code
       logical_path = 'teams/height_22/'+team.short_code+'.png'
       if asset_available? logical_path
-        image_tag(logical_path, class: css).html_safe
+        image_tag(logical_path).html_safe
       else
-        image_tag('players/default.jpg', class: css).html_safe
+        image_tag('players/default.jpg').html_safe
+      end
+    end
+  end
+
+  def team_image_40 team
+    if team and team.short_code
+      logical_path = 'teams/height_40/'+team.short_code+'.png'
+      if asset_available? logical_path
+        image_tag(logical_path).html_safe
+      else
+        image_tag('players/default.jpg').html_safe
       end
     end
   end
