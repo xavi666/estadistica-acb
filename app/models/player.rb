@@ -173,7 +173,7 @@ class Player < ActiveRecord::Base
     current_round = Setting.find_by_key("current_round").value.to_i
     session_rounds = Setting.find_by_key("session_rounds").value.to_i
 
-    Player.all.where(id: 107).each do |player|
+    Player.all.each do |player|
       row = 1
       escape_rows = 4
       player_url = WEBrick::HTTPUtils.escape(players_url + player.name)
