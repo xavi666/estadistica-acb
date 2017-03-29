@@ -1,5 +1,5 @@
 %td{colspan: 7}
-  = form_for @statistic, url: @statistic.new_record? ? admin_statistics_path : statistic_path(@statistic), remote: true, html: {class: "form-horizontal"} do |f|
+  = form_for @statistic, url: @statistic.new_record? ? admin_statistics_path : admin_statistic_path(@statistic), remote: true, html: {class: "form-horizontal"} do |f|
     .form-group
       .col-md-3.control-label= f.label "Player"
       .col-md-5= @statistic.player

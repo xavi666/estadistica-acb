@@ -173,20 +173,23 @@ class Player < ActiveRecord::Base
     current_round = Setting.find_by_key("current_round").value.to_i
     session_rounds = Setting.find_by_key("session_rounds").value.to_i
 
-    Player.all.each do |player|
+    Player.all.where(id: 107).each do |player|
       row = 1
       escape_rows = 4
       player_url = WEBrick::HTTPUtils.escape(players_url + player.name)
       if player_html = Nokogiri::HTML(open(player_url))
         prices = {}
-        player_html.css("table.sm_jug > tr").each do |game_row|
-          if row > escape_rows && row < session_rounds + escape_rows
-            price_up_down = game_row.css("td[13] > b > text()").first.to_s.delete!(',').to_i
-            round = game_row.css("td[1] > b > text()").to_s.to_i
-            prices[round] = price_up_down
-          end
-          row = row + 1
+        player_html.css("table.states-table > tbody > tr").each do |game_row|
+          price_up_down = game_row.css("td[13] > text()").first.to_s.delete!('.').to_i
+          round = game_row.css("td[1] > text()").to_s.to_i
+          if row <= current_round  
+            if (1..current_round).include?(round)
+              prices[round] = price_up_down
+              row = row + 1
+            end
+          end        
         end
+
         (current_round).downto(1) do |i|
           if player.price[i.to_s] and prices[i-1]
             if player.team.rest_round_1 == current_round.to_s or player.team.rest_round_2 == current_round.to_s

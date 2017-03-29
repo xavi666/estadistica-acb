@@ -15,8 +15,10 @@
         %tr
           %th{colspan: 2}= "Promedio"
           - Statistic.fields.each do |field|
-            %th= statistic.promedio[field]
+            - unless field == "game"
+              %th= statistic.promedio[field]
         %tr
           %th{colspan: 2}= "Total"
           - Statistic.fields.each do |field|
-            %th= statistic.total[field]
+            - unless field == "game"
+              %th= statistic.total[field]
