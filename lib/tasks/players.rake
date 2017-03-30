@@ -12,7 +12,7 @@ end
 task :update_full_name => :environment do
 	Player.all.each do |p|
 		s_name = p.name.split(",")
-		p.full_name = s_name[1].gsub! + " " + s_name[0]
+		p.full_name = s_name[1].lstrip! + " " + s_name[0]
 		p.save
 	end
 end
