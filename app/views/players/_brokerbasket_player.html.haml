@@ -7,8 +7,8 @@
 
 %tr{:class => player.position.to_s }
   %td{:class => classes }
-    = player_image_22 player
-    = team_image_22 player.team  
+    = player_image player, "height_22"
+    = team_image player.team, 'height_22'
   %td{:class => classes }
     = playing_cup player.team 
     = link_to player.name, player_path(player)

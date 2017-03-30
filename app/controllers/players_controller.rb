@@ -31,13 +31,17 @@ class PlayersController < ApplicationController
     #fields = ['week_1', 'week_2', 'week_3', 'week_4', 'week_5']
     fields = (1...CURRENT_ROUND.to_i).map{ |i| 'week_'+i.to_s}
 
+    prices = @player.price
+    prices = prices.except!("0")
+    prices = prices.except!(CURRENT_ROUND)
+    
     @broker_data = { 
-      labels: @player.price.keys.map{|key| [t("round"), key.to_s].join(" ")}, 
+      labels: prices.keys.map{|key| [t("round"), key.to_s].join(" ")}, 
       datasets: [
         { label: "Brokerbasket", 
           backgroundColor: "rgb(226, 106, 124)", 
           borderColor: "rgb(214, 12, 43)", 
-          data: @player.price.values
+          data: prices.values
         }
       ]
     }

@@ -1,12 +1,12 @@
 .row
   .col-xs-12.detail
     .col-xs-5.col-md-3.row
-      = player_image @player, css = ""
+      = player_image @player
     .col-xs-7.col-md-9.row
       .col-xs-12.col-md-6
         %h1= "##{@player.number} <span class='split'>|</span> #{@player.name}".html_safe
       .col-xs-12.col-md-6
-        .position_team= "#{@player.position.text} <span class='split'>|</span> #{link_to(@player.team, @player.team)} #{team_image @player.team}".html_safe
+        .position_team= "#{@player.position.text} <span class='split'>|</span> #{link_to(@player.team, @player.team)} #{team_image(@player.team, 'height_40')}".html_safe
     .col-md-12.row
       .col-xs-12.col-md-6
         = "#{@player.date_of_birth.to_s(:short_date)}"

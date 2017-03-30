@@ -1,41 +1,19 @@
 module TeamsHelper
 
-  def team_image team, css = "team"
+  def team_image team, folder = "original"
     if team and team.short_code
-      logical_path = 'teams/original/'+team.short_code+'.png'
+      logical_path = 'teams/'+folder+'/'+team.short_code+'.png'
       if asset_available? logical_path
-        image_tag(asset_path(logical_path), class: css).html_safe
+        image_tag(asset_path(logical_path), alt: team.name).html_safe
       else
-        image_tag(asset_path('players/default.jpg'), class: css).html_safe       
-      end
-    end
-  end
-
-  def team_image_22 team
-    if team and team.short_code
-      logical_path = 'teams/height_22/'+team.short_code+'.png'
-      if asset_available? logical_path
-        image_tag(asset_path(logical_path)).html_safe
-      else
-        image_tag(asset_path('players/default.jpg')).html_safe
-      end
-    end
-  end
-
-  def team_image_40 team
-    if team and team.short_code
-      logical_path = 'teams/height_40/'+team.short_code+'.png'
-      if asset_available? logical_path
-        image_tag(asset_path(logical_path)).html_safe
-      else
-        image_tag(asset_path('players/default.jpg')).html_safe
+        image_tag(asset_path('players/'+folder+'/default.jpg'), alt: team.name).html_safe       
       end
     end
   end
 
   def playing_cup team
     if team and team.playing_cup
-      image_tag(asset_path('players/cup.png')).html_safe
+      image_tag(asset_path('players/cup.png'), alt: "Ganador de la Copa del Rey").html_safe
     end
   end
 end

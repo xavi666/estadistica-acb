@@ -1,9 +1,9 @@
 .col-xs-6
   .col-xs-12.center
     .col-xs-6
-      = player_image player, "player_100"
+      = player_image player, "height_100"
     .col-xs-6
-      = team_image player.team, "team_80"
+      = team_image player.team, "height_80"
   .col-xs-12.name
     %h3= player.name
     %h6= [player.position.text, player.team.name].join(" - ")

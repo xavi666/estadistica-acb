@@ -1,23 +1,14 @@
 module PlayersHelper
 
-  def player_image player, css = "player_60"
+  def player_image player, folder = "original"
     if player.image
-      logical_path = 'players/original/'+player.image.to_s
+      logical_path = 'players/'+folder+'/'+player.image.to_s
+      puts "---> "
+      puts logical_path
       if asset_available? logical_path
-        image_tag(logical_path, class: css).html_safe if player.image
+        image_tag(asset_path(logical_path), alt: player.full_name).html_safe if player.image
       else
-        image_tag('players/default.jpg', class: "player_60").html_safe if player.image        
-      end
-    end
-  end
-
-  def player_image_22 player, css = "player"
-    if player.image
-      logical_path = 'players/height_22/'+player.image.to_s
-      if asset_available? logical_path
-        image_tag(logical_path, class: css).html_safe 
-      else
-        image_tag('players/default.jpg', class: css).html_safe if player.image
+        image_tag(asset_path('players/'+folder+'/default.jpg'), alt: player.full_name).html_safe if player.image        
       end
     end
   end
