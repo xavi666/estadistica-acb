@@ -6,8 +6,10 @@ module PlayersHelper
       if asset_available? logical_path
         image_tag(asset_path(logical_path), alt: player.full_name).html_safe if player.image
       else
-        image_tag(asset_path('players/'+folder+'/default.jpg'), alt: player.full_name).html_safe if player.image        
+        image_tag(asset_path('players/'+folder+'/default.jpg'), alt: player.full_name).html_safe
       end
+    else 
+      image_tag(asset_path('players/'+folder+'/default.jpg'), alt: player.full_name).html_safe
     end
   end
 
