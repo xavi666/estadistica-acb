@@ -8,7 +8,7 @@
         %tbody
           %tr
             %td.player_detail.col-xs-2{rowspan: 6}
-              = player_image @player
+              = player_image @player, "height_22"
           %tr
             %th= "Position"
             %td= @player.position.text if @player.position
