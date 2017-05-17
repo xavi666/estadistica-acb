@@ -66,7 +66,7 @@ gem 'chartjs-ror'
 gem 'meta-tags'
 
 # SiteMap
-gem 'sitemap'
+#gem 'sitemap'
 
 # Editor
 gem 'bootstrap-wysihtml5-rails'
@@ -80,6 +80,9 @@ gem "mini_magick"
 
 # Google Shortener
 gem 'google_url_shortener'
+
+# SiteMap
+gem 'sitemap_generator'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
