@@ -82,7 +82,8 @@ gem "mini_magick"
 gem 'google_url_shortener'
 
 # SiteMap
-gem 'sitemap_generator'
+#gem 'sitemap_generator'
+gem 'sitemap'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
